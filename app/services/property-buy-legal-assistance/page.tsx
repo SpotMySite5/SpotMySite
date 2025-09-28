@@ -35,7 +35,10 @@ export default function PropertyVideoInspection() {
           Representation at sub-registrar office (via power of attorney if
           needed)
         </li>
-        <li>Verification of land use permissions (DTCP, HMDA, etc.)</li>
+        <li>
+          Verification of land use permissions (DTCP, HMDA, etc.) including
+          unapproved layouts
+        </li>
       </ul>
       <p>
         <b>For Sellers:</b>
@@ -55,7 +58,7 @@ export default function PropertyVideoInspection() {
         <li>Verified document review & compliance checks</li>
         <li>Drafted agreements, deeds & POA documentation</li>
         <li>Digital & couriered hard copies of registered documents</li>
-        <li>Full legal report with observations & red flags</li>
+        <li>Legal report with observations & red flags</li>
         <li>End-to-end support until deal closure</li>
       </ul>
 
@@ -66,7 +69,7 @@ export default function PropertyVideoInspection() {
           selling, and review property status
         </li>
         <li>
-          <b>Document Collection & Legal Review</b> - Upload securely, we check
+          <b>Document Collection & Review</b> - Upload securely, we check
           accuracy & risks
         </li>
         <li>
@@ -85,11 +88,10 @@ export default function PropertyVideoInspection() {
       <h3>Who This Is For</h3>
       <ul>
         <li>NRIs looking to buy property in Andhra Pradesh or Telangana</li>
-        <li>Remote owners trying to sell plots, flats, or inherited land</li>
         <li>
-          Families assisting parents or siblings with legal ownership transfers
+          Remote owners trying to sell their properties (plots, flats, or
+          inherited land...etc)
         </li>
-        <li>Children managing property for aging parents</li>
         <li>
           Anyone unsure about legal paperwork and looking for trustworthy help
         </li>
@@ -97,7 +99,7 @@ export default function PropertyVideoInspection() {
       <h3>Why Choose SpotMySite?</h3>
       <ul>
         <li>
-          <b>In-house legal expertise</b> (not outsourced)
+          <b>Intenal and external legal expertise</b> support
         </li>
         <li>
           Remote-friendly process, POA, digital access, secure file exchange
