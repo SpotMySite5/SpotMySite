@@ -1,0 +1,50 @@
+/* custom-fonts.css */
+
+/* Font Imports */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;800&display=swap'); */
+
+/* Font Families */
+:root {
+    --font-primary: 'Inter', Arial, sans-serif;
+    --font-secondary: 'Montserrat', Verdana, sans-serif;
+    --font-heading: 'Playfair Display';
+    --font-content: 'Open Sans';
+    --font-service: 'Lora';
+
+    /* Colors */
+    --color-primary: #2a9d8f;
+    --color-secondary: #e9c46a;
+    --color-accent: #f4a261;
+    --color-bg: #f6f6f6;
+    --color-text: #222;
+    --color-heading: #264653;
+    --block-bg: #e9eff4;
+    --text: #333;
+    --headings-buttons-bg: #2f455f;
+    --blue: #3b72b4;
+    --underline-bg: #ff6764;
+    --hover: #f5605d;
+    --heading-bg: #e7ecf1;
+    --bg-dropdown-hover: #d7dee6;
+    --navbar-bg: #2a3e56;
+    --divider: #bdbdbd;
+    --yellow: #ffbf41;
+    --text-2: #9b9b9b;
+    --hover-outline: #1a8ef7;
+    --bg-blocks: #eaecef;
+    --yellow-2: #ffef41;
+    --bg: #eef0f2;
+    --dropdown-bg: #eaeaea;
+    --checkmark: #73cf11;
+    --left-bg: #2f455f;
+    --rgb-black: 11, 18, 21;
+    --space-neutral: 1.4em;
+    --space-small: 0.5em;
+    --space-medium: 1em;
+    --space-large: 2em;
+    --space-x-large: 3em;
+    --space-xx-large: 4em;
+    --space-xxx-large: 5em;
+}
