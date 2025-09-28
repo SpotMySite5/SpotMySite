@@ -6,7 +6,12 @@ const nextConfig = {
             type: 'asset/resource',
         });
         return config;
-    }
+    },
+    output: 'export',
+    images: {
+        unoptimized: true, // disables Image Optimization API
+    },
+    distDir: 'out'
 };
 
 module.exports = nextConfig;
