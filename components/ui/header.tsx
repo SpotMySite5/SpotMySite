@@ -55,7 +55,7 @@ export default function Header() {
                 href="/#contact"
                 className="text-sm font-medium px-3 pr-10 text-gray-200 hover:text-gray-800"
               >
-                Contact Us
+                Contact&nbsp;Us
               </a>
             </li>
           </ul>

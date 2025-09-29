@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Home - Simple",
+  title: "SpotMySite",
   description: "Page description",
 };
 
@@ -108,7 +108,7 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row pt-12">
-            <div className=" overflow-hidden w-full  px-12 pt-0 pb-24 md:pl-36  md:pb-20">
+            <div className=" overflow-hidden w-full  px-12 pt-0 pb-24 md:pl-36  md:pb-10">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Join Our Team
               </h2>
@@ -150,7 +150,7 @@ export default function Careers() {
                   </div>
                 </div>
               </form>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
                 {/* <div className="bg-gray-200 border border-gray-200 rounded-md shadow-md overflow-hidden">
                   <div className="p-4">
                     <p className="text-sm font-medium text-gray-800">
@@ -161,6 +161,7 @@ export default function Careers() {
                     </p>
                   </div>
                 </div> */}
+                <p>No Open Roles!</p>
               </div>
             </div>
           </div>

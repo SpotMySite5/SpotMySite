@@ -28,7 +28,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h3 className="text-sm font-medium">Our Services</h3>
+            <h3 className="text-md font-medium">Our Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -51,7 +51,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="/services/land-cleanup"
                 >
-                  Land Cleanup & Vegetation removal
+                  Land Cleanup & Vegetation Removal
                 </Link>
               </li>
               <li>
@@ -75,7 +75,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="/services/property-buy-legal-assistance"
                 >
-                  Propert Buy & Sell Legal Assistance
+                  Property Buy & Sell Legal Assistance
                 </Link>
               </li>
               <li>
@@ -91,7 +91,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
           {/* 3rd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h3 className="text-sm font-medium">Company</h3>
+            <h3 className="text-md font-medium">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -123,7 +123,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
           {/* 5th block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h3 className="text-sm font-medium">Social</h3>
+            <h3 className="text-md font-medium">Social Media</h3>
             <ul className="flex gap-1">
               {/* <li>
                 <Link

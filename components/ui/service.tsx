@@ -47,7 +47,7 @@ export default function Service({ children }: { children: React.ReactNode }) {
             <div className="flex justify-center items-center py-7">
               <Image
                 className="relative"
-                height={60}
+                height={80}
                 src={Logo2}
                 alt="Logo 01"
               />

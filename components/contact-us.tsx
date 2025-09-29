@@ -109,7 +109,7 @@ export default function ContactUs() {
                       type="tel"
                       id="phone"
                       name="phone"
-                      placeholder="+1 | 555 123 4567"
+                      placeholder="555 123 4567"
                       pattern="^\+\d{1,2}\s?\|\s?\d{4,}$"
                       inputMode="tel"
                       maxLength={20}
@@ -189,7 +189,6 @@ export default function ContactUs() {
                 </div>
                 <button
                   type="submit"
-                  disabled={true}
                   className="form_button form_button_disabled text-white px-4 py-2 my-3 rounded-full w-full"
                 >
                   Send Message

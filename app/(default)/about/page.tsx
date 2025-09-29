@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Home - Simple",
+  title: "SpotMySite",
   description: "Page description",
 };
 
 export default function About() {
   return (
-    <div className="mt-30">
+    <div className="mt-30 about_sec">
       <h2 className="text-center text-3xl font-(family-name:--font-service) font-bold md:text-4xl">
         Born from Distance. Built on Trust.
       </h2>
@@ -32,8 +32,8 @@ export default function About() {
               We built a team of people on the ground who could{" "}
               <b>see it, record it, and report it, exactly as it is</b>. No
               sugarcoating. No sales pitches. Just clear proof. Over time, we
-              expanded land inspections, cleanups, fencing, remote buyer
-              walkthroughs, legal help, and NRI loan support.
+              expanded Land Inspections, Cleanups, Fencing, Remote Buyer
+              Walkthroughs, Legal help, and NRI Loan Support.
             </p>
             <p>
               We’re not brokers. We don’t sell property or take commissions. We

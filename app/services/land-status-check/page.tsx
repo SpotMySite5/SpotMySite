@@ -1,4 +1,8 @@
-"use client";
+export const metadata = {
+  title: "SpotMySite",
+  description: "Page description",
+};
+
 import React from "react";
 import Service from "@/components/ui/service";
 

@@ -523,7 +523,8 @@ transform: rotate(-135deg);
 .letter__article h3 {
     font-size: 1.15em;
     margin-bottom: -0.175em;
-    margin-top: -0.4375e
+    margin-top: -0.4375em;
+    color: var(--navbar-bg);
 }
 
 .letter__article h3+* {
@@ -587,7 +588,7 @@ transform: rotate(-135deg);
 
 @media(min-width: 32em) {
     .letter__container {
-        transform:rotate(-0.75deg)
+        transform:rotate(0)
     }
 
     .letter__container:before {
@@ -614,6 +615,6 @@ transform: rotate(-135deg);
 .sec_careers h2, .sec_careers h3 {
   color: var(--navbar-bg);
 }
-.services_left h2, .contact_right h2 {
+.services_left h2, .contact_right h2, .about_sec h2 {
   color: var(--navbar-bg);
 }

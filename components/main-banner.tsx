@@ -20,9 +20,9 @@ export default function MainBanner() {
             </h5>
             {/* <h2 className="text-lg font-medium font-(family-name:--font-service) text-white "></h2> */}
             <p className="mt-4 text-md text-white font-(family-name:--font-service)">
-              <b>SpotMySite</b> Provides Property Services in Andhra Pradesh &
-              Telangana from Inspections to Legal Support, Delivered with
-              Transparency and Trust...
+              <b>SpotMySite</b> Provides Property Services for NRIs & Absentee
+              Owners in Andhra Pradesh & Telangana from Inspections to Legal
+              Support, Delivered with Transparency and Trust...
               <small>
                 <a className="link" href="/about">
                   Explore More
