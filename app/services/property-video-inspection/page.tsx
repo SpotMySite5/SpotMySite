@@ -20,7 +20,7 @@ export default function PropertyVideoInspection() {
         With <b>SpotMySite’s Property Video Inspections</b>, you don’t have to
         wonder. We deliver{" "}
         <b>timestamped HD walkthroughs, GPS-tagged images, and inspection</b>{" "}
-        notes ,so you know the real condition of your home, flat, or rental.
+        notes, so you know the real condition of your home, flat, or rental.
       </p>
       <h3>What Is a Property Video Inspection?</h3>
       <p>

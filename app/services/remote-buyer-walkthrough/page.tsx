@@ -32,7 +32,6 @@ export default function LandCleanup() {
         Our Remote Buyer Walkthrough is more than a video shoot. It’s a
         full-service package.
       </p>
-      <p>On-Site Property Coverage</p>
       <ul>
         <li>Full HD video walkthrough of interiors/exteriors</li>
         <li>
@@ -47,7 +46,7 @@ export default function LandCleanup() {
       <p>Local Area Report</p>
       <ul>
         <li>1–5 km radius assessment:</li>
-        <li>
+        <li style={{ listStyle: "none" }}>
           <ul>
             <li>Medical: hospitals, clinics, pharmacies</li>
             <li>Shopping: malls, supermarkets, local markets</li>
@@ -128,11 +127,11 @@ export default function LandCleanup() {
         the neighborhood, the people, and the area’s future.
       </p>
       <p>
-        A good property in the wrong location is a bad investment.
+        A good property in the wrong location is a bad investment.{" "}
         <b>SpotMySite</b> helps you avoid regret, and buy smarter.
       </p>
       <p>
-        Don’t just look at walls and windows. Understand what’s around them.Let
+        Don’t just look at walls and windows. Understand what’s around them. Let{" "}
         <b>SpotMySite</b> give you a complete walkthrough and the insight to
         choose right.
       </p>

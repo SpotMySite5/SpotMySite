@@ -31,7 +31,7 @@ export default function LandCleanup() {
         Each cleanup is handled by a trained crew under the supervision of a
         local field manager. Services include:
       </p>
-      <ul>
+      <ul style={{ paddingTop: "1.2375em" }}>
         <li>Brush clearing, weed removal, and trimming wild vegetation</li>
         <li>Uprooting invasive shrubs and unmanaged growth</li>
         <li>Removal of debris, garbage, and construction waste</li>
@@ -96,7 +96,7 @@ export default function LandCleanup() {
       </ul>
       <h3>Ready to Clean Up Your Land?</h3>
       <p>
-        Don’t let time, distance, or vegetation take over your property. With
+        Don’t let time, distance, or vegetation take over your property. With{" "}
         <b>SpotMySite</b>, your <b>land stays clean, secure</b>, and ready for
         whatever comes next.
       </p>

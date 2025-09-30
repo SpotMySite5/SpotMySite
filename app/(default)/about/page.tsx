@@ -23,7 +23,7 @@ export default function About() {
             <p>
               Frustration turned into worry. Were the boundaries intact? Was the
               land being misused? Zooming into blurry satellite maps wasn’t
-              enough. That’s when it hit us, if we were struggling, thousands of
+              enough. That’s when it hit us, if we were struggling, thousands of{" "}
               <b>absentee owners</b> must be too. SpotMySite was born, not from
               a business plan, but from the need for{" "}
               <b>clarity, connection, and trust</b>.
@@ -44,7 +44,7 @@ export default function About() {
             <p>
               Today, SpotMySite is a growing team of{" "}
               <b>field agents, legal experts, and remote support</b> across
-              Andhra Pradesh and Telangana, giving <b>absentee owners</b> the
+              Andhra Pradesh and Telangana, giving <b>absentee owners</b> the{" "}
               <b>proof, perspective, and peace of mind</b> they’ve always
               needed.
             </p>

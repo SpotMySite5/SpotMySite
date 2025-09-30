@@ -102,8 +102,7 @@ export default function LandStatusCheck() {
       <h3>How It Works</h3>
       <ol>
         <li>
-          Share your
-          <b>plot location and any documents</b> you have
+          Share your <b>plot location and any documents</b> you have
         </li>
         <li>
           Our verified field agent visits the site within <b>48–72 hours</b>

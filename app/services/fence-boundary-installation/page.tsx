@@ -18,9 +18,8 @@ export default function FenceAndBoundaryInstallation() {
       </p>
       <p>
         <b>SpotMySite</b> brings you professionally executed{" "}
-        <b>fence and boundary</b>
-        installations tailored for long-distance landowners across Andhra
-        Pradesh & Telangana.
+        <b>fence and boundary</b> installations tailored for long-distance
+        landowners across Andhra Pradesh & Telangana.
       </p>
       <h3>Fence Options We Offer</h3>
       <p>
