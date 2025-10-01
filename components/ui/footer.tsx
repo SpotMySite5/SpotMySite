@@ -124,7 +124,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           {/* 5th block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-md font-medium">Social Media</h3>
-            <ul className="flex gap-1">
+            <ul className="flex gap-1" style={{ marginLeft: "-6px" }}>
               {/* <li>
                 <Link
                   className="flex items-center justify-center footer_icon transition "

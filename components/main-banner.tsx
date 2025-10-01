@@ -11,9 +11,9 @@ export default function MainBanner() {
   return (
     <section className="relative bg-gray-900 sec_1">
       <div className="mx-auto">
-        <div className=" flex flex-row gap-8 md:gap-12">
+        <div className=" flex flex-row max-sm:flex-col-reverse gap-8 md:gap-12">
           {/* Section header */}
-          <div className="banner_left basis-3/7 mx-auto max-w-3xl pl-24 pr-12 pt-28 pb-24  md:pb-20">
+          <div className="banner_left basis-3/7 max-sm:basis-full mx-auto max-w-3xl pl-24 pr-12 pt-28 pb-24 max-sm:pt-0 max-sm:pb-12 max-sm:pl-16 md:pb-20">
             <h5 className="font-bold text-white font-(family-name:--font-service) text-3xl">
               Your Property,
               <br /> Verified for Peace of Mind.
@@ -31,9 +31,9 @@ export default function MainBanner() {
             </p>
           </div>
           {/* Grid */}
-          <div className="banner_right basis-4/7 overflow-hidden  text-center flex-shrink-0">
+          <div className="banner_right basis-4/7 max-sm:basis-full overflow-hidden  text-center flex-shrink-0">
             {/* video */}
-            <div className=" w-full h-100">
+            <div className=" w-full h-100 max-sm:h-auto">
               <video
                 className="shadow-lg object-fill w-full h-full"
                 autoPlay

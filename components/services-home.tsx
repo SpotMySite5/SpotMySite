@@ -28,11 +28,14 @@ export default function ServicesComponent() {
   const [open, setOpen] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
   return (
-    <section className="relative sec_services" id="services">
+    <section
+      className="relative sec_services min-h-screen max-sm:h-auto max-sm:min-h-auto"
+      id="services"
+    >
       <div className="mx-auto">
         <div className=" flex flex-row">
           {/* Section header */}
-          <div className="services_left basis-1/2 mx-auto max-w-3xl px-12 pt-24 pb-0 mb-40 md:pl-52">
+          <div className="services_left basis-1/2 max-sm:basis-full max-sm:pt-16 mx-auto max-w-3xl px-12 pt-24 pb-0 mb-40 md:pl-52 max-sm:mb-10">
             {/* <h5 className=" font-bold text-gray-400 text-xl">Services</h5> */}
             <h2 className="text-3xl font-(family-name:--font-service) font-bold md:text-4xl">
               Our Services
@@ -46,7 +49,7 @@ export default function ServicesComponent() {
               >
                 <span className="mb-1 text-base">01</span>
                 <span className="mx-6 text-2xl">
-                  Property Video Inspections
+                  Property&nbsp;Video&nbsp;Inspections
                 </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
@@ -67,7 +70,9 @@ export default function ServicesComponent() {
                 onMouseEnter={() => slideTo(2)}
               >
                 <span className="mb-1 text-base">02</span>
-                <span className="mx-6 text-2xl">Land Status Check</span>
+                <span className="mx-6 text-2xl">
+                  Land&nbsp;Status&nbsp;Check
+                </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
                   fill="none"
@@ -88,7 +93,7 @@ export default function ServicesComponent() {
               >
                 <span className="mb-1 text-base">03</span>
                 <span className="mx-6 text-2xl">
-                  Land Cleanup & Vegetation Removal
+                  Land&nbsp;Cleanup&nbsp;&&nbsp;Vegetation&nbsp;Removal
                 </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
@@ -110,7 +115,7 @@ export default function ServicesComponent() {
               >
                 <span className="mb-1 text-base">04</span>
                 <span className="mx-6 text-2xl">
-                  Fence & Boundary Installation
+                  Fence&nbsp;&&nbsp;Boundary&nbsp;Installation
                 </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
@@ -131,7 +136,9 @@ export default function ServicesComponent() {
                 onMouseEnter={() => slideTo(5)}
               >
                 <span className="mb-1 text-base">05</span>
-                <span className="mx-6 text-2xl">Remote Buyer Walkthrough</span>
+                <span className="mx-6 text-2xl">
+                  Remote&nbsp;Buyer&nbsp;Walkthrough
+                </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
                   fill="none"
@@ -152,7 +159,7 @@ export default function ServicesComponent() {
               >
                 <span className="mb-1 text-base">06</span>
                 <span className="mx-6 text-2xl">
-                  Property Buy & Sell Legal Assistance
+                  Property&nbsp;Buy&nbsp;&&nbsp;Sell&nbsp;Legal&nbsp;Assistance
                 </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
@@ -173,7 +180,9 @@ export default function ServicesComponent() {
                 onMouseEnter={() => slideTo(7)}
               >
                 <span className="mb-1 text-base">07</span>
-                <span className="mx-6 text-2xl">Loan Assistance Services</span>
+                <span className="mx-6 text-2xl">
+                  Loan&nbsp;Assistance&nbsp;Services
+                </span>
                 <svg
                   className="LinkListHover-module_arrow__WzHFX transition-lg h-7 w-7"
                   fill="none"
@@ -190,7 +199,7 @@ export default function ServicesComponent() {
             </div>
           </div>
           {/* Grid */}
-          <div className="services_right basis-1/2 overflow-hidden px-12 pt-30 pb-0 text-left ">
+          <div className="services_right basis-1/2 max-sm:hidden overflow-hidden px-12 pt-30 pb-0 text-left ">
             <>
               <Swiper
                 direction={"vertical"}

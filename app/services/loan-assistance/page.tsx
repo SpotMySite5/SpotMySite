@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "SpotMySite",
-  description: "Page description",
+  title:
+    "SpotMySite | Property Management & NRI Services in Andhra Pradesh & Telangana",
+  description:
+    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
 };
 
 import React from "react";

@@ -38,11 +38,11 @@ export default function ContactUs() {
   return (
     <section className="relative sec_services" id="contact">
       <div className="mx-auto">
-        <div className=" flex flex-row pt-24">
+        <div className=" flex flex-row pt-24 max-sm:pt-0 max-sm:flex-col-reverse">
           {/* Section header */}
 
           {/* Grid */}
-          <div className="basis-1/2 overflow-hidden  px-12 pt-0 pb-24 md:pl-52  md:pb-20">
+          <div className="basis-1/2 max-sm:basis-full overflow-hidden  px-12 pt-0 pb-24 md:pl-52  md:pb-20">
             {/* TODO: Replace this with your contact form or card component */}
             <div className="bg-white rounded-xl shadow-lg p-8 drop-shadow-xl">
               <div className="mb-2 flex justify-center">
@@ -189,12 +189,13 @@ export default function ContactUs() {
                 </div>
                 <button
                   type="submit"
+                  style={{ cursor: "pointer" }}
                   className="form_button form_button_disabled text-white px-4 py-2 my-3 rounded-full w-full"
                 >
-                  Send Message
+                  {!isSuccess ? "Submit Request" : "Request Submitted"}
                 </button>
               </form>
-              {isSuccess && (
+              {/* {isSuccess && (
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                   <div
                     id="toast-success"
@@ -213,7 +214,7 @@ export default function ContactUs() {
                       </svg>
                       <span className="sr-only">Check icon</span>
                     </div>
-                    <div className="mt-3 block text-sm font-normal">
+                    <div className="mt-3 block text-sm font-bold">
                       Email sent successfully.
                     </div>
                     <button
@@ -242,10 +243,10 @@ export default function ContactUs() {
                     </button>
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
-          <div className="contact_right basis-1/2 mx-auto max-w-3xl  px-12 pr-24 pt-0 pb-24 text-left md:pb-20">
+          <div className="contact_right basis-1/2 max-sm:basis-full mx-auto max-w-3xl  px-12 pr-24 pt-0 pb-24 text-left md:pb-20 max-sm:pb-10">
             <div
               className="mb-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
               data-aos="zoom-y-out"
@@ -305,10 +306,10 @@ export default function ContactUs() {
             <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
               Schedule a call with an expert
             </h2>
-            <p className="text-lg font-light text-gray-700 mt-4 font-(family-name:--font-content)">
+            <p className=" max-sm:hidden text-lg font-light text-gray-700 mt-4 font-(family-name:--font-content)">
               Here’s what you’ll learn from the call:
             </p>
-            <div className="mt-4 font-(family-name:--font-content)">
+            <div className="max-sm:hidden mt-4 font-(family-name:--font-content)">
               <ul className=" text-gray-700 text-lg">
                 <li className="py-2 flex items-center">
                   <span className="inline-block mr-4">

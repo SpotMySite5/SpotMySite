@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "SpotMySite",
-  description: "Page description",
+  title:
+    "SpotMySite | Property Management & NRI Services in Andhra Pradesh & Telangana",
+  description:
+    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
 };
 
 import Image from "next/image";
@@ -26,7 +28,7 @@ export default function Careers() {
       </div> */}
       <section className="flex justify-center sec_careers " id="contact">
         <div className="container">
-          <div className=" flex flex-row pt-12">
+          <div className=" flex flex-row pt-12 max-sm:flex-col">
             <div className="basis-1/2 overflow-hidden  px-12 pt-0 pb-24 md:pl-36  md:pb-20">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Let's bring real eyes to Property Management
@@ -48,7 +50,7 @@ export default function Careers() {
               />
             </div>
           </div>
-          <div className=" flex flex-row pt-12">
+          <div className=" flex flex-row pt-12 max-sm:flex-col-reverse">
             <div className="basis-1/2 overflow-hidden flex justify-center px-12 pt-0 pb-24 md:pl-12  md:pb-20">
               <Image
                 className="relative"
@@ -61,7 +63,7 @@ export default function Careers() {
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Our Mission & Story
               </h2>
-              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-heading)">
+              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-content)">
                 The Problem We're Solving
               </h3>
               <p className="mt-4 text-lg text-gray-700 font-(family-name:--font-content)">
@@ -84,7 +86,7 @@ export default function Careers() {
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Life at SpotMySite
               </h2>
-              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-heading)">
+              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-content)">
                 A Culture Built on Impact, Not Hierarchy
               </h3>
               <p className="mt-4 text-lg text-gray-700 font-(family-name:--font-content)">
@@ -97,7 +99,7 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row justify-center pt-0">
-            <div className=" overflow-hidden flex justify-center px-12 pt-0 pb-24 md:pl-12  md:pb-20">
+            <div className=" overflow-hidden flex justify-center px-12 pt-0 pb-24 md:pl-12  md:pb-12">
               <Image
                 className="relative"
                 width={800}
@@ -112,11 +114,11 @@ export default function Careers() {
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Join Our Team
               </h2>
-              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-heading)">
+              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-content)">
                 Open Roles
               </h3>
               <form>
-                <div className="my-4 flex items-center gap-4">
+                <div className="my-4 flex items-center gap-4 max-sm:flex-col max-sm:items-start">
                   <div className="">
                     <label className="block text-gray-700 mb-2">
                       Filter by
@@ -166,7 +168,7 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row pt-0">
-            <div className=" overflow-hidden  px-12 pt-0 pb-24 md:pl-36  md:pb-20">
+            <div className=" overflow-hidden  px-12 pt-0 pb-24 md:pl-36  md:pb-12">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Don't See Your Role?
               </h2>
@@ -179,11 +181,11 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row pt-0">
-            <div className=" overflow-hidden  px-12 pt-0 pb-24 md:pl-36  md:pb-20">
+            <div className=" overflow-hidden  px-12 pt-0 pb-24 md:pl-36  md:pb-12">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Our Hiring Process
               </h2>
-              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-heading)">
+              <h3 className="mt-2 text-xl font-semibold md:text-2xl font-(family-name:--font-content)">
                 A Glimpse into the Journey
               </h3>
               <p className="mt-4 text-lg text-gray-700 font-(family-name:--font-content)">

@@ -42,7 +42,7 @@ export default function Service({ children }: { children: React.ReactNode }) {
           <motion.div
             animate={{ display: "block" }}
             transition={{ delay: 2, duration: 0.2 }}
-            className="navigation__nav p-36 pt-12"
+            className="navigation__nav p-36 max-sm:p-10 pt-0 max-sm:pt-0"
           >
             <div className="flex justify-center items-center py-7">
               <Image

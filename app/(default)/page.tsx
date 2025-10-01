@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "SpotMySite",
-  description: "",
+  title:
+    "SpotMySite | Property Management & NRI Services in Andhra Pradesh & Telangana",
+  description:
+    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
 };
 
 import Hero from "@/components/hero-home";
@@ -15,9 +17,11 @@ import ContactUs from "@/components/contact-us";
 export default function Home() {
   return (
     <>
-      <MainBanner />
-      <ServicesComponent />
-      <ContactUs />
+      <div className="container-fluid">
+        <MainBanner />
+        <ServicesComponent />
+        <ContactUs />
+      </div>
     </>
   );
 }

@@ -244,9 +244,9 @@ body {
   background-image: url('../../public/images/banner_1.jpg');
 }
 
-.sec_services {
+/* .sec_services {
   min-height: 100vh;
-}
+} */
 
 .swiper {
   width: 465px;
