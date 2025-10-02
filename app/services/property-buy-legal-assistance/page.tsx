@@ -1,6 +1,5 @@
 export const metadata = {
-  title:
-    "SpotMySite | Property Management & NRI Services in Andhra Pradesh & Telangana",
+  title: "Property Legal Services for NRIs | SpotMySite",
   description:
     "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
 };

@@ -47,8 +47,8 @@ export default function ServicesComponent() {
                 href="/services/property-video-inspection"
                 onMouseEnter={() => slideTo(1)}
               >
-                <span className="mb-1 text-base">01</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">01</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Property&nbsp;Video&nbsp;Inspections
                 </span>
                 <svg
@@ -69,8 +69,8 @@ export default function ServicesComponent() {
                 href="/services/land-status-check"
                 onMouseEnter={() => slideTo(2)}
               >
-                <span className="mb-1 text-base">02</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">02</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Land&nbsp;Status&nbsp;Check
                 </span>
                 <svg
@@ -91,8 +91,8 @@ export default function ServicesComponent() {
                 href="/services/land-cleanup"
                 onMouseEnter={() => slideTo(3)}
               >
-                <span className="mb-1 text-base">03</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">03</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Land&nbsp;Cleanup&nbsp;&&nbsp;Vegetation&nbsp;Removal
                 </span>
                 <svg
@@ -113,8 +113,8 @@ export default function ServicesComponent() {
                 href="/services/fence-boundary-installation"
                 onMouseEnter={() => slideTo(4)}
               >
-                <span className="mb-1 text-base">04</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">04</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Fence&nbsp;&&nbsp;Boundary&nbsp;Installation
                 </span>
                 <svg
@@ -135,8 +135,8 @@ export default function ServicesComponent() {
                 href="/services/remote-buyer-walkthrough"
                 onMouseEnter={() => slideTo(5)}
               >
-                <span className="mb-1 text-base">05</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">05</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Remote&nbsp;Buyer&nbsp;Walkthrough
                 </span>
                 <svg
@@ -157,8 +157,8 @@ export default function ServicesComponent() {
                 href="/services/property-buy-legal-assistance"
                 onMouseEnter={() => slideTo(6)}
               >
-                <span className="mb-1 text-base">06</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">06</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Property&nbsp;Buy&nbsp;&&nbsp;Sell&nbsp;Legal&nbsp;Assistance
                 </span>
                 <svg
@@ -179,8 +179,8 @@ export default function ServicesComponent() {
                 href="/services/loan-assistance"
                 onMouseEnter={() => slideTo(7)}
               >
-                <span className="mb-1 text-base">07</span>
-                <span className="mx-6 text-2xl max-sm:text-xl">
+                <span className="mb-1 text-base max-sm:text-sm">07</span>
+                <span className="mx-6 text-2xl max-sm:text-lg">
                   Loan&nbsp;Assistance&nbsp;Services
                 </span>
                 <svg
