@@ -11,7 +11,7 @@ export default function Header() {
             <Logo />
           </div>
           {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3 max-sm:gap-1">
+          <ul className="flex flex-1 items-center justify-end gap-3 max-md:gap-1">
             {/* <li>
               <Link
                 href="/signin"
@@ -53,7 +53,7 @@ export default function Header() {
             <li>
               <a
                 href="/#contact"
-                className="text-sm font-medium px-3 pr-10 max-sm:pr-5 text-gray-200 hover:text-gray-800"
+                className="text-sm font-medium px-3 pr-10 max-md:pr-5 text-gray-200 hover:text-gray-800"
               >
                 Contact&nbsp;Us
               </a>

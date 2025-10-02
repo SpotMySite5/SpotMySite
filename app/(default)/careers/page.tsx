@@ -28,8 +28,8 @@ export default function Careers() {
       </div> */}
       <section className="flex justify-center sec_careers " id="contact">
         <div className="container">
-          <div className=" flex flex-row pt-12 max-sm:pt-5 max-sm:flex-col-reverse">
-            <div className="basis-1/2 overflow-hidden  px-12 pt-0 pb-24 max-sm:px-6 max-sm:pb-6  md:pb-20">
+          <div className=" flex flex-row pt-12 max-md:pt-5 max-md:flex-col-reverse">
+            <div className="basis-1/2 overflow-hidden  px-12 pt-0 pb-24 max-md:px-6 max-md:pb-6  md:pb-20">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Let's bring real eyes to Property Management
               </h2>
@@ -41,7 +41,7 @@ export default function Careers() {
                 of <b>property management</b> in India.
               </p>
             </div>
-            <div className="basis-1/2 overflow-hidden flex justify-center px-12 pt-0 pb-24 max-sm:px-6 max-sm:pb-6 m md:pl-12  md:pb-20">
+            <div className="basis-1/2 overflow-hidden flex justify-center px-12 pt-0 pb-24 max-md:px-6 max-md:pb-6 m md:pl-12  md:pb-20">
               <Image
                 className="relative"
                 width={300}
@@ -50,8 +50,8 @@ export default function Careers() {
               />
             </div>
           </div>
-          <div className=" flex flex-row pt-12 max-sm:pt-5 max-sm:flex-col">
-            <div className="basis-1/2 overflow-hidden flex justify-center max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-12  md:pb-20">
+          <div className=" flex flex-row pt-12 max-md:pt-5 max-md:flex-col">
+            <div className="basis-1/2 overflow-hidden flex justify-center max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-12  md:pb-20">
               <Image
                 className="relative"
                 width={300}
@@ -59,7 +59,7 @@ export default function Careers() {
                 alt="Logo 01"
               />
             </div>
-            <div className="basis-1/2 overflow-hidden max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-20">
+            <div className="basis-1/2 overflow-hidden max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-20">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Our Mission & Story
               </h2>
@@ -81,8 +81,8 @@ export default function Careers() {
               </p>
             </div>
           </div>
-          <div className=" flex flex-row pt-12 max-sm:pt-5">
-            <div className=" overflow-hidden max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-20">
+          <div className=" flex flex-row pt-12 max-md:pt-5">
+            <div className=" overflow-hidden max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-20">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Life at SpotMySite
               </h2>
@@ -99,7 +99,7 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row justify-center pt-0">
-            <div className=" overflow-hidden flex justify-center max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-12  md:pb-12">
+            <div className=" overflow-hidden flex justify-center max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-12  md:pb-12">
               <Image
                 className="relative"
                 width={800}
@@ -109,8 +109,8 @@ export default function Careers() {
               />
             </div>
           </div>
-          <div className=" flex flex-row pt-12 max-sm:pt-5">
-            <div className=" overflow-hidden w-full max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-10">
+          <div className=" flex flex-row pt-12 max-md:pt-5">
+            <div className=" overflow-hidden w-full max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-10">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Join Our Team
               </h2>
@@ -118,7 +118,7 @@ export default function Careers() {
                 Open Roles
               </h3>
               <form>
-                <div className="my-4 flex items-center gap-4 max-sm:flex-col max-sm:items-start">
+                <div className="my-4 flex items-center gap-4 max-md:flex-col max-md:items-start">
                   <div className="">
                     <label className="block text-gray-700 mb-2">
                       Filter by
@@ -168,7 +168,7 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row pt-0">
-            <div className=" overflow-hidden max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-12">
+            <div className=" overflow-hidden max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-12">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Don't See Your Role?
               </h2>
@@ -181,7 +181,7 @@ export default function Careers() {
             </div>
           </div>
           <div className=" flex flex-row pt-0">
-            <div className=" overflow-hidden max-sm:px-6 max-sm:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-12">
+            <div className=" overflow-hidden max-md:px-6 max-md:pb-6 px-12 pt-0 pb-24 md:pl-36  md:pb-12">
               <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                 Our Hiring Process
               </h2>

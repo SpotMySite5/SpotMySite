@@ -38,11 +38,11 @@ export default function ContactUs() {
   return (
     <section className="relative sec_services" id="contact">
       <div className="mx-auto">
-        <div className=" flex flex-row pt-24 max-sm:pt-0 max-sm:flex-col-reverse">
+        <div className=" flex flex-row pt-24 max-md:pt-0 max-md:flex-col-reverse">
           {/* Section header */}
 
           {/* Grid */}
-          <div className="basis-1/2 max-sm:basis-full overflow-hidden  px-12 max-sm:px-6 pt-0 pb-24 max-sm:pb-10 md:pl-52  md:pb-20">
+          <div className="basis-1/2 max-md:basis-full overflow-hidden  px-12 max-md:px-6 pt-0 pb-24 max-md:pb-10 md:pl-52  md:pb-20">
             {/* TODO: Replace this with your contact form or card component */}
             <div className="bg-white rounded-xl shadow-lg p-8 drop-shadow-xl">
               <div className="mb-2 flex justify-center">
@@ -109,8 +109,8 @@ export default function ContactUs() {
                       type="tel"
                       id="phone"
                       name="phone"
-                      placeholder="555 123 4567"
-                      pattern="^\+\d{1,2}\s?\|\s?\d{4,}$"
+                      placeholder=""
+                      // pattern="^\+\d{1,2}\s?\|\s?\d{4,}$"
                       inputMode="tel"
                       maxLength={20}
                       onKeyDown={(e) => {
@@ -246,7 +246,7 @@ export default function ContactUs() {
               )} */}
             </div>
           </div>
-          <div className="contact_right basis-1/2 max-sm:basis-full mx-auto max-sm:mx-0 max-w-3xl  px-12 pr-24 max-sm:px-6 pt-0 pb-24 text-left md:pb-20 max-sm:pb-8">
+          <div className="contact_right basis-1/2 max-md:basis-full mx-auto max-md:mx-0 max-w-3xl  px-12 pr-24 max-md:px-6 pt-0 pb-24 text-left md:pb-20 max-md:pb-8">
             <div
               className="mb-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
               data-aos="zoom-y-out"
@@ -306,10 +306,10 @@ export default function ContactUs() {
             <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
               Schedule a call with an expert
             </h2>
-            <p className=" max-sm:hidden text-lg font-light text-gray-700 mt-4 font-(family-name:--font-content)">
+            <p className=" max-md:hidden text-lg font-light text-gray-700 mt-4 font-(family-name:--font-content)">
               Here’s what you’ll learn from the call:
             </p>
-            <div className="max-sm:hidden mt-4 font-(family-name:--font-content)">
+            <div className="max-md:hidden mt-4 font-(family-name:--font-content)">
               <ul className=" text-gray-700 text-lg">
                 <li className="py-2 flex items-center">
                   <span className="inline-block mr-4">

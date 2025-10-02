@@ -235,7 +235,7 @@ body {
   border-bottom-left-radius: 7rem;
   background-color: var(--left-bg);
 }
-@media (width < 40rem) {
+@media (width < 64rem) {
     .sec_1 {
       border-bottom-left-radius: 4rem;
       border-bottom-right-radius: 4rem;
@@ -496,7 +496,7 @@ transform: rotate(-135deg);
     height: 97.8%;
     transform: rotate(1.45deg) translate(0.2%, 1.1%)
 }
-@media (width < 40rem) {
+@media (width < 48rem) {
 .service_letter .letter__container:before {
     transform: none
 }
