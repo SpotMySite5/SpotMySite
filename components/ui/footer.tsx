@@ -5,13 +5,13 @@ import Logo1 from "@/public/images/logo-dark.png";
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
     <footer>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-6 sm:px-6">
         {/* Top area: Blocks */}
         <div
-          className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,var(--color-slate-200),transparent)1]" : ""}`}
+          className={`flex flex-row max-sm:flex-wrap gap-10 py-8 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,var(--color-slate-200),transparent)1]" : ""}`}
         >
           {/* 1st block */}
-          <div className="space-y-2 sm:col-span-12 lg:col-span-4">
+          <div className="basis-4/12 max-sm:basis-full max-sm:grow max-sm:order-4 max-sm:text-center">
             <div>
               <Image
                 // className="box-content rounded-full border-2 border-gray-50"
@@ -19,6 +19,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 width={96}
                 height={96}
                 alt="LOGO: Spot my Site"
+                className="max-sm:mx-auto"
               />
             </div>
             <div className="text-sm text-gray-600">
@@ -27,7 +28,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           </div>
 
           {/* 2nd block */}
-          <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-3">
+          <div className="basis-3/12 max-sm:basis-full max-sm:grow max-sm:order-3">
             <h3 className="text-md font-medium">Our Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -90,7 +91,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           </div>
 
           {/* 3rd block */}
-          <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-3">
+          <div className="basis-3/12 max-sm:basis-1/2 max-sm:grow">
             <h3 className="text-md font-medium">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -122,7 +123,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           </div>
 
           {/* 5th block */}
-          <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="basis-2/12 ">
             <h3 className="text-md font-medium">Social Media</h3>
             <ul className="flex gap-1" style={{ marginLeft: "-6px" }}>
               {/* <li>

@@ -235,6 +235,12 @@ body {
   border-bottom-left-radius: 7rem;
   background-color: var(--left-bg);
 }
+@media (width < 40rem) {
+    .sec_1 {
+      border-bottom-left-radius: 4rem;
+      border-bottom-right-radius: 4rem;
+    }
+  }
 
 .banner_left{
   min-height: auto;
@@ -489,6 +495,16 @@ transform: rotate(-135deg);
 .letter__container:after {
     height: 97.8%;
     transform: rotate(1.45deg) translate(0.2%, 1.1%)
+}
+@media (width < 40rem) {
+.service_letter .letter__container:before {
+    transform: rotate(-0.75deg) translate(-0.1%, 0.1%)
+}
+.service_letter .letter__container:after {
+    height: 97.8%;
+    transform: rotate(0.75deg) translate(0.2%, 1.1%)
+}
+
 }
 
 .letter__article {

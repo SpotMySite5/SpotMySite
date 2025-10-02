@@ -11,7 +11,7 @@ export default function Header() {
             <Logo />
           </div>
           {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
+          <ul className="flex flex-1 items-center justify-end gap-3 max-sm:gap-1">
             {/* <li>
               <Link
                 href="/signin"
@@ -34,7 +34,7 @@ export default function Header() {
               </a>
               <span aria-hidden="true" className="h-6 w-px bg-gray-200"></span>
             </li>
-            <li>
+            <li className="max-sm:hidden">
               <a
                 href="/#services"
                 className="text-sm font-medium px-3  text-gray-200 hover:text-gray-800"
@@ -53,7 +53,7 @@ export default function Header() {
             <li>
               <a
                 href="/#contact"
-                className="text-sm font-medium px-3 pr-10 text-gray-200 hover:text-gray-800"
+                className="text-sm font-medium px-3 pr-10 max-sm:pr-5 text-gray-200 hover:text-gray-800"
               >
                 Contact&nbsp;Us
               </a>

@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function About() {
   return (
-    <div className="mt-30 about_sec max-sm:p-10 max-sm:pt-0">
+    <div className="mt-30 about_sec max-sm:p-8 max-sm:pt-0">
       <h2 className="text-center text-3xl font-(family-name:--font-service) font-bold md:text-4xl">
         Born from Distance. Built on Trust.
       </h2>

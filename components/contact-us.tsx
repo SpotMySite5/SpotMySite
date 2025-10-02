@@ -42,7 +42,7 @@ export default function ContactUs() {
           {/* Section header */}
 
           {/* Grid */}
-          <div className="basis-1/2 max-sm:basis-full overflow-hidden  px-12 pt-0 pb-24 md:pl-52  md:pb-20">
+          <div className="basis-1/2 max-sm:basis-full overflow-hidden  px-12 max-sm:px-6 pt-0 pb-24 max-sm:pb-10 md:pl-52  md:pb-20">
             {/* TODO: Replace this with your contact form or card component */}
             <div className="bg-white rounded-xl shadow-lg p-8 drop-shadow-xl">
               <div className="mb-2 flex justify-center">
@@ -246,7 +246,7 @@ export default function ContactUs() {
               )} */}
             </div>
           </div>
-          <div className="contact_right basis-1/2 max-sm:basis-full mx-auto max-w-3xl  px-12 pr-24 pt-0 pb-24 text-left md:pb-20 max-sm:pb-10">
+          <div className="contact_right basis-1/2 max-sm:basis-full mx-auto max-sm:mx-0 max-w-3xl  px-12 pr-24 max-sm:px-6 pt-0 pb-24 text-left md:pb-20 max-sm:pb-8">
             <div
               className="mb-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
               data-aos="zoom-y-out"
