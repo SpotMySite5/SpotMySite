@@ -29,13 +29,13 @@ export default function ServicesComponent() {
   const [activeSlide, setActiveSlide] = useState(0);
   return (
     <section
-      className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto"
+      className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto xl:container xl:mx-auto"
       id="services"
     >
       <div className="mx-auto">
         <div className=" flex flex-row">
           {/* Section header */}
-          <div className="services_left basis-1/2 max-md:basis-full mx-auto max-w-3xl max-2xl:pl-52 px-12 pt-24 max-lg:pl-24 max-lg:pr-24 max-md:pt-8 max-md:px-6 pb-0 mb-40  max-lg:mb-10">
+          <div className="services_left basis-1/2 max-md:basis-full mx-auto max-w-3xl px-12 pt-24 max-lg:pl-24 max-lg:pr-24 max-md:pt-8 max-md:px-6 pb-0 mb-40  max-lg:mb-10">
             {/* <h5 className=" font-bold text-gray-400 text-xl">Services</h5> */}
             <h2 className="text-3xl font-(family-name:--font-service) font-bold md:text-4xl">
               Our Services

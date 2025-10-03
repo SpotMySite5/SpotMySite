@@ -38,11 +38,11 @@ export default function ContactUs() {
   return (
     <section className="relative sec_services" id="contact">
       <div className="mx-auto">
-        <div className=" flex flex-row pt-24 max-md:pt-0 max-md:flex-col-reverse">
+        <div className=" flex flex-row pt-24 max-md:pt-0 max-lg:pt-10 max-lg:flex-col-reverse">
           {/* Section header */}
 
           {/* Grid */}
-          <div className="basis-1/2 max-md:basis-full overflow-hidden  px-12 max-md:px-6 pt-0 pb-24 max-md:pb-10 md:pl-52  md:pb-20">
+          <div className="basis-1/2 max-md:basis-full overflow-hidden mx-auto px-12 max-lg:px-12 pt-0 pb-24 max-md:pb-10 max-lg:pb-10 max-2xl:pl-52  max-2xl:pb-20">
             {/* TODO: Replace this with your contact form or card component */}
             <div className="bg-white rounded-xl shadow-lg p-8 drop-shadow-xl">
               <div className="mb-2 flex justify-center">
@@ -334,7 +334,7 @@ export default function ContactUs() {
                     Learn why SpotMySite is the top choice for absentee owners.
                   </span>
                 </li>
-                <li className="py-2 flex items-center">
+                <li className="py-2 flex items-center max-lg:hidden">
                   <span className="inline-block mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -381,7 +381,7 @@ export default function ContactUs() {
                     breakdown.
                   </span>
                 </li>
-                <li className="py-2 flex items-center">
+                <li className="py-2 flex items-center max-lg:hidden">
                   <span className="inline-block mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -404,7 +404,7 @@ export default function ContactUs() {
                     Learn how SpotMySite provides you with long-term support.
                   </span>
                 </li>
-                <li className="py-2 flex items-center">
+                <li className="py-2 flex items-center max-lg:hidden">
                   <span className="inline-block mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
