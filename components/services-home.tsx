@@ -29,7 +29,7 @@ export default function ServicesComponent() {
   const [activeSlide, setActiveSlide] = useState(0);
   return (
     <section
-      className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto xl:container xl:mx-auto"
+      className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto lg:min-h-auto xl:container xl:mx-auto"
       id="services"
     >
       <div className="mx-auto">
@@ -199,7 +199,7 @@ export default function ServicesComponent() {
             </div>
           </div>
           {/* Grid */}
-          <div className="services_right basis-1/2 max-lg:hidden overflow-hidden px-12 pt-30 pb-0 text-left ">
+          <div className="services_right basis-1/2 max-lg:hidden overflow-hidden px-12 pt-30 pb-0 text-left mx-auto">
             <>
               <Swiper
                 direction={"vertical"}

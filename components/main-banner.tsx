@@ -9,7 +9,7 @@ import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
 export default function MainBanner() {
   return (
-    <section className="relative bg-gray-900 max-lg:rounded-bl-lg sec_1 ">
+    <section className="relative bg-gray-900 max-lg:rounded-bl-lg sec_1 2xl:container 2xl:mx-auto 2xl:overflow-hidden">
       <div className="mx-auto">
         <div className=" flex flex-row max-lg:flex-col-reverse gap-8 md:gap-12">
           {/* Section header */}

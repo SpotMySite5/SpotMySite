@@ -36,13 +36,16 @@ export default function ContactUs() {
       );
   };
   return (
-    <section className="relative sec_services" id="contact">
+    <section
+      className="relative sec_services xl:container xl:mx-auto"
+      id="contact"
+    >
       <div className="mx-auto">
-        <div className=" flex flex-row pt-24 max-md:pt-0 max-lg:pt-10 max-lg:flex-col-reverse">
+        <div className=" flex flex-row pt-0 max-md:pt-0 max-lg:pt-10 max-lg:flex-col-reverse">
           {/* Section header */}
 
           {/* Grid */}
-          <div className="basis-1/2 max-md:basis-full overflow-hidden mx-auto px-12 max-lg:px-12 pt-0 pb-24 max-md:pb-10 max-lg:pb-10 max-2xl:pl-52  max-2xl:pb-20">
+          <div className="basis-1/2 max-md:basis-full overflow-hidden mx-auto px-12 max-lg:px-12 pt-0 pb-24 max-md:pb-10 max-lg:pb-10 ">
             {/* TODO: Replace this with your contact form or card component */}
             <div className="bg-white rounded-xl shadow-lg p-8 drop-shadow-xl">
               <div className="mb-2 flex justify-center">
@@ -246,7 +249,7 @@ export default function ContactUs() {
               )} */}
             </div>
           </div>
-          <div className="contact_right basis-1/2 max-md:basis-full mx-auto max-md:mx-0 max-w-3xl  px-12 pr-24 max-md:px-6 pt-0 pb-24 text-left md:pb-20 max-md:pb-8">
+          <div className="contact_right basis-1/2 max-md:basis-full mx-auto max-md:mx-0 max-w-3xl  px-12 max-md:px-6 pt-0 pb-24 text-left md:pb-20 max-md:pb-8">
             <div
               className="mb-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]"
               data-aos="zoom-y-out"
