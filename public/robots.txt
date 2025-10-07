@@ -1,0 +1,10 @@
+# The 'User-agent: *' line means that the rules that follow apply to ALL web robots.
+User-agent: *
+
+# The 'Disallow: ' line means that ALL robots are allowed to access ALL parts of the site.
+# This is the standard setting for a publicly accessible website.
+Disallow:
+
+# List the location of your sitemap(s). 
+# This helps search engines easily find all the pages you want indexed.
+Sitemap: https://spotmysite.com/sitemap.xml
