@@ -14,6 +14,10 @@ export const metadata = {
     "SpotMySite | Property Management & NRI Services in Andhra Pradesh & Telangana",
   description:
     "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
+  icons: {
+    icon: "/favicon.ico", // or "/icon.png"
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
