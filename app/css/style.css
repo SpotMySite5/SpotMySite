@@ -220,6 +220,11 @@ body {
   background-color: var(--navbar-bg);
   border: none;
 }
+@media (width >= 96rem) {
+    .nav_header>* {
+        max-width: 48rem;
+    }
+}
 
 .form_button {
   background-color: var(--navbar-bg);
