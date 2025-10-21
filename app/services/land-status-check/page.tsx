@@ -1,62 +1,157 @@
 export const metadata = {
-  title: "Land Status Check Services Andhra & Telangana | SpotMySite",
+  title: "Land Status Check for NRIs | Protect Property in Andhra & Telangana",
   description:
-    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
+    "Get verified land inspection reports within 48 hours. SpotMySite helps NRIs prevent Boundary Disputes, dumping, and misuse across Andhra Pradesh and Telangana.",
 };
 
 import React from "react";
 import Service from "@/components/ui/service";
 
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://spotmysite.com/land-status-check/#service",
+  name: "Land Status Check for NRIs | SpotMySite",
+  serviceType: "Property Inspection / Land Verification",
+  alternateName: "NRI Land Verification & GPS Inspection",
+  description:
+    "Verified land inspection with GPS-tagged photos, timestamped HD video, and a structured report within 48 hours. Designed for NRIs and absentee owners across Andhra Pradesh and Telangana.",
+  url: "https://spotmysite.com/land-status-check",
+  provider: { "@id": "https://spotmysite.com/#organization" },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+    { "@type": "AdministrativeArea", name: "Telangana" },
+  ],
+  audience: {
+    "@type": "Audience",
+    audienceType:
+      "NRIs, absentee landowners, out-of-state buyers, families managing ancestral land",
+  },
+  serviceOutput: [
+    "Complete perimeter photo set (entry, corners, surroundings)",
+    "GPS-tagged, timestamped HD walkthrough video",
+    "Inspection summary report with observations and red flags",
+    "Secure cloud delivery",
+  ],
+  category: "Real Estate Property Verification",
+  offers: {
+    "@type": "Offer",
+    url: "https://spotmysite.com/land-status-check",
+    priceSpecification: {
+      "@type": "PriceSpecification",
+      priceCurrency: "INR",
+      unitText: "Per Inspection",
+    },
+    availability: "https://schema.org/InStock",
+  },
+  availableChannel: [
+    {
+      "@type": "ServiceChannel",
+      serviceUrl: "https://spotmysite.com/land-status-check",
+      name: "Remote Delivery",
+    },
+  ],
+  isSimilarTo: [
+    { "@type": "Service", name: "Fence & Boundary Installation" },
+    { "@type": "Service", name: "Land Cleanup & Vegetation Removal" },
+    { "@type": "Service", name: "Property Legal Assistance (Buy/Sell)" },
+  ],
+  review: {
+    "@type": "Review",
+    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+    author: { "@type": "Person", name: "Verified NRI Client" },
+    reviewBody:
+      "SpotMySite’s Land Status Check gave me complete clarity about my farmland near Vijayawada. The GPS images and HD video were incredibly detailed and professional.",
+  },
+  image: [
+    "https://spotmysite.com/assets/land-status-check1.jpg",
+    "https://spotmysite.com/assets/land-status-check2.jpg",
+  ],
+  mainEntityOfPage: "https://spotmysite.com/land-status-check",
+};
+
 export default function LandStatusCheck() {
   return (
     <Service>
+      <h1>Land Status Check in Andhra &amp; Telangana</h1>
+
       <h2>Monitor Your Land - Without Being There</h2>
+
       <p>
         Empty land is often an easy target. When you’re miles away from your
         land, small issues can turn into serious problems,{" "}
-        <b>illegal dumping, encroachments, or unauthorized usage.</b> These
-        aren’t just inconvenient, they can be{" "}
-        <b>financially and legally damaging.</b>
+        <b>illegal dumping, encroachments, or unauthorized usage</b>. For{" "}
+        <b>NRI landowners</b> and absentee property holders, these issues can be
+        financially and legally damaging.
+      </p>
+
+      <p>
+        With <b>SpotMySite’s</b> Land Status Check, you gain verified, on-ground
+        insights on your land’s real condition, delivered fast, accurate, and
+        with full proof.
       </p>
       <p>
-        With <b>SpotMySite’s</b> Land Status Check, you gain timely, accurate
-        insights on the condition of your land, so you can act early, stay
-        informed, and respond before small issues become costly problems.
+        Stay informed, act early, and protect your investment before small
+        issues become costly problems.
       </p>
-      <h3>What We Inspect</h3>
-      <p>Our trained field team conducts a full property check covering:</p>
+
+      <h3>What We Inspect During a Land Status Check</h3>
+      <p>
+        Our trained <b>field inspection team</b> performs a complete land
+        verification covering every risk that affects property value and
+        ownership clarity:
+      </p>
       <ul>
         <li>
           <b>Illegal Dumping</b> - garbage, debris, or construction waste
         </li>
         <li>
           <b>Unauthorized Use</b> - temporary sheds, farming, or livestock
+          activity
         </li>
         <li>
-          <b>Boundary Encroachments</b> - shifted fencing, new posts,
-          unauthorized construction
+          <b>Boundary Disputes</b> - shifted fencing, new posts, unauthorized
+          construction
         </li>
         <li>
-          <b>Access Issues</b> - blocked entrances, new barriers, or
-          markings{" "}
-        </li>
-      </ul>
-      <p>
-        All findings are documented with GPS, timestamps, and directional
-        images.
-      </p>
-      <h3>What You Receive</h3>
-      <p>A structured inspection package delivered securely within 48 hours:</p>
-      <ul>
-        <li>Full perimeter photo set (entry, corners, surroundings)</li>
-        <li>Short HD video covering the walkaround</li>
-        <li>GPS-tagged visuals with time/date proof</li>
-        <li>
-          Notes on red flags (debris, unauthorized activity, boundary changes)
+          <b>Access Issues</b> - blocked entrances, new barriers, or restricted
+          approach routes
         </li>
       </ul>
 
-      <h3>Who Uses This Service</h3>
+      <p>
+        Every inspection is documented with <b>GPS coordinates</b>,{" "}
+        <b>timestamps</b>, and <b>directional photos</b> creating a verifiable
+        record of your land’s condition.
+      </p>
+
+      <h3>What You Receive in Your Inspection Report</h3>
+      <p>
+        You’ll receive a secure, structured inspection package within{" "}
+        <b>48 hours</b> that includes:
+      </p>
+      <ul>
+        <li>
+          Complete <b>perimeter photo set</b> (entry, corners, surroundings)
+        </li>
+        <li>
+          A short <b>HD video walkthrough</b> of the site
+        </li>
+        <li>
+          <b>GPS-tagged visuals</b> with time/date proof
+        </li>
+        <li>
+          <b>Observations on red flags</b> (debris, unauthorized activity,
+          boundary changes)
+        </li>
+      </ul>
+
+      <p>
+        Each report is easy to download, share, and use as official
+        documentation for <b>legal, resale, or insurance purposes</b>.
+      </p>
+
+      <h3>Who Needs Land Status Check Services</h3>
       <ul>
         <li>
           <b>NRI landowners</b> who can’t travel frequently
@@ -72,35 +167,50 @@ export default function LandStatusCheck() {
         </li>
       </ul>
 
-      <h3>Why SpotMySite?</h3>
+      <p>
+        Wherever you are in the world, <b>SpotMySite</b> gives you{" "}
+        <b>visual proof and peace of mind</b> about your land in Andhra Pradesh
+        and Telangana.
+      </p>
+
+      <h3>Why Choose SpotMySite?</h3>
       <ul>
         <li>
           Field agents with experience in <b>rural and urban land</b>{" "}
           assessments
         </li>
         <li>
-          Reports strong enough for <b>legal or resale documentation</b>
+          Reports strong enough for <b>legal or resale validation</b>
         </li>
-        <li>Transparent and owner-only reporting</li>
         <li>
-          Optional service escalation: <b>clean-up, fencing, legal advisory</b>
+          Transparent and <b>owner-only reporting and access</b>
         </li>
       </ul>
-      <h3>Why This Matters</h3>
+
+      <h3>Why Land Verification Matters</h3>
       <p>
-        Land is valuable, but only if it's protected. Common issues include:
+        Land is valuable, but only if it's protected. Common risks across Andhra
+        &amp; Telangana include:
       </p>
       <ul>
-        <li>Unauthorized fencing by neighbors</li>
-        <li>Trash buildup from nearby construction</li>
-        <li>Boundary line shifting without notice</li>
-        <li>Courts asking for proof you never had</li>
+        <li>
+          <b>Unauthorized fencing</b> or boundary disputes by neighbors
+        </li>
+        <li>Trash buildup from nearby construction activity</li>
+        <li>
+          <b>Encroachments</b> that shift your legal boundary line
+        </li>
+        <li>
+          <b>Delayed property transactions</b> due to missing proof
+        </li>
       </ul>
+
       <p>
         A <b>SpotMySite</b> inspection report may be the only protection between
         you and a legal dispute or delayed transaction.
       </p>
-      <h3>How It Works</h3>
+
+      <h3>How SpotMySite Land Status Check Works</h3>
       <ol>
         <li>
           Share your <b>plot location and any documents</b> you have
@@ -109,24 +219,47 @@ export default function LandStatusCheck() {
           Our verified field agent visits the site within <b>48–72 hours</b>
         </li>
         <li>
-          You get a clear, <b>organized inspection package</b> with video +
-          images
+          You receive a clear, organized{" "}
+          <b>inspection report with GPS-tagged photos and video</b>.
         </li>
       </ol>
+
       <p>
         We also offer repeat monitoring and coordination for fencing or cleanup
         services.
       </p>
-      <h3>Stay Ahead of Trouble</h3>
+
+      <h3>Stay Ahead of Trouble - Protect Your Land Today</h3>
       <p>
         You own the land. Don’t let misuse, neglect, or silence take that from
         you. <b>SpotMySite</b> helps you protect it with{" "}
-        <b>visual truth and timely action.</b>
+        <b>visual proof, legal-ready documentation, and timely action</b>.
       </p>
+
       <p>
         <a href="/#contact">Schedule your land check today</a> and let your next
         update be certainty, not surprise.
       </p>
+
+      <h3>Explore Related Services</h3>
+      <p className="flex flex-wrap gap-4">
+        <a href="/services/fence-boundary-installation" className="badge_new">
+          Fence &amp; Boundary Installation
+        </a>
+        <br />
+        <a href="/services/land-cleanup" className="badge_new">
+          Land Cleanup &amp; Vegetation Removal
+        </a>
+        <br />
+        <a href="/services/property-buy-legal-assistance" className="badge_new">
+          Property Buy and Sell Legal Assistance
+        </a>
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </Service>
   );
 }

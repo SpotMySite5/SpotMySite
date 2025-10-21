@@ -1,84 +1,153 @@
 export const metadata = {
-  title: "Remote Property Walkthrough for NRIs | SpotMySite",
+  title:
+    "Remote Buyer Walkthrough for NRIs | Property & Area Insights in Andhra & Telangana",
   description:
-    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
+    "SpotMySite’s Remote Buyer Walkthroughs give NRIs HD property tours plus neighborhood intelligence across Andhra Pradesh & Telangana. Make informed, regret-free buying decisions.",
 };
 
 import React from "react";
 import Service from "@/components/ui/service";
 
-export default function LandCleanup() {
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://spotmysite.com/services/remote-buyer-walkthrough/#service",
+  serviceType: "Remote Buyer Walkthrough",
+  name: "Remote Buyer Walkthrough for NRIs | SpotMySite",
+  alternateName: "NRI Property Virtual Tour & Verification",
+  provider: { "@id": "https://spotmysite.com/#organization" },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+    { "@type": "AdministrativeArea", name: "Telangana" },
+  ],
+  description:
+    "SpotMySite provides Remote Buyer Walkthroughs for NRIs purchasing property in Andhra Pradesh and Telangana. Includes HD video tours, neighborhood analysis, and property investment recommendations. Contact us for a custom quote.",
+  serviceOutput:
+    "HD walkthrough video, local area report, and professional property analysis summary.",
+  offers: {
+    "@type": "Offer",
+    url: "https://spotmysite.com/services/remote-buyer-walkthrough",
+    priceSpecification: {
+      "@type": "PriceSpecification",
+      priceCurrency: "INR",
+      unitText: "Per Service",
+    },
+    availability: "https://schema.org/InStock",
+  },
+  hasPart: [
+    { "@type": "Service", name: "On-Site Property Video Walkthrough" },
+    { "@type": "Service", name: "Local Area Intelligence Report" },
+    { "@type": "Service", name: "Property Recommendation Analysis" },
+  ],
+  review: {
+    "@type": "Review",
+    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+    author: { "@type": "Person", name: "Verified NRI Buyer" },
+    reviewBody:
+      "SpotMySite’s walkthrough gave me a complete picture of the property and area before I purchased. The report was detailed, honest, and highly professional.",
+  },
+  image: [
+    "https://spotmysite.com/assets/remote-walkthrough1.jpg",
+    "https://spotmysite.com/assets/remote-walkthrough2.jpg",
+  ],
+  url: "https://spotmysite.com/services/remote-buyer-walkthrough",
+  mainEntityOfPage: "https://spotmysite.com/services/remote-buyer-walkthrough",
+};
+
+export default function RemoteBuyerWalkthrough() {
   return (
     <Service>
-      <h2>Not Just a Tour. A Smart Investment Preview</h2>
+      <h1>Remote Buyer Walkthrough in Andhra &amp; Telangana</h1>
+
+      <h2>Not Just a Tour. A Smart Investment Preview.</h2>
+
       <p>
         When buying property remotely, you’re not just purchasing land or a
         flat, you’re investing in a{" "}
         <b>lifestyle, location, and long-term value</b>.
       </p>
+
       <p>
-        <b>SpotMySite's Remote Buyer Walkthroughs</b> go beyond simple video
+        <b>SpotMySite’s Remote Buyer Walkthroughs</b> go beyond simple video
         coverage. We combine{" "}
         <b>on-site documentation with local area intelligence</b> so you
-        understand not just the property, but the neighborhood, connectivity,
-        and future growth potential.
+        understand not only the property, but also its{" "}
+        <b>neighborhood, connectivity, and future growth potential</b>.
       </p>
+
       <p>
-        Whether you’re buying for family, rental income, or appreciation, our
-        walkthroughs give you the insights to make{" "}
-        <b>confident, regret-free decisions</b>.
+        Whether you’re buying for <b>family, rental income, or appreciation</b>,
+        our walkthroughs help you make <b>confident, regret-free decisions</b>.
       </p>
+
       <h3>What We Deliver</h3>
+
       <p>
-        Our Remote Buyer Walkthrough is more than a video shoot. It’s a
-        full-service package.
+        <b>On-Site Property Coverage</b>
       </p>
       <ul>
-        <li>Full HD video walkthrough of interiors/exteriors</li>
         <li>
-          Still images from multiple angles (entry/exit, parking, balconies,
-          surroundings)
+          Full HD<b> video walkthrough</b> of interiors &amp; exteriors
         </li>
-        <li>Narrated inspection of flooring, fittings, and signs of damage</li>
         <li>
-          For land: terrain, boundaries, vegetation, fencing & access roads
+          <b>Still images</b> from multiple angles (entry/exit, parking,
+          balconies, surroundings)
+        </li>
+        <li>
+          <b>Narrated inspection</b> covering flooring, fittings, damages, or
+          maintenance signs
+        </li>
+        <li>
+          For land:
+          <b> terrain, boundaries, vegetation, fencing, and road access</b>
         </li>
       </ul>
-      <p>Local Area Report</p>
+
+      <p>
+        <b>Local Area Report</b>
+      </p>
+      <p>Comprehensive 1–5 km radius assessment including:</p>
       <ul>
-        <li>1–5 km radius assessment:</li>
-        <li style={{ listStyle: "none" }}>
-          <ul>
-            <li>Medical: hospitals, clinics, pharmacies</li>
-            <li>Shopping: malls, supermarkets, local markets</li>
-            <li>Education: schools, colleges, coaching centers</li>
-            <li>Entertainment: theaters, parks, temples</li>
-            <li>Connectivity: metro, bus stops, main roads</li>
-          </ul>
+        <li>
+          <b>Medical:</b> hospitals, clinics, pharmacies
         </li>
+        <li>
+          <b>Shopping:</b> malls, supermarkets, local markets
+        </li>
+        <li>
+          <b>Education:</b> schools, colleges, coaching centers
+        </li>
+        <li>
+          <b>Entertainment:</b> theaters, parks, temples
+        </li>
+        <li>
+          <b>Connectivity:</b> metro, bus stops, main roads
+        </li>
+      </ul>
+
+      <p>
+        <b>Plus</b>
+      </p>
+      <ul>
         <li>
           Neighborhood insights:{" "}
           <b>noise levels, safety, ongoing construction</b>
         </li>
         <li>
-          Team’s <b>first-hand impression</b> of livability
+          <b>Team’s first-hand impression</b> of livability and environment
         </li>
       </ul>
-
       <h3>Property Recommendation Insight</h3>
       <p>Based on the walkthrough + area data, we tell you:</p>
       <ul>
         <li>
-          Is this a good choice for <b>family living?</b>
+          Is it suitable for <b>family living?</b>
         </li>
         <li>
-          Is it better suited for <b>rental income?</b>
+          Is it better for <b>rental yield</b> or <b>long-term appreciation?</b>
         </li>
         <li>
-          Is the area expected to <b>appreciate in value?</b>
-        </li>
-        <li>
-          Are there better <b>options nearby?</b>
+          Are there <b>better options nearby?</b>
         </li>
       </ul>
 
@@ -90,13 +159,14 @@ export default function LandCleanup() {
         <li>Consolidated summary of property + area + recommendation</li>
       </ul>
 
-      <h3>How It Works</h3>
+      <h3>How Remote Buyer Walkthrough Works</h3>
       <ol>
         <li>
-          <b>Booking</b> - Share property details & contact info of owner/agent
+          <b>Booking</b> - Share property details &amp; contact info of
+          owner/agent
         </li>
         <li>
-          <b>Coordination</b> - We schedule the walkthrough & local survey
+          <b>Coordination</b> - We schedule the walkthrough &amp; local survey
         </li>
         <li>
           <b>Execution</b> - Field staff conduct video/photos + area checks
@@ -108,39 +178,77 @@ export default function LandCleanup() {
           <b>Delivery</b> - You receive a structured digital package
         </li>
       </ol>
+
       <h3>Who This Is For</h3>
       <ul>
-        <li>NRIs purchasing homes or land remotely</li>
-        <li>Out-of-town investors comparing multiple locations</li>
-        <li>Parents/children buying for family relocation</li>
-        <li>Buyers focused on rental income or resale potential</li>
+        <li>
+          <b>NRIs</b> purchasing homes or land remotely
+        </li>
+        <li>
+          <b>Investors</b> comparing multiple properties or cities
+        </li>
+        <li>
+          <b>Families</b> buying for relocation or retirement
+        </li>
+        <li>
+          <b>Buyers</b> focused on rental income or resale potential
+        </li>
       </ul>
+
       <h3>Why Choose SpotMySite?</h3>
       <ul>
-        <li>We operate across Andhra Pradesh & Telangana</li>
-        <li>We combine on-ground property documentation with area research</li>
-        <li>We are not agents, we give neutral, buyer-focused information</li>
-        <li>Our goal: help you avoid regret and make better buying choices</li>
+        <li>
+          Available across <b>Andhra Pradesh &amp; Telangana</b>
+        </li>
+        <li>
+          Combines <b>on-ground verification</b> with{" "}
+          <b>data-driven area insights</b>
+        </li>
+        <li>
+          <b>Independent &amp; unbiased</b> not affiliated with agents or
+          developers
+        </li>
+        <li>
+          <b>Visual + analytical</b> see the property and understand the context
+        </li>
       </ul>
+
       <h3>Buy Smarter. Not Blind.</h3>
       <p>
-        Most buyers only see the house or plot. We show you the bigger picture:
-        the neighborhood, the people, and the area’s future.
+        Most buyers only see the house or plot. <b>SpotMySite</b> shows you the{" "}
+        <b>bigger picture</b> the people, the roads, the neighborhood, and the
+        area’s future.
       </p>
+
       <p>
-        A good property in the wrong location is a bad investment.{" "}
-        <b>SpotMySite</b> helps you avoid regret, and buy smarter.
+        A good property in the wrong location is a bad investment. We help you
+        avoid regret and choose wisely.
       </p>
-      <p>
-        Don’t just look at walls and windows. Understand what’s around them. Let{" "}
-        <b>SpotMySite</b> give you a complete walkthrough and the insight to
-        choose right.
-      </p>
+
       <p>
         <a href="/#contact">
           Book Your Remote Walkthrough With Area Intelligence Today
         </a>
       </p>
+
+      <h2>Related Services</h2>
+
+      <p className="flex flex-wrap gap-4">
+        <a href="/services/property-video-inspection" className="badge_new">
+          Property Video Inspection
+        </a>
+        <a href="/services/land-status-check" className="badge_new">
+          Land Status Check
+        </a>
+        <a href="/services/loan-assistance" className="badge_new">
+          NRI Loan Assistance
+        </a>
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </Service>
   );
 }

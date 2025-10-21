@@ -1,132 +1,261 @@
 export const metadata = {
-  title: "Property Legal Services for NRIs | SpotMySite",
+  title:
+    "Property Legal Assistance for NRIs | Buy & Sell Support in Andhra & Telangana",
   description:
-    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
+    "In-house legal help for NRIs: title & EC checks, drafting, POA, and registration across Andhra & Telangana — transparent, compliant, end-to-end support.",
 };
 
 import React from "react";
 import Service from "@/components/ui/service";
 
-export default function PropertyVideoInspection() {
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://spotmysite.com/services/property-legal-assistance/#service",
+  serviceType: "Property Buy and Sell Legal Assistance",
+  name: "Property Legal Assistance for NRIs | SpotMySite",
+  alternateName: "NRI Property Legal Services",
+  description:
+    "In-house legal assistance for NRIs buying or selling property in Andhra Pradesh and Telangana. Includes title verification, EC checks, deed drafting, POA, registration, tax/TDS compliance, and legal representation support.",
+  serviceOutput:
+    "Verified title documents, legal compliance reports, and registered sale deeds.",
+  category: "Legal and Property Services",
+  audience: {
+    "@type": "Audience",
+    audienceType: "Non-Resident Indians (NRIs)",
+  },
+  provider: { "@id": "https://spotmysite.com/#organization" },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+    { "@type": "AdministrativeArea", name: "Telangana" },
+  ],
+  offers: {
+    "@type": "Offer",
+    url: "https://spotmysite.com/services/property-legal-assistance",
+    priceSpecification: {
+      "@type": "PriceSpecification",
+      priceCurrency: "INR",
+      unitText: "Per Service",
+    },
+    availability: "https://schema.org/InStock",
+  },
+  hasPart: [
+    { "@type": "Service", name: "Title & Ownership Verification" },
+    { "@type": "Service", name: "Encumbrance Certificate (EC) Check" },
+    { "@type": "Service", name: "Agreement & Sale Deed Drafting" },
+    { "@type": "Service", name: "Power of Attorney & Registration Assistance" },
+    { "@type": "Service", name: "Tax/TDS & Legal Compliance Support" },
+  ],
+  review: {
+    "@type": "Review",
+    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+    author: { "@type": "Person", name: "Verified NRI Client" },
+    reviewBody:
+      "SpotMySite’s legal team handled my property sale in Hyderabad end-to-end — from title verification to registration. Absolutely professional and trustworthy.",
+  },
+  image: [
+    "https://spotmysite.com/assets/legal-assistance1.jpg",
+    "https://spotmysite.com/assets/legal-assistance2.jpg",
+  ],
+  url: "https://spotmysite.com/services/property-legal-assistance",
+  mainEntityOfPage: "https://spotmysite.com/services/property-legal-assistance",
+};
+
+export default function PropertyBuyLegalAssistance() {
   return (
     <Service>
+      <h1>
+        Property Buy &amp; Sell Legal Assistance in Andhra &amp; Telangana
+      </h1>
       <h2>Powered by SpotMySite’s In-House Legal Expertise</h2>
+
       <p>
-        Buying or selling property in India from distance can be{" "}
-        <b>confusing, risky, and paperwork-heavy</b>. From title verification to
-        registration, every step matters, and a small oversight can cause costly
-        delays or disputes.
+        Buying or selling property in India from a distance can be confusing,
+        risky, and paperwork-heavy. From{" "}
+        <b>title verification to registration</b>, every step matters, and a
+        small oversight can cause costly delays or disputes.
       </p>
+
       <p>
-        SpotMySite provides <b>end-to-end legal assistance</b>, managed by our{" "}
-        <b>in-house legal team</b> (one of our partners is a practicing
-        attorney). We don’t outsource. We ensure every transaction is{" "}
+        With <b>SpotMySite’s</b> <b>in-house legal team</b> (one partner is a
+        practicing attorney), we provide <b>end-to-end legal assistance</b>. We
+        don’t outsource. We keep your transaction{" "}
         <b>compliant, transparent, and stress-free</b>.
       </p>
+
       <h3>What We Help With</h3>
+
       <p>
         <b>For Buyers:</b>
       </p>
       <ul>
-        <li>Title deed & ownership verification</li>
-        <li>Encumbrance Certificate (EC) checks</li>
         <li>
-          Parent document lineage verification (past transactions, legal chain)
-        </li>
-        <li>Check for legal disputes or claims</li>
-        <li>Agreement of Sale & Sale Deed drafting</li>
-        <li>Stamp duty & registration coordination</li>
-        <li>
-          Representation at sub-registrar office (via power of attorney if
-          needed)
+          <b>Title deed &amp; ownership verification</b>
         </li>
         <li>
-          Verification of land use permissions (DTCP, HMDA, etc.) including
-          unapproved layouts
+          <b>Encumbrance Certificate (EC) checks</b>
+        </li>
+        <li>
+          <b>Parent document lineage verification</b> (legal chain of past
+          transactions)
+        </li>
+        <li>
+          <b>Legal dispute / claim checks</b> in relevant records
+        </li>
+        <li>
+          <b>Agreement of Sale &amp; Sale Deed drafting</b>
+        </li>
+        <li>
+          <b>Stamp duty &amp; registration coordination</b>
+        </li>
+        <li>
+          <b>Sub-registrar representation</b> (via <b>POA</b> if needed)
+        </li>
+        <li>
+          <b>Land-use compliance</b> (DTCP, HMDA, local authority; flag
+          unapproved layouts)
         </li>
       </ul>
+
       <p>
         <b>For Sellers:</b>
       </p>
       <ul>
-        <li>Property document review & readiness</li>
-        <li>Tax clearance & Khata/Patta updates</li>
-        <li>Power of Attorney document support (if owner is abroad)</li>
-        <li>Drafting sale agreements & sale deeds</li>
-        <li>Buyer-side lawyer coordination</li>
-        <li>Registry & stamp duty assistance</li>
-        <li>Secure handover checklist and final possession letter</li>
-        <li>TDS & income tax compliance</li>
+        <li>
+          <b>Property document review &amp; readiness</b>
+        </li>
+        <li>
+          <b>Tax clearance &amp; Khata/Patta updates</b>
+        </li>
+        <li>
+          <b>Power of Attorney documentation</b> (if owner is abroad)
+        </li>
+        <li>
+          <b>Sale agreement &amp; sale deed drafting</b>
+        </li>
+        <li>
+          <b>Buyer-side lawyer coordination</b>
+        </li>
+        <li>
+          <b>Registry &amp; stamp duty assistance</b>
+        </li>
+        <li>
+          <b>Secure handover checklist and final possession letter</b>
+        </li>
+        <li>
+          <b>TDS &amp; income tax compliance</b>
+        </li>
       </ul>
+
       <h3>What You Receive</h3>
       <ul>
-        <li>Verified document review & compliance checks</li>
-        <li>Drafted agreements, deeds & POA documentation</li>
-        <li>Digital & couriered hard copies of registered documents</li>
-        <li>Legal report with observations & red flags</li>
-        <li>End-to-end support until deal closure</li>
+        <li>
+          Verified<b> document review &amp; compliance checks</b>
+        </li>
+        <li>
+          Professionally drafted <b>agreements, deeds &amp; POA</b>
+        </li>
+        <li>
+          <b>Digital &amp; couriered hard copies</b> of registered documents
+        </li>
+        <li>
+          <b>Legal report</b> with observations &amp; red flags
+        </li>
+        <li>
+          <b>End-to-end support</b> until deal closure
+        </li>
       </ul>
 
       <h3>How It Works</h3>
       <ol>
         <li>
-          <b>Initial Consultation</b> - Understand whether you’re buying or
-          selling, and review property status
+          <b>Initial Consultation</b> - Share if you’re buying or selling; we
+          review property status.
         </li>
         <li>
-          <b>Document Collection & Review</b> - Upload securely, we check
-          accuracy & risks
+          <b>Document Collection &amp; Review</b> - Secure upload; we check
+          accuracy &amp; risks.
         </li>
         <li>
-          <b>Verification & Due Diligence</b> - EC checks, government record
-          validation, chain of title review
+          <b>Verification &amp; Due Diligence</b> - EC checks, government record
+          validation, chain of title.
         </li>
         <li>
-          <b>Legal Drafting & Coordination</b> - Deeds, agreements, and
-          sub-registrar office representation
+          <b>Legal Drafting &amp; Coordination</b> - Deeds/agreements and
+          sub-registrar representation.
         </li>
         <li>
-          <b>Registration & Handover</b> - On-ground execution (via POA if
-          abroad), digital + hard copy delivery
+          <b>Registration &amp; Handover</b> - On-ground execution (via POA if
+          abroad), digital + hard copy delivery.
         </li>
       </ol>
+
       <h3>Who This Is For</h3>
       <ul>
-        <li>NRIs looking to buy property in Andhra Pradesh or Telangana</li>
         <li>
-          Remote owners trying to sell their properties (plots, flats, or
-          inherited land...etc)
+          <b>NRIs</b> buying property in Andhra Pradesh or Telangana
         </li>
         <li>
-          Anyone unsure about legal paperwork and looking for trustworthy help
+          <b>Remote owners</b> selling plots, flats, or inherited property
+        </li>
+        <li>
+          Anyone unsure about <b>property paperwork</b> seeking trustworthy help
         </li>
       </ul>
+
       <h3>Why Choose SpotMySite?</h3>
       <ul>
         <li>
-          <b>Intenal and external legal expertise</b> support
+          <b>In-house legal expertise</b> (not outsourced)
         </li>
         <li>
-          Remote-friendly process, POA, digital access, secure file exchange
+          <b>Remote-friendly</b>: POA, digital access, secure file exchange
         </li>
-        <li>Regional experience with AP & Telangana authorities</li>
-        <li>One-stop support: verification, drafting, POA, registration</li>
-        <li>No hidden agendas, we protect your interests, not push deals</li>
+        <li>
+          <b>Regional experience</b> with AP &amp; Telangana authorities
+        </li>
+        <li>
+          <b>One-stop support</b>: verification, drafting, POA, registration
+        </li>
+        <li>
+          <b>Client-first</b>: we protect your interests, not push deals
+        </li>
       </ul>
-      <h3>Make Every Transaction Legal. And Stress-Free.</h3>
+
+      <h3>Make Every Transaction Legal—And Stress-Free.</h3>
       <p>
-        Property is personal. But in India, it's also paperwork-heavy and
-        legally complex. Let <b>SpotMySite</b> simplify it.
+        Property is personal. In India, it's also paperwork-heavy and legally
+        complex. <b>Let SpotMySite simplify it.</b>
       </p>
       <p>
-        We’ll connect you with In-house <b>legal professionals</b>, coordinate
-        every step, and make sure your buy or sell process is clean, compliant,
-        and worry-free.
+        We’ll connect you with <b>in-house legal professionals</b>, coordinate
+        every step, and make sure your buy or sell process is{" "}
+        <b>clean, compliant, and worry-free</b>.
       </p>
       <p>
-        <a href="/#contact">Request Legal Buy/Sell Assistance Today</a> Because
-        your next property move deserves precision, not panic.
+        <a href="/#contact">Request Legal Buy/Sell Assistance Today</a>, Because
+        your next property move deserves <b>precision, not panic</b>.
       </p>
+
+      <h2>Related Services</h2>
+      <p className="flex flex-wrap gap-4">
+        <a href="/services/land-status-check" className="badge_new">
+          Land Status Check
+        </a>
+
+        <a href="/services/loan-assistance" className="badge_new">
+          NRI Loan Assistance
+        </a>
+
+        <a href="/services/property-video-inspection" className="badge_new">
+          Property Video Inspection
+        </a>
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </Service>
   );
 }

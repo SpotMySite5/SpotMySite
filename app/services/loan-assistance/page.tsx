@@ -7,81 +7,151 @@ export const metadata = {
 import React from "react";
 import Service from "@/components/ui/service";
 
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://spotmysite.com/services/nri-loan-assistance/#service",
+  serviceType: "NRI Loan Assistance",
+  name: "NRI Loan Assistance | SpotMySite",
+  alternateName: "Home, Land & Construction Loan Support for NRIs",
+  description:
+    "SpotMySite provides end-to-end NRI loan assistance for home, land, construction, and commercial property loans across Andhra Pradesh and Telangana. Our team coordinates documentation, bank liaison, and legal opinion to ensure smooth approval.",
+  serviceOutput:
+    "Approved home or land loan with verified documentation and legal clearance.",
+  category: "Financial Services",
+  audience: {
+    "@type": "Audience",
+    audienceType: "Non-Resident Indians (NRIs)",
+  },
+  provider: { "@id": "https://spotmysite.com/#organization" },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+    { "@type": "AdministrativeArea", name: "Telangana" },
+  ],
+  offers: {
+    "@type": "Offer",
+    url: "https://spotmysite.com/services/nri-loan-assistance",
+    priceSpecification: {
+      "@type": "PriceSpecification",
+      priceCurrency: "INR",
+      unitText: "Per Service",
+    },
+    availability: "https://schema.org/InStock",
+  },
+  hasPart: [
+    { "@type": "Service", name: "Home Loan Assistance" },
+    { "@type": "Service", name: "Land or Plot Purchase Loan Assistance" },
+    { "@type": "Service", name: "Construction Loan Assistance" },
+    { "@type": "Service", name: "Commercial Property Loan Assistance" },
+  ],
+  review: {
+    "@type": "Review",
+    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+    author: { "@type": "Person", name: "Verified NRI Client" },
+    reviewBody:
+      "SpotMySite made our home loan approval seamless. Their coordination with banks and legal advisors saved us weeks of delay.",
+  },
+  image: [
+    "https://spotmysite.com/assets/loan-assistance1.jpg",
+    "https://spotmysite.com/assets/loan-assistance2.jpg",
+  ],
+  url: "https://spotmysite.com/services/nri-loan-assistance",
+  mainEntityOfPage: "https://spotmysite.com/services/nri-loan-assistance",
+};
+
 export default function LoanAssistance() {
   return (
     <Service>
+      <h1>NRI Loan Assistance in Andhra &amp; Telangana</h1>
+
       <h2>Navigate Home Loans in India with Confidence</h2>
+
       <p>
-        For NRIs, securing a home, land, or commercial property loan in India
-        can feel like decoding a complex puzzle. Endless paperwork, constant
-        follow-ups, local bank requirements, and frequent miscommunication make
-        the process stressful and slow.
+        For NRIs, securing a <b>home, land, or commercial property</b> loan in
+        India can feel like decoding a complex puzzle. Endless paperwork,
+        constant follow-ups, and unclear bank requirements often make the
+        process <b>stressful and time-consuming</b>.
       </p>
+
       <p>
-        <b>SpotMySite</b> provides <b>end-to-end NRI loan assistance</b>,
-        simplifying home, plot, construction, and commercial property financing.
-        From eligibility to final disbursement, we coordinate with banks,{" "}
-        <b>legal advisors, and financial experts</b>, so you never lose time or
+        <b>SpotMySite’s NRI Loan Assistance Service</b> simplifies the entire
+        journey from eligibility to disbursement. We coordinate with banks,
+        <b> legal advisors, and financial experts</b>, so you never lose time or
         miss a step.
       </p>
+
       <h3>What We Help With</h3>
       <ul>
         <li>
-          Loan eligibility assessment based on your profile, income, and
-          location of property
+          <b>Loan eligibility assessment</b> based on your income, profile and
+          property
         </li>
         <li>
-          Bank comparison & interest rate options (we're{" "}
-          <b>not tied to any one lender</b>)
+          <b>Bank comparison</b> evaluate interest rates and loan terms (
+          <b>we're not tied to any one lender</b>)
         </li>
         <li>
-          Document checklist preparation for NRI applicants (passport, OCI,
-          visa, income proof, etc.)
+          <b>Document checklist preparation</b> for NRI applicants (passport,
+          OCI, visa, income proof, etc.)
         </li>
         <li>
-          Property paperwork coordination title deed, tax receipts, EC, layout
-          plans
-        </li>
-        <li>Legal opinion coordination for property-backed loans</li>
-        <li>TDS and tax compliance guidance for loan-linked transactions</li>
-        <li>Loan application preparation and submission</li>
-        <li>
-          Bank coordination for verification calls and physical site visits
+          <b>Property paperwork coordination</b> — title deed, tax receipts, EC,
+          layout plans
         </li>
         <li>
-          POA (Power of Attorney) execution if you can’t be physically present
+          <b>Legal opinion coordination</b> for property-backed loans
         </li>
-        <li>Final disbursement tracking & bank agreement review</li>
+        <li>
+          <b>TDS and tax compliance guidance</b> for loan-linked transactions
+        </li>
+        <li>
+          <b>Loan application preparation and submission</b>
+        </li>
+        <li>
+          <b>Bank coordination</b> for verification calls and site visits
+        </li>
+        <li>
+          <b>POA (Power of Attorney) execution</b> if you can’t be physically
+          present
+        </li>
+        <li>
+          <b>Final disbursement tracking</b> & bank agreement review
+        </li>
       </ul>
+
       <p>
-        Whether you are taking a home loan, land loan, commercial loan, or a
-        construction loan, <b>SpotMySite</b> ensures your file is clean,
-        complete, and ready for approval.
+        Whether it’s a <b>home loan</b>, <b>land loan</b>,{" "}
+        <b>construction loan</b>, or <b>commercial property loan</b>,{" "}
+        <b>SpotMySite</b> ensures your file is{" "}
+        <b>clean, compliant, and ready for approval</b>.
       </p>
+
       <h3>Types of Loans We Help With</h3>
       <ul>
         <li>
-          <b>Home Loan</b> – Ready-to-move flats, independent houses, gated
-          villas
+          <b>Home Loan</b> – Apartments, villas, independent houses
         </li>
         <li>
           <b>Plot Purchase Loan</b> – DTCP-approved land, residential or
           commercial
         </li>
         <li>
-          <b>Construction Loan</b> – New home build or adding floors to existing
-          property
+          <b>Construction Loan</b> – Building new homes or adding floors
         </li>
         <li>
-          <b>Commercial Loan</b> – Shops, small offices, showrooms, or mixed-use
+          <b>Commercial Loan</b> – Shops, small offices, showrooms, mixed-use
           buildings
         </li>
       </ul>
+      <p>
+        We work with both <b>banks</b> to identify the best financing options
+        for your needs.
+      </p>
 
       <h3>How the Process Works</h3>
       <ol>
         <li>
-          <b>Loan Planning & Consultation</b> - Understand needs, compare
+          <b>Loan Planning &amp; Consultation</b> - Understand needs, compare
           banks/NBFCs
         </li>
         <li>
@@ -89,65 +159,98 @@ export default function LoanAssistance() {
           notarization help
         </li>
         <li>
-          <b>Bank Liaison & Legal Prep</b> - Coordinate for legal opinion,
+          <b>Bank Liaison &amp; Legal Prep</b> - Coordinate for legal opinion,
           valuation, POA if needed
         </li>
         <li>
-          <b>Submission & Approval</b> - <b>SpotMySite</b> submits and tracks
-          every step
+          <b>Submission &amp; Approval</b> - <b>SpotMySite</b> submits and
+          tracks every step
         </li>
         <li>
-          <b>Disbursement & Closure</b> - Oversee release, review agreements,
-          ensure delivery of documents
+          <b>Disbursement &amp; Closure</b> - Oversee release, review
+          agreements, ensure delivery of documents
         </li>
       </ol>
+
       <h3>Who This Is For</h3>
       <ul>
         <li>
-          NRIs purchasing land, flats, villas, or commercial properties in
-          Andhra Pradesh or Telangana
+          <b>NRIs</b> purchasing property in Andhra Pradesh or Telangana
         </li>
         <li>
-          Indians abroad are constructing homes or commercial spaces on
-          ancestral or new property
+          <b>Indians abroad</b> constructing homes on ancestral or new plots
         </li>
-        <li>Families applying on behalf of relatives working abroad</li>
         <li>
-          Buyers needing help navigating Indian financial institutions remotely
+          <b>Families</b> managing loan applications for relatives working
+          overseas
+        </li>
+        <li>
+          <b>Buyers</b> who want expert guidance navigating Indian financial
+          institutions
         </li>
       </ul>
-      <h3>Why SpotMySite?</h3>
+      <p>
+        Wherever you are, <b>SpotMySite</b> ensures your{" "}
+        <b>loan process is smooth, verified, and compliant</b>.
+      </p>
+
+      <h3>Why Choose SpotMySite</h3>
       <ul>
         <li>
-          <b>We understand Indian banks AND NRI needs</b> - Our team has worked
-          with multiple lenders across South India
+          Deep understanding of <b>Indian banks &amp; NRI documentation</b>{" "}
+          requirements
         </li>
         <li>
-          <b>Professional packaging of your loan file</b> - No missing docs or
-          poorly written declarations
+          <b>Professionally packaged loan files</b> — no missing paperwork or
+          rejections
         </li>
         <li>
-          <b>One point of contact</b> - You deal with us, not 4 different bank
-          departments
+          <b>Single point of contact</b> — we handle all bank, legal, and
+          financial coordination
         </li>
         <li>
-          <b>Integrated legal support</b> - Our legal partner ensures title and
-          compliance readiness
+          Integrated <b>legal verification</b> before loan approval
         </li>
         <li>
-          <b>100% remote-friendly</b> - POA, video consults, secure file
-          exchange.
+          <b>100% remote-friendly</b> — POA execution, video consults, secure
+          document exchange
         </li>
       </ul>
+      <p>
+        We don’t just connect you to lenders, we make the process{" "}
+        <b>friction-free, secure, and reliable</b>.
+      </p>
+
       <h3>Property Financing Without Friction</h3>
       <p>
-        Don’t rely on middlemen or vague advice. <b>With SpotMySite</b>, your
-        loan is professionally managed, transparent, and reliable.
+        With <b>SpotMySite</b>, your <b>NRI property loan</b> is managed with
+        full transparency and expert oversight.
       </p>
+
       <p>
-        <a href="/#contact">Request NRI Loan Assistance Today</a> We help you
+        <a href="/#contact">Request NRI Loan Assistance Today</a> — We help you
         get the loan. You focus on the home or the opportunity.
       </p>
+
+      <h3>Related Services</h3>
+      <p className="flex flex-wrap gap-4">
+        <a href="/services/remote-buyer-walkthrough" className="badge_new">
+          Remote Buyer Walkthrough
+        </a>
+        <br />
+        <a href="/services/property-video-inspection" className="badge_new">
+          Property Video Inspection
+        </a>
+        <br />
+        <a href="/services/property-buy-legal-assistance" className="badge_new">
+          Property Buy &amp; Sell Legal Assistance
+        </a>
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </Service>
   );
 }
