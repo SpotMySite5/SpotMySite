@@ -683,7 +683,7 @@ transform: rotate(-135deg);
 .sec_careers h2, .sec_careers h3 {
   color: var(--navbar-bg);
 }
-.services_left h2, .contact_right h2, .about_sec h2 {
+.services_left h2, .contact_right h2, .about_sec h1 {
   color: var(--navbar-bg);
 }
 

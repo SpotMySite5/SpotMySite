@@ -1,8 +1,7 @@
 export const metadata = {
-  title:
-    "Property Legal Assistance for NRIs | Buy & Sell Support in Andhra & Telangana",
+  title: "NRI Property Legal Help | Buy & Sell Support in Andhra & Telangana",
   description:
-    "In-house legal help for NRIs: title & EC checks, drafting, POA, and registration across Andhra & Telangana — transparent, compliant, end-to-end support.",
+    "In-house legal support for NRIs: title & EC checks, POA drafting, and property registration across Andhra & Telangana. Transparent, compliant, end-to-end service.",
 };
 
 import React from "react";
@@ -10,57 +9,86 @@ import Service from "@/components/ui/service";
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://spotmysite.com/services/property-legal-assistance/#service",
-  serviceType: "Property Buy and Sell Legal Assistance",
-  name: "Property Legal Assistance for NRIs | SpotMySite",
-  alternateName: "NRI Property Legal Services",
-  description:
-    "In-house legal assistance for NRIs buying or selling property in Andhra Pradesh and Telangana. Includes title verification, EC checks, deed drafting, POA, registration, tax/TDS compliance, and legal representation support.",
-  serviceOutput:
-    "Verified title documents, legal compliance reports, and registered sale deeds.",
-  category: "Legal and Property Services",
-  audience: {
-    "@type": "Audience",
-    audienceType: "Non-Resident Indians (NRIs)",
-  },
-  provider: { "@id": "https://spotmysite.com/#organization" },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
-    { "@type": "AdministrativeArea", name: "Telangana" },
-  ],
-  offers: {
-    "@type": "Offer",
-    url: "https://spotmysite.com/services/property-legal-assistance",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "INR",
-      unitText: "Per Service",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://spotmysite.com/services/property-legal-assistance#webpage",
+      url: "https://spotmysite.com/services/property-legal-assistance",
+      name: "Property Legal Assistance for NRIs | SpotMySite",
+      description:
+        "In-house legal assistance for NRIs buying or selling property in Andhra Pradesh and Telangana. Includes title verification, EC checks, deed drafting, POA, registration, tax/TDS compliance, and legal representation support.",
+      isPartOf: { "@id": "https://spotmysite.com/#website" },
+      about: { "@id": "https://spotmysite.com/#organization" },
+      inLanguage: "en",
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://spotmysite.com/assets/legal-assistance1.jpg",
+      },
     },
-    availability: "https://schema.org/InStock",
-  },
-  hasPart: [
-    { "@type": "Service", name: "Title & Ownership Verification" },
-    { "@type": "Service", name: "Encumbrance Certificate (EC) Check" },
-    { "@type": "Service", name: "Agreement & Sale Deed Drafting" },
-    { "@type": "Service", name: "Power of Attorney & Registration Assistance" },
-    { "@type": "Service", name: "Tax/TDS & Legal Compliance Support" },
+    {
+      "@type": "Service",
+      "@id":
+        "https://spotmysite.com/services/property-legal-assistance#service",
+      serviceType: "Property Buy and Sell Legal Assistance",
+      name: "Property Legal Assistance for NRIs | SpotMySite",
+      alternateName: "NRI Property Legal Services",
+      description:
+        "In-house legal assistance for NRIs buying or selling property in Andhra Pradesh and Telangana. Includes title verification, EC checks, deed drafting, POA, registration, tax/TDS compliance, and legal representation support.",
+      serviceOutput:
+        "Verified title documents, legal compliance reports, and registered sale deeds.",
+      category: "Legal and Property Services",
+      audience: {
+        "@type": "Audience",
+        audienceType: "Non-Resident Indians (NRIs)",
+      },
+      provider: { "@id": "https://spotmysite.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+        { "@type": "AdministrativeArea", name: "Telangana" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://spotmysite.com/services/property-legal-assistance",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+      },
+      hasPart: [
+        { "@type": "Service", name: "Title & Ownership Verification" },
+        { "@type": "Service", name: "Encumbrance Certificate (EC) Check" },
+        { "@type": "Service", name: "Agreement & Sale Deed Drafting" },
+        {
+          "@type": "Service",
+          name: "Power of Attorney & Registration Assistance",
+        },
+        { "@type": "Service", name: "Tax/TDS & Legal Compliance Support" },
+      ],
+      review: {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Verified NRI Client" },
+        datePublished: "2025-10-24",
+        reviewBody:
+          "After my dad passed, I had to transfer his property title while living in Australia. They took care of every form and follow-up with the MRO office. So smooth.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
+      image: [
+        "https://spotmysite.com/assets/legal-assistance1.jpg",
+        "https://spotmysite.com/assets/legal-assistance2.jpg",
+      ],
+      url: "https://spotmysite.com/services/property-legal-assistance",
+      mainEntityOfPage: {
+        "@id":
+          "https://spotmysite.com/services/property-legal-assistance#webpage",
+      },
+      inLanguage: "en",
+    },
   ],
-  review: {
-    "@type": "Review",
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Verified NRI Client" },
-    reviewBody:
-      "SpotMySite’s legal team handled my property sale in Hyderabad end-to-end — from title verification to registration. Absolutely professional and trustworthy.",
-  },
-  image: [
-    "https://spotmysite.com/assets/legal-assistance1.jpg",
-    "https://spotmysite.com/assets/legal-assistance2.jpg",
-  ],
-  url: "https://spotmysite.com/services/property-legal-assistance",
-  mainEntityOfPage: "https://spotmysite.com/services/property-legal-assistance",
 };
-
 export default function PropertyBuyLegalAssistance() {
   return (
     <Service>

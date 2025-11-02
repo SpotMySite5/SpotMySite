@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Land Status Check for NRIs | Protect Property in Andhra & Telangana",
+  title: "NRI Land Status Check | Protect Property in Andhra & Telangana",
   description:
-    "Get verified land inspection reports within 48 hours. SpotMySite helps NRIs prevent Boundary Disputes, dumping, and misuse across Andhra Pradesh and Telangana.",
+    "Get verified land inspection reports in 48 hours. SpotMySite helps NRIs prevent disputes, dumping, and misuse across Andhra Pradesh & Telangana.",
 };
 
 import React from "react";
@@ -9,65 +9,89 @@ import Service from "@/components/ui/service";
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://spotmysite.com/land-status-check/#service",
-  name: "Land Status Check for NRIs | SpotMySite",
-  serviceType: "Property Inspection / Land Verification",
-  alternateName: "NRI Land Verification & GPS Inspection",
-  description:
-    "Verified land inspection with GPS-tagged photos, timestamped HD video, and a structured report within 48 hours. Designed for NRIs and absentee owners across Andhra Pradesh and Telangana.",
-  url: "https://spotmysite.com/land-status-check",
-  provider: { "@id": "https://spotmysite.com/#organization" },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
-    { "@type": "AdministrativeArea", name: "Telangana" },
-  ],
-  audience: {
-    "@type": "Audience",
-    audienceType:
-      "NRIs, absentee landowners, out-of-state buyers, families managing ancestral land",
-  },
-  serviceOutput: [
-    "Complete perimeter photo set (entry, corners, surroundings)",
-    "GPS-tagged, timestamped HD walkthrough video",
-    "Inspection summary report with observations and red flags",
-    "Secure cloud delivery",
-  ],
-  category: "Real Estate Property Verification",
-  offers: {
-    "@type": "Offer",
-    url: "https://spotmysite.com/land-status-check",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "INR",
-      unitText: "Per Inspection",
-    },
-    availability: "https://schema.org/InStock",
-  },
-  availableChannel: [
+  "@graph": [
     {
-      "@type": "ServiceChannel",
-      serviceUrl: "https://spotmysite.com/land-status-check",
-      name: "Remote Delivery",
+      "@type": "WebPage",
+      "@id": "https://spotmysite.com/land-status-check#webpage",
+      url: "https://spotmysite.com/land-status-check",
+      name: "Land Status Check for NRIs | SpotMySite",
+      description:
+        "Verified land inspection with GPS-tagged photos, timestamped HD video, and a structured report within 48 hours. Designed for NRIs and absentee owners across Andhra Pradesh and Telangana.",
+      isPartOf: { "@id": "https://spotmysite.com/#website" },
+      about: { "@id": "https://spotmysite.com/#organization" },
+      inLanguage: "en",
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://spotmysite.com/assets/land-status-check1.jpg",
+      },
+    },
+    {
+      "@type": "Service",
+      "@id": "https://spotmysite.com/land-status-check#service",
+      name: "Land Status Check for NRIs | SpotMySite",
+      serviceType: "Property Inspection / Land Verification",
+      alternateName: "NRI Land Verification & GPS Inspection",
+      description:
+        "I bought a plot in Nellore years ago but had no idea what’s happening there. SpotMySite found that someone was dumping trash on one corner. They sent clear photos and GPS tags, we fixed it immediately.",
+      provider: { "@id": "https://spotmysite.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+        { "@type": "AdministrativeArea", name: "Telangana" },
+      ],
+      audience: {
+        "@type": "Audience",
+        audienceType:
+          "NRIs, absentee landowners, out-of-state buyers, families managing ancestral land",
+      },
+      serviceOutput: [
+        "Complete perimeter photo set (entry, corners, surroundings)",
+        "GPS-tagged, timestamped HD walkthrough video",
+        "Inspection summary report with observations and red flags",
+        "Secure cloud delivery",
+      ],
+      category: "Real Estate Property Verification",
+      offers: {
+        "@type": "Offer",
+        url: "https://spotmysite.com/land-status-check",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+      },
+      availableChannel: [
+        {
+          "@type": "ServiceChannel",
+          serviceUrl: "https://spotmysite.com/land-status-check",
+          name: "Remote Delivery",
+        },
+      ],
+      isSimilarTo: [
+        { "@type": "Service", name: "Fence & Boundary Installation" },
+        { "@type": "Service", name: "Land Cleanup & Vegetation Removal" },
+        { "@type": "Service", name: "Property Legal Assistance (Buy/Sell)" },
+      ],
+      review: {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Verified NRI Client" },
+        datePublished: "2025-10-24",
+        reviewBody:
+          "SpotMySite’s Land Status Check gave me complete clarity about my farmland near Vijayawada. The GPS images and HD video were incredibly detailed and professional.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
+      image: [
+        "https://spotmysite.com/assets/land-status-check1.jpg",
+        "https://spotmysite.com/assets/land-status-check2.jpg",
+      ],
+      url: "https://spotmysite.com/land-status-check",
+      mainEntityOfPage: {
+        "@id": "https://spotmysite.com/land-status-check#webpage",
+      },
+      inLanguage: "en",
     },
   ],
-  isSimilarTo: [
-    { "@type": "Service", name: "Fence & Boundary Installation" },
-    { "@type": "Service", name: "Land Cleanup & Vegetation Removal" },
-    { "@type": "Service", name: "Property Legal Assistance (Buy/Sell)" },
-  ],
-  review: {
-    "@type": "Review",
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Verified NRI Client" },
-    reviewBody:
-      "SpotMySite’s Land Status Check gave me complete clarity about my farmland near Vijayawada. The GPS images and HD video were incredibly detailed and professional.",
-  },
-  image: [
-    "https://spotmysite.com/assets/land-status-check1.jpg",
-    "https://spotmysite.com/assets/land-status-check2.jpg",
-  ],
-  mainEntityOfPage: "https://spotmysite.com/land-status-check",
 };
 
 export default function LandStatusCheck() {

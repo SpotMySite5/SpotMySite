@@ -1,63 +1,88 @@
 export const metadata = {
   title:
-    "Fence & Boundary Installation for NRIs | Secure Land in Andhra & Telangana",
+    "NRI Fence & Boundary Installation | Secure Land in Andhra & Telangana",
   description:
-    "Professionally managed fencing and boundary setup for NRI landowners. SpotMySite secures your property with GPS-proof installation across Andhra Pradesh & Telangana.",
+    "SpotMySite offers expert fencing and boundary installation for NRIs with GPS-proof security across Andhra Pradesh & Telangana.",
 };
 import React from "react";
 import Service from "@/components/ui/service";
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://spotmysite.com/services/fence-boundary-installation/#service",
-  serviceType: "Fence and Boundary Installation",
-  name: "Fence & Boundary Installation for NRIs | SpotMySite",
-  alternateName: "Land Fence Installation and Boundary Marking Service",
-  description:
-    "Professional fence and boundary installation services for NRI landowners across Andhra Pradesh and Telangana. SpotMySite delivers secure fencing with GPS-proof documentation and legal-ready reports.",
-  serviceOutput:
-    "Installed fencing with GPS-tagged photos, material details, and completion report.",
-  category: "Land Development and Property Protection",
-  audience: {
-    "@type": "Audience",
-    audienceType: "Non-Resident Indians (NRIs)",
-  },
-  provider: { "@id": "https://spotmysite.com/#organization" },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
-    { "@type": "AdministrativeArea", name: "Telangana" },
-  ],
-  offers: {
-    "@type": "Offer",
-    url: "https://spotmysite.com/services/fence-boundary-installation",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "INR",
-      unitText: "Per Project",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://spotmysite.com/services/fence-boundary-installation#webpage",
+      url: "https://spotmysite.com/services/fence-boundary-installation",
+      name: "Fence & Boundary Installation for NRIs | SpotMySite",
+      description:
+        "Professional fence and boundary installation services for NRI landowners across Andhra Pradesh and Telangana. SpotMySite delivers secure fencing with GPS-proof documentation and legal-ready reports.",
+      isPartOf: { "@id": "https://spotmysite.com/#website" },
+      about: { "@id": "https://spotmysite.com/#organization" },
+      inLanguage: "en",
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://spotmysite.com/assets/fencing1.jpg",
+      },
     },
-    availability: "https://schema.org/InStock",
-  },
-  hasPart: [
-    { "@type": "Service", name: "Barbed Wire Fencing" },
-    { "@type": "Service", name: "Chain-Link Fencing" },
-    { "@type": "Service", name: "Cement/Iron Pole + GI Wire Fencing" },
-    { "@type": "Service", name: "Concrete Peg Boundary Marking" },
+    {
+      "@type": "Service",
+      "@id":
+        "https://spotmysite.com/services/fence-boundary-installation#service",
+      serviceType: "Fence and Boundary Installation",
+      alternateName: "Land Fence Installation and Boundary Marking Service",
+      description:
+        "Professional fence and boundary installation services for NRI landowners across Andhra Pradesh and Telangana. SpotMySite delivers secure fencing with GPS-proof documentation and legal-ready reports.",
+      serviceOutput:
+        "Installed fencing with GPS-tagged photos, material details, and completion report.",
+      category: "Land Development and Property Protection",
+      audience: {
+        "@type": "Audience",
+        audienceType: "Non-Resident Indians (NRIs)",
+      },
+      provider: { "@id": "https://spotmysite.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+        { "@type": "AdministrativeArea", name: "Telangana" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://spotmysite.com/services/fence-boundary-installation",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+      },
+      hasPart: [
+        { "@type": "Service", name: "Barbed Wire Fencing" },
+        { "@type": "Service", name: "Chain-Link Fencing" },
+        { "@type": "Service", name: "Cement/Iron Pole + GI Wire Fencing" },
+        { "@type": "Service", name: "Concrete Peg Boundary Marking" },
+      ],
+      review: {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Verified NRI Client" },
+        datePublished: "2025-10-24",
+        reviewBody:
+          "Neighbors started using my Warangal plot as a shortcut. SpotMySite fenced it with barbed wire and sent photos with GPS proof  now the land feels protected.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
+      image: [
+        "https://spotmysite.com/assets/fencing1.jpg",
+        "https://spotmysite.com/assets/fencing2.jpg",
+      ],
+      url: "https://spotmysite.com/services/fence-boundary-installation",
+      mainEntityOfPage: {
+        "@id":
+          "https://spotmysite.com/services/fence-boundary-installation#webpage",
+      },
+      inLanguage: "en",
+    },
   ],
-  review: {
-    "@type": "Review",
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Verified NRI Client" },
-    reviewBody:
-      "SpotMySite handled our entire fencing project remotely with complete transparency and documentation. Highly recommended for NRIs!",
-  },
-  image: [
-    "https://spotmysite.com/assets/fencing1.jpg",
-    "https://spotmysite.com/assets/fencing2.jpg",
-  ],
-  url: "https://spotmysite.com/services/fence-boundary-installation",
-  mainEntityOfPage:
-    "https://spotmysite.com/services/fence-boundary-installation",
 };
 
 export default function FenceAndBoundaryInstallation() {

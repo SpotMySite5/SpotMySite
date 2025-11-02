@@ -1,8 +1,7 @@
 export const metadata = {
-  title:
-    "Property Video Inspection for NRIs | HD Visual Reports in Andhra & Telangana",
+  title: "NRI Property Video Inspection | HD Reports in Andhra & Telangana",
   description:
-    "SpotMySite offers HD property video inspections for NRIs across Andhra Pradesh & Telangana. Get GPS-tagged visuals, timestamped walkthroughs, and secure reports within 48 hours.",
+    "SpotMySite offers HD property video inspections for NRIs in Andhra Pradesh & Telangana with GPS-tagged visuals, timestamped walkthroughs, and 48-hour reports.",
 };
 
 import React from "react";
@@ -10,51 +9,78 @@ import Service from "@/components/ui/service";
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://spotmysite.com/services/property-video-inspection/#service",
-  serviceType: "Property Video Inspection",
-  name: "Property Video Inspection for NRIs | SpotMySite",
-  alternateName: "NRI Property Video Check Service",
-  provider: { "@id": "https://spotmysite.com/#organization" },
-  serviceOutput:
-    "HD video file, timestamped inspection report, and GPS-tagged proof images.",
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
-    { "@type": "AdministrativeArea", name: "Telangana" },
-  ],
-  description:
-    "SpotMySite provides HD property video inspections for NRIs and remote landlords across Andhra Pradesh and Telangana. Get GPS-tagged images, timestamped videos, and secure reports within 48 hours.",
-  offers: {
-    "@type": "Offer",
-    url: "https://spotmysite.com/services/property-video-inspection",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "INR",
-      unitText: "Per Inspection",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://spotmysite.com/services/property-video-inspection#webpage",
+      url: "https://spotmysite.com/services/property-video-inspection",
+      name: "Property Video Inspection for NRIs | SpotMySite",
+      description:
+        "SpotMySite provides HD property video inspections for NRIs and remote landlords across Andhra Pradesh and Telangana. Get GPS-tagged images, timestamped videos, and secure reports within 48 hours.",
+      isPartOf: { "@id": "https://spotmysite.com/#website" },
+      about: { "@id": "https://spotmysite.com/#organization" },
+      inLanguage: "en",
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://spotmysite.com/assets/property-inspection1.jpg",
+      },
     },
-    availability: "https://schema.org/InStock",
-  },
-  hasPart: [
-    { "@type": "Service", name: "HD Walkthrough Video" },
-    { "@type": "Service", name: "Live Video Call Inspection" },
-    { "@type": "Service", name: "GPS-Tagged Image Proof" },
-    { "@type": "Service", name: "Tenant Coordination" },
+    {
+      "@type": "Service",
+      "@id":
+        "https://spotmysite.com/services/property-video-inspection#service",
+      serviceType: "Property Video Inspection",
+      name: "Property Video Inspection for NRIs | SpotMySite",
+      alternateName: "NRI Property Video Check Service",
+      description:
+        "SpotMySite provides HD property video inspections for NRIs and remote landlords across Andhra Pradesh and Telangana. Get GPS-tagged images, timestamped videos, and secure reports within 48 hours.",
+      serviceOutput:
+        "HD video file, timestamped inspection report, and GPS-tagged proof images.",
+      category: "Real Estate Property Verification",
+      provider: { "@id": "https://spotmysite.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+        { "@type": "AdministrativeArea", name: "Telangana" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://spotmysite.com/services/property-video-inspection",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+      },
+      hasPart: [
+        { "@type": "Service", name: "HD Walkthrough Video" },
+        { "@type": "Service", name: "Live Video Call Inspection" },
+        { "@type": "Service", name: "GPS-Tagged Image Proof" },
+        { "@type": "Service", name: "Tenant Coordination" },
+      ],
+      review: {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Verified NRI Client" },
+        datePublished: "2025-10-24",
+        reviewBody:
+          "I live in Texas and hadn’t seen my flat in Vijayawada for almost two years. SpotMySite did a full video inspection, they even showed small balcony cracks I didn’t know about. Felt so reassuring to finally see it myself.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
+      image: [
+        "https://spotmysite.com/assets/property-inspection1.jpg",
+        "https://spotmysite.com/assets/property-inspection2.jpg",
+      ],
+      url: "https://spotmysite.com/services/property-video-inspection",
+      mainEntityOfPage: {
+        "@id":
+          "https://spotmysite.com/services/property-video-inspection#webpage",
+      },
+      inLanguage: "en",
+    },
   ],
-  review: {
-    "@type": "Review",
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Verified NRI Client" },
-    reviewBody:
-      "SpotMySite’s video inspection gave me complete visibility of my apartment in Vijayawada. The report was clear, secure, and fast.",
-  },
-  image: [
-    "https://spotmysite.com/assets/property-inspection1.jpg",
-    "https://spotmysite.com/assets/property-inspection2.jpg",
-  ],
-  url: "https://spotmysite.com/services/property-video-inspection",
-  mainEntityOfPage: "https://spotmysite.com/services/property-video-inspection",
 };
-
 export default function PropertyVideoInspection() {
   return (
     <Service>

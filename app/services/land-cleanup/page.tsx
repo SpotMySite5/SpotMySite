@@ -1,8 +1,7 @@
 export const metadata = {
-  title:
-    "Land Cleanup & Vegetation Removal for NRIs | SpotMySite Andhra & Telangana",
+  title: "NRI Land Cleanup & Vegetation Removal | SpotMySite AP & TS",
   description:
-    "SpotMySite helps NRIs clean, clear, and restore land across Andhra Pradesh & Telangana. Professional vegetation removal, debris clearing, and GPS-documented cleanup services.",
+    "SpotMySite helps NRIs clean and restore land across Andhra Pradesh & Telangana with expert vegetation removal, debris clearing, and GPS-proof cleanup.",
 };
 
 import React from "react";
@@ -10,56 +9,79 @@ import Service from "@/components/ui/service";
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://spotmysite.com/services/land-cleanup/#service",
-  serviceType: "Land Cleanup and Vegetation Removal",
-  name: "Land Cleanup & Vegetation Removal for NRIs | SpotMySite",
-  alternateName: "NRI Land Maintenance and Cleaning Service",
-  description:
-    "SpotMySite provides land cleanup and vegetation removal services for NRIs and absentee owners in Andhra Pradesh and Telangana. Includes debris removal, ground leveling, and full GPS-documented proof.",
-  serviceOutput:
-    "Cleaned and leveled land with before-and-after photographic and GPS-tagged evidence.",
-  category: "Property Maintenance Services",
-  audience: {
-    "@type": "Audience",
-    audienceType: "Non-Resident Indians (NRIs)",
-  },
-  provider: { "@id": "https://spotmysite.com/#organization" },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
-    { "@type": "AdministrativeArea", name: "Telangana" },
-  ],
-  offers: {
-    "@type": "Offer",
-    url: "https://spotmysite.com/services/land-cleanup",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "INR",
-      unitText: "Per Project",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://spotmysite.com/services/land-cleanup#webpage",
+      url: "https://spotmysite.com/services/land-cleanup",
+      name: "Land Cleanup & Vegetation Removal for NRIs | SpotMySite",
+      description:
+        "SpotMySite provides land cleanup and vegetation removal services for NRIs and absentee owners in Andhra Pradesh and Telangana. Includes debris removal, ground leveling, and full GPS-documented proof.",
+      isPartOf: { "@id": "https://spotmysite.com/#website" },
+      about: { "@id": "https://spotmysite.com/#organization" },
+      inLanguage: "en",
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://spotmysite.com/assets/cleanup1.jpg",
+      },
     },
-    availability: "https://schema.org/InStock",
-  },
-  hasPart: [
-    { "@type": "Service", name: "Vegetation Removal" },
-    { "@type": "Service", name: "Garbage and Debris Removal" },
-    { "@type": "Service", name: "Ground Leveling" },
-    { "@type": "Service", name: "Eco-Disposal Coordination" },
+    {
+      "@type": "Service",
+      "@id": "https://spotmysite.com/services/land-cleanup#service",
+      serviceType: "Land Cleanup and Vegetation Removal",
+      name: "Land Cleanup & Vegetation Removal for NRIs | SpotMySite",
+      alternateName: "NRI Land Maintenance and Cleaning Service",
+      description:
+        "SpotMySite provides land cleanup and vegetation removal services for NRIs and absentee owners in Andhra Pradesh and Telangana. Includes debris removal, ground leveling, and full GPS-documented proof.",
+      serviceOutput:
+        "Cleaned and leveled land with before-and-after photographic and GPS-tagged evidence.",
+      category: "Property Maintenance Services",
+      audience: {
+        "@type": "Audience",
+        audienceType: "Non-Resident Indians (NRIs)",
+      },
+      provider: { "@id": "https://spotmysite.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+        { "@type": "AdministrativeArea", name: "Telangana" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://spotmysite.com/services/land-cleanup",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+      },
+      hasPart: [
+        { "@type": "Service", name: "Vegetation Removal" },
+        { "@type": "Service", name: "Garbage and Debris Removal" },
+        { "@type": "Service", name: "Ground Leveling" },
+        { "@type": "Service", name: "Eco-Disposal Coordination" },
+      ],
+      review: {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Verified NRI Client" },
+        datePublished: "2025-10-24",
+        reviewBody:
+          "I wanted to sell my land in Kakinada but it looked totally abandoned. After the cleanup, the place looked so neat that buyers immediately showed interest.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
+      image: [
+        "https://spotmysite.com/assets/cleanup1.jpg",
+        "https://spotmysite.com/assets/cleanup2.jpg",
+      ],
+      url: "https://spotmysite.com/services/land-cleanup",
+      mainEntityOfPage: {
+        "@id": "https://spotmysite.com/services/land-cleanup#webpage",
+      },
+      inLanguage: "en",
+    },
   ],
-  review: {
-    "@type": "Review",
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Verified NRI Client" },
-    reviewBody:
-      "SpotMySite’s cleanup team restored our vacant land beautifully. Full GPS proof and transparent process — highly recommended for NRIs!",
-  },
-  image: [
-    "https://spotmysite.com/assets/cleanup1.jpg",
-    "https://spotmysite.com/assets/cleanup2.jpg",
-  ],
-  url: "https://spotmysite.com/services/land-cleanup",
-  mainEntityOfPage: "https://spotmysite.com/services/land-cleanup",
 };
-
 export default function LandCleanup() {
   return (
     <Service>

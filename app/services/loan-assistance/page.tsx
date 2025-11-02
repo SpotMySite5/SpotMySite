@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Home & Property Loan Assistance | SpotMySite",
+  title: "NRI Loan Assistance | Home & Land Loans in Andhra & Telangana",
   description:
-    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
+    "SpotMySite helps NRIs get home, land, and property loans across Andhra Pradesh & Telangana with end-to-end documentation, legal, and bank coordination.",
 };
 
 import React from "react";
@@ -9,54 +9,78 @@ import Service from "@/components/ui/service";
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://spotmysite.com/services/nri-loan-assistance/#service",
-  serviceType: "NRI Loan Assistance",
-  name: "NRI Loan Assistance | SpotMySite",
-  alternateName: "Home, Land & Construction Loan Support for NRIs",
-  description:
-    "SpotMySite provides end-to-end NRI loan assistance for home, land, construction, and commercial property loans across Andhra Pradesh and Telangana. Our team coordinates documentation, bank liaison, and legal opinion to ensure smooth approval.",
-  serviceOutput:
-    "Approved home or land loan with verified documentation and legal clearance.",
-  category: "Financial Services",
-  audience: {
-    "@type": "Audience",
-    audienceType: "Non-Resident Indians (NRIs)",
-  },
-  provider: { "@id": "https://spotmysite.com/#organization" },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
-    { "@type": "AdministrativeArea", name: "Telangana" },
-  ],
-  offers: {
-    "@type": "Offer",
-    url: "https://spotmysite.com/services/nri-loan-assistance",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "INR",
-      unitText: "Per Service",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://spotmysite.com/services/nri-loan-assistance#webpage",
+      url: "https://spotmysite.com/services/nri-loan-assistance",
+      name: "NRI Loan Assistance | SpotMySite",
+      description:
+        "SpotMySite provides end-to-end NRI loan assistance for home, land, construction, and commercial property loans across Andhra Pradesh and Telangana. Our team coordinates documentation, bank liaison, and legal opinion to ensure smooth approval.",
+      isPartOf: { "@id": "https://spotmysite.com/#website" },
+      about: { "@id": "https://spotmysite.com/#organization" },
+      inLanguage: "en",
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://spotmysite.com/assets/loan-assistance1.jpg",
+      },
     },
-    availability: "https://schema.org/InStock",
-  },
-  hasPart: [
-    { "@type": "Service", name: "Home Loan Assistance" },
-    { "@type": "Service", name: "Land or Plot Purchase Loan Assistance" },
-    { "@type": "Service", name: "Construction Loan Assistance" },
-    { "@type": "Service", name: "Commercial Property Loan Assistance" },
+    {
+      "@type": "Service",
+      "@id": "https://spotmysite.com/services/nri-loan-assistance#service",
+      serviceType: "NRI Loan Assistance",
+      name: "NRI Loan Assistance | SpotMySite",
+      alternateName: "Home, Land & Construction Loan Support for NRIs",
+      description:
+        "SpotMySite provides end-to-end NRI loan assistance for home, land, construction, and commercial property loans across Andhra Pradesh and Telangana. Our team coordinates documentation, bank liaison, and legal opinion to ensure smooth approval.",
+      serviceOutput:
+        "Approved home or land loan with verified documentation and legal clearance.",
+      category: "Financial Services",
+      audience: {
+        "@type": "Audience",
+        audienceType: "Non-Resident Indians (NRIs)",
+      },
+      provider: { "@id": "https://spotmysite.com/#organization" },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Andhra Pradesh" },
+        { "@type": "AdministrativeArea", name: "Telangana" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://spotmysite.com/services/nri-loan-assistance",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+      },
+      hasPart: [
+        { "@type": "Service", name: "Home Loan Assistance" },
+        { "@type": "Service", name: "Land or Plot Purchase Loan Assistance" },
+        { "@type": "Service", name: "Construction Loan Assistance" },
+        { "@type": "Service", name: "Commercial Property Loan Assistance" },
+      ],
+      review: {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Verified NRI Client" },
+        datePublished: "2025-10-24",
+        reviewBody:
+          "We compared multiple NRI loan options through SpotMySite. They explained everything clearly and helped us lock the best interest rate.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      },
+      image: [
+        "https://spotmysite.com/assets/loan-assistance1.jpg",
+        "https://spotmysite.com/assets/loan-assistance2.jpg",
+      ],
+      url: "https://spotmysite.com/services/nri-loan-assistance",
+      mainEntityOfPage: {
+        "@id": "https://spotmysite.com/services/nri-loan-assistance#webpage",
+      },
+      inLanguage: "en",
+    },
   ],
-  review: {
-    "@type": "Review",
-    reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-    author: { "@type": "Person", name: "Verified NRI Client" },
-    reviewBody:
-      "SpotMySite made our home loan approval seamless. Their coordination with banks and legal advisors saved us weeks of delay.",
-  },
-  image: [
-    "https://spotmysite.com/assets/loan-assistance1.jpg",
-    "https://spotmysite.com/assets/loan-assistance2.jpg",
-  ],
-  url: "https://spotmysite.com/services/nri-loan-assistance",
-  mainEntityOfPage: "https://spotmysite.com/services/nri-loan-assistance",
 };
 
 export default function LoanAssistance() {
