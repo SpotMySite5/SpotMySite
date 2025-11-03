@@ -115,8 +115,8 @@ export default function About() {
               <b>vague, delayed, or missing</b>.
             </p>
             <p>
-              “Looks like someone built a shed there,” an uncle once said. Weeks
-              of silence followed.
+              <i>“Looks like someone built a shed there”</i> an uncle once said.
+              Weeks of silence followed.
             </p>
             <p>
               Frustration turned into worry. Were the boundaries intact? Was the

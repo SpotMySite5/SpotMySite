@@ -1,6 +1,5 @@
 export const metadata = {
-  title:
-    "NRI Remote Buyer Walkthrough | Property Insights in Andhra & Telangana",
+  title: "NRI Remote Buyer Walkthrough | Property Insights in AP & TS",
   description:
     "SpotMySite offers Remote Buyer Walkthroughs for NRIs with HD property tours and local insights across Andhra Pradesh & Telangana to help you buy confidently.",
 };
@@ -53,19 +52,19 @@ const schema = {
         { "@type": "Service", name: "Local Area Intelligence Report" },
         { "@type": "Service", name: "Property Recommendation Analysis" },
       ],
-      review: {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Verified NRI Buyer" },
-        datePublished: "2025-10-24",
-        reviewBody:
-          "We’re in Toronto and wanted to see a flat before paying the booking amount. SpotMySite did a live walkthrough they even showed small cracks I might’ve missed if I was there.",
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-          worstRating: "1",
-        },
-      },
+      // review: {
+      //   "@type": "Review",
+      //   author: { "@type": "Person", name: "Verified NRI Buyer" },
+      //   datePublished: "2025-10-24",
+      //   reviewBody:
+      //     "We’re in Toronto and wanted to see a flat before paying the booking amount. SpotMySite did a live walkthrough they even showed small cracks I might’ve missed if I was there.",
+      //   reviewRating: {
+      //     "@type": "Rating",
+      //     ratingValue: "5",
+      //     bestRating: "5",
+      //     worstRating: "1",
+      //   },
+      // },
       image: [
         "https://spotmysite.com/assets/remote-walkthrough1.jpg",
         "https://spotmysite.com/assets/remote-walkthrough2.jpg",

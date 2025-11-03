@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "NRI Loan Assistance | Home & Land Loans in Andhra & Telangana",
+  title: "NRI Loan Assistance | Home & Land Loans in AP & TS",
   description:
     "SpotMySite helps NRIs get home, land, and property loans across Andhra Pradesh & Telangana with end-to-end documentation, legal, and bank coordination.",
 };
@@ -57,19 +57,19 @@ const schema = {
         { "@type": "Service", name: "Construction Loan Assistance" },
         { "@type": "Service", name: "Commercial Property Loan Assistance" },
       ],
-      review: {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Verified NRI Client" },
-        datePublished: "2025-10-24",
-        reviewBody:
-          "We compared multiple NRI loan options through SpotMySite. They explained everything clearly and helped us lock the best interest rate.",
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-          worstRating: "1",
-        },
-      },
+      // review: {
+      //   "@type": "Review",
+      //   author: { "@type": "Person", name: "Verified NRI Client" },
+      //   datePublished: "2025-10-24",
+      //   reviewBody:
+      //     "We compared multiple NRI loan options through SpotMySite. They explained everything clearly and helped us lock the best interest rate.",
+      //   reviewRating: {
+      //     "@type": "Rating",
+      //     ratingValue: "5",
+      //     bestRating: "5",
+      //     worstRating: "1",
+      //   },
+      // },
       image: [
         "https://spotmysite.com/assets/loan-assistance1.jpg",
         "https://spotmysite.com/assets/loan-assistance2.jpg",
@@ -119,7 +119,7 @@ export default function LoanAssistance() {
           OCI, visa, income proof, etc.)
         </li>
         <li>
-          <b>Property paperwork coordination</b> — title deed, tax receipts, EC,
+          <b>Property paperwork coordination</b> - title deed, tax receipts, EC,
           layout plans
         </li>
         <li>
@@ -153,17 +153,17 @@ export default function LoanAssistance() {
       <h3>Types of Loans We Help With</h3>
       <ul>
         <li>
-          <b>Home Loan</b> – Apartments, villas, independent houses
+          <b>Home Loan</b> - Apartments, villas, independent houses
         </li>
         <li>
-          <b>Plot Purchase Loan</b> – DTCP-approved land, residential or
+          <b>Plot Purchase Loan</b> - DTCP-approved land, residential or
           commercial
         </li>
         <li>
-          <b>Construction Loan</b> – Building new homes or adding floors
+          <b>Construction Loan</b> - Building new homes or adding floors
         </li>
         <li>
-          <b>Commercial Loan</b> – Shops, small offices, showrooms, mixed-use
+          <b>Commercial Loan</b> - Shops, small offices, showrooms, mixed-use
           buildings
         </li>
       </ul>
@@ -225,18 +225,18 @@ export default function LoanAssistance() {
           requirements
         </li>
         <li>
-          <b>Professionally packaged loan files</b> — no missing paperwork or
+          <b>Professionally packaged loan files</b> - no missing paperwork or
           rejections
         </li>
         <li>
-          <b>Single point of contact</b> — we handle all bank, legal, and
+          <b>Single point of contact</b> - we handle all bank, legal, and
           financial coordination
         </li>
         <li>
           Integrated <b>legal verification</b> before loan approval
         </li>
         <li>
-          <b>100% remote-friendly</b> — POA execution, video consults, secure
+          <b>100% remote-friendly</b> - POA execution, video consults, secure
           document exchange
         </li>
       </ul>
@@ -252,7 +252,7 @@ export default function LoanAssistance() {
       </p>
 
       <p>
-        <a href="/#contact">Request NRI Loan Assistance Today</a> — We help you
+        <a href="/#contact">Request NRI Loan Assistance Today</a> - We help you
         get the loan. You focus on the home or the opportunity.
       </p>
 

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "NRI Land Status Check | Protect Property in Andhra & Telangana",
+  title: "NRI Land Status Check | Protect Property in AP & TS",
   description:
     "Get verified land inspection reports in 48 hours. SpotMySite helps NRIs prevent disputes, dumping, and misuse across Andhra Pradesh & Telangana.",
 };
@@ -68,19 +68,19 @@ const schema = {
         { "@type": "Service", name: "Land Cleanup & Vegetation Removal" },
         { "@type": "Service", name: "Property Legal Assistance (Buy/Sell)" },
       ],
-      review: {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Verified NRI Client" },
-        datePublished: "2025-10-24",
-        reviewBody:
-          "SpotMySite’s Land Status Check gave me complete clarity about my farmland near Vijayawada. The GPS images and HD video were incredibly detailed and professional.",
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-          worstRating: "1",
-        },
-      },
+      // review: {
+      //   "@type": "Review",
+      //   author: { "@type": "Person", name: "Verified NRI Client" },
+      //   datePublished: "2025-10-24",
+      //   reviewBody:
+      //     "SpotMySite’s Land Status Check gave me complete clarity about my farmland near Vijayawada. The GPS images and HD video were incredibly detailed and professional.",
+      //   reviewRating: {
+      //     "@type": "Rating",
+      //     ratingValue: "5",
+      //     bestRating: "5",
+      //     worstRating: "1",
+      //   },
+      // },
       image: [
         "https://spotmysite.com/assets/land-status-check1.jpg",
         "https://spotmysite.com/assets/land-status-check2.jpg",

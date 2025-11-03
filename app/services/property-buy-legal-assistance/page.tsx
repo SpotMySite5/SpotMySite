@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Property Legal Help | Buy & Sell Support in Andhra & Telangana",
+  title: "NRI Property Legal Help | Buy & Sell Support in AP & TS",
   description:
-    "In-house legal support for NRIs: title & EC checks, POA drafting, and property registration across Andhra & Telangana. Transparent, compliant, end-to-end service.",
+    "In-house legal support for NRIs. Title & EC checks, POA drafting, & property registration across Andhra & Telangana. Transparent, compliant, end-to-end service.",
 };
 
 import React from "react";
@@ -63,19 +63,19 @@ const schema = {
         },
         { "@type": "Service", name: "Tax/TDS & Legal Compliance Support" },
       ],
-      review: {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Verified NRI Client" },
-        datePublished: "2025-10-24",
-        reviewBody:
-          "After my dad passed, I had to transfer his property title while living in Australia. They took care of every form and follow-up with the MRO office. So smooth.",
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-          worstRating: "1",
-        },
-      },
+      // review: {
+      //   "@type": "Review",
+      //   author: { "@type": "Person", name: "Verified NRI Client" },
+      //   datePublished: "2025-10-24",
+      //   reviewBody:
+      //     "After my dad passed, I had to transfer his property title while living in Australia. They took care of every form and follow-up with the MRO office. So smooth.",
+      //   reviewRating: {
+      //     "@type": "Rating",
+      //     ratingValue: "5",
+      //     bestRating: "5",
+      //     worstRating: "1",
+      //   },
+      // },
       image: [
         "https://spotmysite.com/assets/legal-assistance1.jpg",
         "https://spotmysite.com/assets/legal-assistance2.jpg",
@@ -250,7 +250,7 @@ export default function PropertyBuyLegalAssistance() {
         </li>
       </ul>
 
-      <h3>Make Every Transaction Legal—And Stress-Free.</h3>
+      <h3>Make Every Transaction Legal-And Stress-Free.</h3>
       <p>
         Property is personal. In India, it's also paperwork-heavy and legally
         complex. <b>Let SpotMySite simplify it.</b>

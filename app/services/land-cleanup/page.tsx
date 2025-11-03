@@ -57,19 +57,19 @@ const schema = {
         { "@type": "Service", name: "Ground Leveling" },
         { "@type": "Service", name: "Eco-Disposal Coordination" },
       ],
-      review: {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Verified NRI Client" },
-        datePublished: "2025-10-24",
-        reviewBody:
-          "I wanted to sell my land in Kakinada but it looked totally abandoned. After the cleanup, the place looked so neat that buyers immediately showed interest.",
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-          worstRating: "1",
-        },
-      },
+      // review: {
+      //   "@type": "Review",
+      //   author: { "@type": "Person", name: "Verified NRI Client" },
+      //   datePublished: "2025-10-24",
+      //   reviewBody:
+      //     "I wanted to sell my land in Kakinada but it looked totally abandoned. After the cleanup, the place looked so neat that buyers immediately showed interest.",
+      //   reviewRating: {
+      //     "@type": "Rating",
+      //     ratingValue: "5",
+      //     bestRating: "5",
+      //     worstRating: "1",
+      //   },
+      // },
       image: [
         "https://spotmysite.com/assets/cleanup1.jpg",
         "https://spotmysite.com/assets/cleanup2.jpg",

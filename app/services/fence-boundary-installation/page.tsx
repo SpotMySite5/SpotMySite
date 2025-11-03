@@ -1,6 +1,5 @@
 export const metadata = {
-  title:
-    "NRI Fence & Boundary Installation | Secure Land in Andhra & Telangana",
+  title: "NRI Fence & Boundary Installation | Secure Land in AP & TS",
   description:
     "SpotMySite offers expert fencing and boundary installation for NRIs with GPS-proof security across Andhra Pradesh & Telangana.",
 };
@@ -58,19 +57,19 @@ const schema = {
         { "@type": "Service", name: "Cement/Iron Pole + GI Wire Fencing" },
         { "@type": "Service", name: "Concrete Peg Boundary Marking" },
       ],
-      review: {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Verified NRI Client" },
-        datePublished: "2025-10-24",
-        reviewBody:
-          "Neighbors started using my Warangal plot as a shortcut. SpotMySite fenced it with barbed wire and sent photos with GPS proof  now the land feels protected.",
-        reviewRating: {
-          "@type": "Rating",
-          ratingValue: "5",
-          bestRating: "5",
-          worstRating: "1",
-        },
-      },
+      // review: {
+      //   "@type": "Review",
+      //   author: { "@type": "Person", name: "Verified NRI Client" },
+      //   datePublished: "2025-10-24",
+      //   reviewBody:
+      //     "Neighbors started using my Warangal plot as a shortcut. SpotMySite fenced it with barbed wire and sent photos with GPS proof  now the land feels protected.",
+      //   reviewRating: {
+      //     "@type": "Rating",
+      //     ratingValue: "5",
+      //     bestRating: "5",
+      //     worstRating: "1",
+      //   },
+      // },
       image: [
         "https://spotmysite.com/assets/fencing1.jpg",
         "https://spotmysite.com/assets/fencing2.jpg",
