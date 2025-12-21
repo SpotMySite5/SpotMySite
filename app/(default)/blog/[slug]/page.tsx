@@ -154,12 +154,10 @@ export async function generateStaticParams() {
   // dedupe and return as required shape: { slug: string }
   return Array.from(new Set(slugs)).map((slug) => ({ slug }));
 }
-export default function BlogDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const blog = posts.find((b) => b.url === `/blog/${params.slug}`);
+export default function BlogDetailPage(props: { params: any }) {
+  const { params } = props;
+  const slug = String(params?.slug || "");
+  const blog = posts.find((b) => b.url === `/blog/${slug}`);
 
   if (!blog) {
     return <h1>Blog not found</h1>;
