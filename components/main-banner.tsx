@@ -15,14 +15,20 @@ export default function MainBanner() {
           {/* Section header */}
           <div className="banner_left basis-3/7 max-lg:basis-full mx-auto max-w-3xl pl-24 pr-12 lg:pt-0 lg:pb-0 lg:my-auto pb-24 max-lg:pt-0 max-lg:pb-10 max-lg:px-6 md:pb-20">
             <h1 className="font-bold text-white font-(family-name:--font-service) text-3xl">
-              Your Property,
-              <br /> Verified for Peace of Mind.
+              Hey NRI,
+              <br />{" "}
+              <span className="text-2xl">
+                Manage your Property from Anywhere!
+              </span>
             </h1>
             {/* <h2 className="text-lg font-medium font-(family-name:--font-service) text-white "></h2> */}
             <p className="mt-4 text-md text-white font-(family-name:--font-service)">
-              <b>SpotMySite</b> Provides Property Services for NRIs & Absentee
-              Owners in Andhra Pradesh & Telangana from Inspections to Legal
-              Support, Delivered with Transparency and Trust...
+              <b>SpotMySite</b> helps NRIs and long-distance property owners
+              manage their homes in Hyderabad (Andhra Pradesh & Telangana) with
+              ease. From inspections to maintenance and legal support, we
+              deliver transparent, trustworthy, and hassle-free remote property
+              management, keeping your investment safe, cared for, and
+              worry-free...
               <small>
                 <a className="link" href="/about">
                   Explore More

@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "SpotMySite | Property Management & NRI Services in AP & TS",
+  title: "Careers at SpotMySite – Join Our Property Management Team",
   description:
-    "Reliable Property Management Services for NRIs & Absentee Owners in Andhra Pradesh & Telangana. Inspections, Land Checks, Fencing, Loans & Legal Support.",
+    "Explore careers at SpotMySite and help deliver verified property services for NRIs and absentee owners across Andhra Pradesh and Telangana.",
 };
 
 import Image from "next/image";
@@ -14,17 +14,6 @@ import { log } from "console";
 export default function Careers() {
   return (
     <div className="mt-20">
-      {/* <h2 className="text-center text-3xl font-(family-name:--font-service) font-bold md:text-4xl">
-        Born from Distance. Built on Trust.
-      </h2> */}
-      {/* <div className="letter">
-        <Image
-          className="relative"
-          width={800}
-          src={CareerImage}
-          alt="Logo 01"
-        />
-      </div> */}
       <section className="flex justify-center sec_careers " id="contact">
         <div className="container">
           <div className=" flex flex-row pt-12 max-lg:pt-5 max-md:flex-col-reverse">

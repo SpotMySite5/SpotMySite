@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Loan Assistance | Home & Land Loans in AP & TS",
+  title: "Property Loan Assistance Services for NRIs in AP & TG",
   description:
-    "SpotMySite helps NRIs get home, land, and property loans across Andhra Pradesh & Telangana with end-to-end documentation, legal, and bank coordination.",
+    "SpotMySite provides NRI loan assistance services in AP & TG, coordinating with banks, legal advisors, and experts to handle eligibility checks and documentation",
 };
 
 import React from "react";
@@ -156,8 +156,7 @@ export default function LoanAssistance() {
           <b>Home Loan</b> - Apartments, villas, independent houses
         </li>
         <li>
-          <b>Plot Purchase Loan</b> - DTCP-approved land, residential or
-          commercial
+          <b>Plot Purchase Loan</b> - Land, residential or commercial
         </li>
         <li>
           <b>Construction Loan</b> - Building new homes or adding floors

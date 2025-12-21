@@ -42,7 +42,7 @@ export default function Header() {
                 Services
               </a>
             </li>
-            <li>
+            <li className="max-sm:hidden">
               <a
                 href="/careers"
                 className="text-sm font-medium px-3  text-gray-200 hover:text-gray-800"
@@ -52,10 +52,18 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="/#contact"
-                className="text-sm font-medium px-3 pr-10 max-md:pr-5 text-gray-200 hover:text-gray-800"
+                href="/contact"
+                className="text-sm font-medium px-3 text-gray-200 hover:text-gray-800"
               >
                 Contact&nbsp;Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="/blog"
+                className="text-sm font-medium px-3 pr-10 max-md:pr-5 text-gray-200 hover:text-gray-800"
+              >
+                Blog
               </a>
             </li>
           </ul>

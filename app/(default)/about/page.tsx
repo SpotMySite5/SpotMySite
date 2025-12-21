@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "About SpotMySite | NRI Property Management & Protection",
+  title: "Get Expert Property Management Services in AP & TG for NRIs",
   description:
-    "SpotMySite is a young, NRI-focused property management company helping owners across Andhra & Telangana with trusted inspections, fencing, and legal support.",
+    "Managing property from abroad can be challenging for many NRIs. Get reliable property management services in Andhra and Telangana with complete peace of mind.",
 };
 
 const schema = {
@@ -102,75 +102,96 @@ export default function About() {
   return (
     <div className="mt-30 about_sec max-lg:p-12 max-md:p-8 max-lg:pt-0">
       <h1 className="text-center text-3xl font-(family-name:--font-service) font-bold md:text-4xl">
-        Born from Distance. Built on Trust.
+        Reliable Property Management Services for NRIs.
       </h1>
       <div className="letter space-bottom--xxx-large space-top--x-large mt-10">
         <div className="letter__container">
           <div className="letter__article">
             <p>
-              We never planned to start a property management company. It began
-              with a simple need just wanting an update about a small piece of{" "}
-              <b>family land in India</b>. we relied on relatives for
-              information, but updates were often{" "}
-              <b>vague, delayed, or missing</b>.
+              We never set out to build a property management company. It
+              started with a simple need, wanting a clear update on a small
+              piece of family land in India.
             </p>
             <p>
-              <i>“Looks like someone built a shed there”</i> an uncle once said.
-              Weeks of silence followed.
+              Like many NRIs, we depended on relatives for information. But
+              updates were often vague, delayed, or incomplete.
             </p>
             <p>
-              Frustration turned into worry. Were the boundaries intact? Was the
-              land being misused? Zooming into blurry satellite maps wasn’t
-              enough. That’s when it hit us, if we were struggling, thousands of
-              NRIs and <b>absentee owners</b> must be feeling the same. That
-              moment became the beginning of <b>SpotMySite</b> a{" "}
+              <i>“Looks like someone built a shed there,”</i> an uncle once
+              mentioned. Weeks passed with no further clarity.
+            </p>
+            <p>
+              Concern quickly turned into anxiety. Were the boundaries intact?
+              Was the land being encroached upon? Satellite images and blurry
+              maps couldn’t answer these questions. Around this time, we
+              realized how difficult it was for NRIs searching for{" "}
+              <b>property management services in Hyderabad</b>, even basic
+              visibility was hard to come by.
+            </p>
+            <p>
+              That realization sparked the beginning of <b>SpotMySite</b>.
+            </p>
+            <p>
+              SpotMySite wasn’t born from a business plan, but from a genuine
+              need for <b>trust, transparency, and real on-ground visibility</b>
+              . If we were struggling to protect our own property from thousands
+              of miles away, countless others were likely facing the same
+              challenge.
+            </p>
+            <p>
+              We may be a new name, but our mission is deeply rooted, to give
+              NRIs and distant property owners true peace of mind with{" "}
+              <b>real eyes on the ground</b>. As we grew, many clients shared
+              that they had worked with multiple{" "}
+              <b>property management companies in Andhra Pradesh</b>, yet still
+              lacked reliable updates, reinforcing the need for a better, more
+              accountable solution.
+            </p>
+            <p>
+              Today, our on-ground teams across{" "}
+              <b>Andhra Pradesh and Telangana</b>
+              include trained field agents, legal professionals, and dedicated
+              coordinators. We manage everything from{" "}
               <b>
-                young, purpose-driven property management and protection company
-              </b>
-              , born not from a business plan but from a{" "}
-              <b>need for clarity, connection, and trust</b>.
-            </p>
-            <p>
-              We may be a new name, but our mission runs deep, to give every NRI
-              and remote property owner <b>real visibility and peace of mind</b>
-              , with <b>eyes and proof on the ground</b>
-              when they can’t be there themselves.
-            </p>
-            <p>
-              Our growing team across <b>Andhra Pradesh and Telangana</b>{" "}
-              includes{" "}
-              <b>
-                trained field agents, legal experts, and on-ground coordinators
-              </b>{" "}
-              who handle everything from{" "}
-              <b>
-                Land Status Checks and Property Video Inspections to Land
-                Cleanup, Fencing, Legal Assistance, and NRI Loan Support
-              </b>
-              .
-            </p>
-            <p>We’re not brokers. We don’t sell or take commissions.</p>
-            <p>
-              We work <b>only for you</b> protecting your property as if it were
-              our own. Every inspection, video, and report we deliver answers
-              one simple question:
-            </p>
-            <p>
-              <i>“If this were mine, what would I want to know right now?”</i>
-            </p>
-            <p>
-              <b>SpotMySite</b> may be young, but it was built on something
-              timeless{" "}
-              <b>
-                trust, honesty, and the belief that distance should never come
-                between you and your land
+                land status checks and video inspections to land cleanup,
+                fencing, legal guidance, and NRI loan assistance
               </b>
               .
             </p>
             <p>
-              If you’ve ever worried about your property back home, you’re not
-              alone. We’ve been there. That’s why we built SpotMySite{" "}
-              <b>for people like us, for people like you</b>.
+              We are not brokers.
+              <br />
+              We don’t sell properties.
+              <br />
+              We don’t work on commissions.
+            </p>
+            <p>
+              We work <b>only for you</b>, protecting your property as if it
+              were our own.
+            </p>
+            <p>
+              Every inspection, every video, and every report we deliver is
+              guided by one simple question.
+            </p>
+            <p>
+              <b>
+                <i>
+                  “If this were my land, what would I want to know right now?”
+                </i>
+              </b>
+            </p>
+            <p>
+              SpotMySite may be young, but it is built on timeless values,{" "}
+              <b>trust, honesty, and accountability</b>. Distance should never
+              stand between you and your property.
+            </p>
+            <p>
+              If you’ve ever worried about what’s happening to your land back
+              home, you’re not alone. We’ve been there too.
+            </p>
+            <p>
+              That’s why we built <b>SpotMySite</b>, for people like us, and for
+              people like you.
             </p>
           </div>
         </div>

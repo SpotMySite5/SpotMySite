@@ -45,7 +45,7 @@ export default function ContactUs() {
           {/* Section header */}
 
           {/* Grid */}
-          <div className="basis-1/2 max-md:basis-full overflow-hidden mx-auto px-12 max-lg:px-12 pt-0 pb-24 max-md:pb-10 max-lg:pb-10 ">
+          <div className="basis-1/2 max-md:basis-full overflow-hidden mx-auto max-md:mx-0 px-12 max-lg:px-12 max-md:px-6 pt-0 pb-24 max-md:pb-10 max-lg:pb-10 ">
             {/* TODO: Replace this with your contact form or card component */}
             <div className="bg-white rounded-xl shadow-lg p-8 drop-shadow-xl">
               <div className="mb-2 flex justify-center">
@@ -59,12 +59,12 @@ export default function ContactUs() {
               <hr className="mb-6 border-gray-200" />
               <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-4 flex gap-4">
-                  <div className="w-1/2">
+                  <div className="w-full">
                     <label
                       className="block text-gray-700 mb-2"
                       htmlFor="firstName"
                     >
-                      First Name
+                      Name
                     </label>
                     <input
                       className="w-full px-3 py-2 border rounded"
@@ -74,7 +74,7 @@ export default function ContactUs() {
                       required
                     />
                   </div>
-                  <div className="w-1/2">
+                  {/* <div className="w-1/2">
                     <label
                       className="block text-gray-700 mb-2"
                       htmlFor="lastName"
@@ -88,7 +88,7 @@ export default function ContactUs() {
                       name="lastname"
                       required
                     />
-                  </div>
+                  </div> */}
                 </div>
                 <div className="mb-4">
                   <label className="block text-gray-700 mb-2" htmlFor="email">

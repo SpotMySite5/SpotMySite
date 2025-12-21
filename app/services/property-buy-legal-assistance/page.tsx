@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Property Legal Help | Buy & Sell Support in AP & TS",
+  title: "Property Buy & Sell Legal Assistance Services for NRIs",
   description:
-    "In-house legal support for NRIs. Title & EC checks, POA drafting, & property registration across Andhra & Telangana. Transparent, compliant, end-to-end service.",
+    "SpotMySite legal team offers end-to-end legal assistance for NRIs in AP & TG, ensuring compliance, transparency, and a stress-free experience.",
 };
 
 import React from "react";
@@ -197,11 +197,11 @@ export default function PropertyBuyLegalAssistance() {
       <h3>How It Works</h3>
       <ol>
         <li>
-          <b>Initial Consultation</b> - Share if you’re buying or selling; we
+          <b>Initial Consultation</b> - Share if you’re buying or selling, we
           review property status.
         </li>
         <li>
-          <b>Document Collection &amp; Review</b> - Secure upload; we check
+          <b>Document Collection &amp; Review</b> - Secure upload, we check
           accuracy &amp; risks.
         </li>
         <li>

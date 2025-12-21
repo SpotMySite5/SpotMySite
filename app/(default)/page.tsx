@@ -1,17 +1,13 @@
 export const metadata = {
-  title: "SpotMySite | NRI Property Management in Andhra & Telangana",
+  title: "Property Management Services for NRIs in AP & TG SpotMySite",
   description:
-    "SpotMySite offers expert fencing and boundary installation for NRIs with GPS-proof security across Andhra Pradesh & Telangana.",
+    "Hey NRIs and absentee owners, manage your property from anywhere. SpotMySite provides trusted on-ground property management services in Andhra and Telangana.",
 };
 
-import Hero from "@/components/hero-home";
-import BusinessCategories from "@/components/business-categories";
-import FeaturesPlanet from "@/components/features-planet";
-import LargeTestimonial from "@/components/large-testimonial";
-import Cta from "@/components/cta";
 import MainBanner from "@/components/main-banner";
 import ServicesComponent from "@/components/services-home";
 import ContactUs from "@/components/contact-us";
+import Steps from "@/components/steps";
 
 const schema = {
   "@context": "https://schema.org",
@@ -146,6 +142,7 @@ export default function Home() {
       <div className="container-fluid">
         <MainBanner />
         <ServicesComponent />
+        <Steps />
         <ContactUs />
       </div>
       <script

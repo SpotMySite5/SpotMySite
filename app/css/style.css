@@ -482,6 +482,13 @@ transform: rotate(-135deg);
     position: relative
 }
 
+.blog__container {
+    /* display: flex; */
+    margin-inline:auto;
+    position: relative;
+    width: min(100%,50em)
+}
+
 .letter__container {
     display: flex;
     margin-inline:auto;
@@ -540,6 +547,21 @@ transform: rotate(-135deg);
     border: none;
 }
 
+}
+
+.blog_sec .letter__article {
+    background: none;
+    border-radius: 0;
+    box-shadow:  none;
+    display: grid;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    font-family: var( --font-content) !important;
+    border: none;
+}
+.blog__container .letter__article h3, .blog__container .letter__article p {
+    margin-bottom: 0.675rem;
 }
 
 .letter__article {
