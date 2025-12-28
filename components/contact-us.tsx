@@ -19,10 +19,10 @@ export default function ContactUs() {
     console.log(form.current);
     emailjs
       .sendForm(
-        "service_eyggq9s",
-        "template_e24hq49",
+        "service_etuvfw6",
+        "template_0fyld1j",
         form.current,
-        "cwjwFqL7CjZlE5QXK"
+        "XBb9BjDVKrM6DHOcf"
       )
       .then(
         (result) => {
@@ -431,6 +431,27 @@ export default function ContactUs() {
                   </span>
                 </li>
               </ul>
+              <div>
+                <h3 className="mt-6 text-xl font-bold">
+                  <span
+                    className="text-3xl border-4 border-black font-black rounded-(--my-radius)"
+                    style={{
+                      padding: "5px 15px",
+                      position: "relative",
+                      top: "20px",
+                    }}
+                  >
+                    ?
+                  </span>{" "}
+                  For any other queries, feel free to reach out to us at{" "}
+                  <a
+                    href="mailto:support@spotmysite.com"
+                    className="text-blue-500 hover:underline pl-14"
+                  >
+                    support@spotmysite.com
+                  </a>
+                </h3>
+              </div>
             </div>
           </div>
         </div>
