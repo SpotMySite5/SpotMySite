@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Property Video Inspection | HD Reports in AP & TS",
+  title: "Property Video Inspection Services for NRIs in AP & TG",
   description:
-    "SpotMySite offers HD property video inspections for NRIs in Andhra Pradesh & Telangana with GPS-tagged visuals, timestamped walkthroughs, and 48-hour reports.",
+    "Get a complete visual walkthrough of your property, conducted by a trained and uniformed SpotMySite inspector. Contact us for property video inspection services",
 };
 
 import React from "react";

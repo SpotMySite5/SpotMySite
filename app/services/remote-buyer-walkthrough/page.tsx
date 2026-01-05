@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Remote Buyer Walkthrough | Property Insights in AP & TS",
+  title: "Remote Buyer Walkthrough Services for NRIs in AP & TG",
   description:
-    "SpotMySite offers Remote Buyer Walkthroughs for NRIs with HD property tours and local insights across Andhra Pradesh & Telangana to help you buy confidently.",
+    "SpotMySite delivers remote buyer walkthroughs that go beyond simple video coverage, offering real-time guided walkthroughs for NRIs and buyers.",
 };
 
 import React from "react";

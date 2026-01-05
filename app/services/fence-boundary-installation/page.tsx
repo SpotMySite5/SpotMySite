@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Fence & Boundary Installation | Secure Land in AP & TS",
+  title: "Fence & Boundary Installation Services for NRIs in AP & TG",
   description:
-    "SpotMySite offers expert fencing and boundary installation for NRIs with GPS-proof security across Andhra Pradesh & Telangana.",
+    "SpotMySite delivers end-to-end fencing and boundary installation services across Andhra Pradesh and Telangana, designed specifically for NRI property owners.",
 };
 import React from "react";
 import Service from "@/components/ui/service";

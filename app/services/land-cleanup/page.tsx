@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Land Cleanup & Vegetation Removal | SpotMySite AP & TS",
+  title: "Land Cleanup & Vegetation Removal Services for NRIs AP & TG",
   description:
-    "SpotMySite helps NRIs clean and restore land across Andhra Pradesh & Telangana with expert vegetation removal, debris clearing, and GPS-proof cleanup.",
+    "SpotMySite provides professional land cleanup and vegetation removal services for NRI property owners across Andhra Pradesh and Telangana.",
 };
 
 import React from "react";

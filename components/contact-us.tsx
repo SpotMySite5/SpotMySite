@@ -10,13 +10,15 @@ import Avatar05 from "@/public/images/image5.png";
 import Avatar06 from "@/public/images/image6.png";
 import Avatar07 from "@/public/images/image7.png";
 import Logo1 from "@/public/images/logo-dark.png";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 export default function ContactUs() {
   const form = useRef<any>(null);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [phone, setPhone] = useState("");
   const sendEmail = (e: any) => {
     e.preventDefault();
-    console.log(form.current);
     emailjs
       .sendForm(
         "service_etuvfw6",
@@ -29,6 +31,8 @@ export default function ContactUs() {
           console.log(result.text);
           setIsSuccess(true);
           form.current.reset();
+          form.current.phone.value = "";
+          setPhone("");
         },
         (error) => {
           console.log(error.text);
@@ -106,7 +110,23 @@ export default function ContactUs() {
                   <label className="block text-gray-700 mb-2" htmlFor="phone">
                     Phone
                   </label>
-                  <div className="flex items-center border rounded">
+                  <PhoneInput
+                    placeholder="Enter phone number"
+                    inputClass="w-full px-3 py-5 border rounded"
+                    inputStyle={{ width: "100%", border: "1px solid #6a7282" }}
+                    buttonStyle={{
+                      border: "1px solid #6a7282",
+                      borderRadius: "5px 0 0 5px",
+                    }}
+                    inputProps={{
+                      name: "phone",
+                      required: true,
+                      autoFocus: false,
+                    }}
+                    value={phone}
+                    onChange={setPhone}
+                  />
+                  {/* <div className="flex items-center border rounded">
                     <input
                       className="w-full px-3 py-2 border rounded"
                       type="tel"
@@ -124,7 +144,7 @@ export default function ContactUs() {
                         }
                       }}
                     />
-                  </div>
+                  </div> */}
                   {/* <small className="text-gray-400">
                     Format: +CountryCode | Number (e.g. +1 | 555 123 4567)
                   </small> */}
@@ -198,7 +218,7 @@ export default function ContactUs() {
                   {!isSuccess ? "Submit Request" : "Request Submitted"}
                 </button>
               </form>
-              {/* {isSuccess && (
+              {isSuccess && (
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                   <div
                     id="toast-success"
@@ -246,7 +266,7 @@ export default function ContactUs() {
                     </button>
                   </div>
                 </div>
-              )} */}
+              )}
             </div>
           </div>
           <div className="contact_right basis-1/2 max-md:basis-full mx-auto max-md:mx-0 max-w-3xl  px-12 max-md:px-6 pt-0 pb-24 text-left md:pb-20 max-md:pb-8">
@@ -431,27 +451,30 @@ export default function ContactUs() {
                   </span>
                 </li>
               </ul>
-              <div>
-                <h3 className="mt-6 text-xl font-bold">
-                  <span
-                    className="text-3xl border-4 border-black font-black rounded-(--my-radius)"
-                    style={{
-                      padding: "5px 15px",
-                      position: "relative",
-                      top: "20px",
-                    }}
-                  >
-                    ?
-                  </span>{" "}
+            </div>
+            <div>
+              <h3 className="mt-6 text-xl flex font-bold">
+                <span
+                  className="text-3xl border-4 border-black font-black rounded-(--my-radius) mr-2"
+                  style={{
+                    padding: "5px 16px",
+                    height: "fit-content",
+                    position: "relative",
+                    top: "0px",
+                  }}
+                >
+                  ?
+                </span>{" "}
+                <span>
                   For any other queries, feel free to reach out to us at{" "}
                   <a
                     href="mailto:support@spotmysite.com"
-                    className="text-blue-500 hover:underline pl-14"
+                    className="text-blue-500 hover:underline"
                   >
                     support@spotmysite.com
                   </a>
-                </h3>
-              </div>
+                </span>
+              </h3>
             </div>
           </div>
         </div>

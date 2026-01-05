@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NRI Land Status Check | Protect Property in AP & TS",
+  title: "Land Status Check Services for NRIs in AP & TG",
   description:
-    "Get verified land inspection reports in 48 hours. SpotMySite helps NRIs prevent disputes, dumping, and misuse across Andhra Pradesh & Telangana.",
+    "Receive on-ground land inspection reports with GPS-tagged photos and videos to protect your land from misuse, encroachments, and disputes for NRIs",
 };
 
 import React from "react";

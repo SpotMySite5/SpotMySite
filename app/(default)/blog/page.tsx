@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "SpotMySite Blog | NRI Property Management Services in AP & TG",
+  title: "Property Management Insights for NRIs in India",
   description:
     "Read expert insights on property management, land verification, and common risks NRIs face while owning property in india.",
 };
