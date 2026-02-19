@@ -102,54 +102,54 @@ const schema = {
   ],
 };
 
-const articles = [
-  {
-    id: "1",
-    title:
-      "What Are Property Management Services in India? How Do They Benefit NRIs?",
-    date: "2025-12-15",
-    image: "/images/blog/blog1.png",
-    url: "/blog/property-management-services-india",
-  },
-  {
-    id: "2",
-    title: "The Biggest Responsibilities of Property Management Services",
-    date: "2025-12-01",
-    image: "/images/blog/blog2.png",
-    url: "/blog/property-management-responsibilities",
-  },
-];
+// const articles = [
+//   {
+//     id: "1",
+//     title:
+//       "What Are Property Management Services in India? How Do They Benefit NRIs?",
+//     date: "2025-12-15",
+//     image: "/images/blog/blog1.png",
+//     url: "/blog/property-management-services-india",
+//   },
+//   {
+//     id: "2",
+//     title: "The Biggest Responsibilities of Property Management Services",
+//     date: "2025-12-01",
+//     image: "/images/blog/blog2.png",
+//     url: "/blog/property-management-responsibilities",
+//   },
+// ];
 
-const featured = articles[0];
+// const featured = articles[0];
 
-const postsSchema = posts.map((p) => ({
-  "@type": "BlogPosting",
-  headline: p.title,
-  url: `https://spotmysite.com${p.url}`,
-  datePublished: p.date,
-  image: [`https://spotmysite.com${p.image}`],
-  author: { "@type": "Organization", name: "SpotMySite" },
-}));
+// const postsSchema = posts.map((p) => ({
+//   "@type": "BlogPosting",
+//   headline: p.title,
+//   url: `https://spotmysite.com${p.url}`,
+//   datePublished: p.date,
+//   image: [`https://spotmysite.com${p.image}`],
+//   author: { "@type": "Organization", name: "SpotMySite" },
+// }));
 
-const pageSchema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    ...schema["@graph"],
-    {
-      "@type": "Blog",
-      "@id": "https://spotmysite.com/blog/#blog",
-      name: "SpotMySite Blog",
-      url: "https://spotmysite.com/blog/",
-      isPartOf: { "@id": "https://spotmysite.com/#website" },
-      blogPost: postsSchema,
-    },
-  ],
-};
+// const pageSchema = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     ...schema["@graph"],
+//     {
+//       "@type": "Blog",
+//       "@id": "https://spotmysite.com/blog/#blog",
+//       name: "SpotMySite Blog",
+//       url: "https://spotmysite.com/blog/",
+//       isPartOf: { "@id": "https://spotmysite.com/#website" },
+//       blogPost: postsSchema,
+//     },
+//   ],
+// };
 
 export async function generateStaticParams() {
   // This must return ALL possible slugs
   const slugs = posts.map((post) =>
-    post.url.replace(/^\/+/, "").replace(/^blog\//, "")
+    post.url.replace(/^\/+/, "").replace(/^blog\//, ""),
   );
   // dedupe and return as required shape: { slug: string }
   return Array.from(new Set(slugs)).map((slug) => ({ slug }));

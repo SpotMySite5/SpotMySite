@@ -19,7 +19,7 @@ type Blog = {
 
 export default function BlogPage({ blog }: { blog: Blog }) {
   const formattedDate = blog.date
-    ? new Date(blog.date).toLocaleDateString("en-IN", {
+    ? new Date(`${blog.date}T00:00:00`).toLocaleDateString("en-IN", {
         year: "numeric",
         month: "long",
         day: "numeric",

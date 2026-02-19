@@ -104,7 +104,7 @@ const articles = [
     id: "1",
     title:
       "What Are Property Management Services in India? How Do They Benefit NRIs?",
-    date: "2025-12-15",
+    date: "2025-12-01",
     image: "/images/blog/blog1.png",
     url: "/blog/property-management-services-india",
     content: {
@@ -169,7 +169,7 @@ const articles = [
   {
     id: "2",
     title: "The Biggest Responsibilities of Property Management Services",
-    date: "2025-12-01",
+    date: "2025-12-15",
     image: "/images/blog/blog2.png",
     url: "/blog/property-management-responsibilities",
     content: {
@@ -221,6 +221,93 @@ const articles = [
           ],
         },
       ],
+    },
+  },
+  {
+    id: "3",
+    title: "What Happens When a Property Is Left Unchecked",
+    date: "2026-01-01",
+    image: "/images/blog/blog3.png",
+    url: "/blog/property-left-unchecked",
+    content: {
+      title: "What Happens When a Property Is Left Unchecked",
+      paragraphs: [
+        "Property ownership often brings a sense of completion. Once the purchase is finalized and documents are secured, many owners assume the major responsibilities are behind them. Over time, attention shifts elsewhere, work, family, or new priorities, and the property slowly fades into the background.",
+        "However, property does not remain unchanged simply because it is out of sight.",
+      ],
+      toc: [
+        {
+          title: "Property Continues to Change Over Time",
+          paragraphs: [
+            "Every property exists within an environment that is constantly evolving. Surrounding development, weather conditions, access points, and human activity all influence a property’s condition. Even properties that remain unused continue to age and respond to these external factors.",
+            "Boundaries may become less visible, structures experience natural wear, and surrounding areas may change in ways that affect usability or value. What once seemed familiar may no longer reflect the current situation on the ground.",
+          ],
+        },
+        {
+          title: "Gradual Issues Are Often Overlooked",
+          paragraphs: [
+            "Most property-related issues do not appear suddenly. They develop gradually and often go unnoticed for extended periods.",
+            "Minor wear, overgrowth, unclear boundaries, or changes in nearby activity may seem insignificant at first. Individually, these issues rarely demand immediate attention. Over time, however, they accumulate and become more difficult to address.",
+            "Unchecked properties often face challenges not because of neglect, but because early signs were easy to overlook.",
+          ],
+        },
+        {
+          title: "Information Gaps Increase Over Time",
+          paragraphs: [
+            "When a property remains unchecked, owners may rely on assumptions or outdated information rather than current facts. Occasional updates or second-hand information rarely provide a complete picture of the property’s actual condition.",
+            "As time passes, the gap between perception and reality can widen. This lack of clarity often becomes evident when owners need to make important decisions regarding the property.",
+            "Staying informed helps reduce uncertainty and supports better decision-making.",
+          ],
+        },
+        {
+          title: "Impact on Property Value and Flexibility",
+          paragraphs: [
+            "A property’s value is influenced not only by market conditions but also by its physical condition, accessibility, and surrounding context.",
+            "When properties are left unattended, flexibility can gradually diminish. Actions such as selling, developing, or repurposing a property may require additional effort, verification, or corrective measures that could have been avoided earlier.",
+            "Addressing issues sooner helps preserve both value and options.",
+          ],
+        },
+        {
+          title: "Awareness Supports Long-Term Ownership",
+          paragraphs: [
+            "Maintaining awareness does not require constant involvement. It simply means having a clear understanding of the property’s current state.",
+            "Awareness allows owners to:",
+            "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 1. Identify changes early",
+            "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 2. Avoid unexpected complications",
+            "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 3. Make informed decisions with confidence",
+            "It transforms property ownership from a passive experience into a well-informed one.",
+          ],
+        },
+        {
+          title: "Closing Perspective",
+          paragraphs: [
+            "Properties perform best when they are treated as ongoing responsibilities rather than one-time transactions.",
+            "Leaving a property unchecked does not always result in immediate problems, but it often leads to uncertainty. When attention eventually returns to the property, that uncertainty can complicate decisions.",
+            "Staying informed is not about anticipating problems, it is about ensuring clarity, confidence, and preparedness when decisions need to be made.",
+          ],
+        },
+      ],
+    },
+  },
+  {
+    id: "4",
+    title: "Decision-Making Depends on Current Information",
+    date: "2026-01-15",
+    image: "/images/blog/blog4.png",
+    url: "/blog/decision-making-depends",
+    content: {
+      title: "Decision-Making Depends on Current Information",
+      paragraphs: [
+        "Property decisions in property management are shaped by the information available at the moment they are made. Whether a decision relates to maintenance planning, financial commitments, future use, or long-term strategy, the quality of the outcome often depends on how current that information is. Property is not static, and decisions based on outdated understanding can gradually lose relevance as conditions change.",
+        "Most property information is gathered at specific points in time, during purchase, handover, or initial documentation. At that stage, details about condition, surroundings, and access accurately reflect reality. As time passes, however, properties continue to evolve. Physical wear occurs naturally, nearby development progresses, usage patterns shift, and regulatory expectations may change. Without periodic updates, information that was once reliable becomes less aligned with present conditions.",
+        "In many cases, familiarity replaces verification. Owners and stakeholders rely on memory, prior records, or assumptions formed years earlier. While this may feel sufficient when no obvious issues are visible, it introduces uncertainty into decision-making. When changes occur quietly, decisions made on outdated assumptions often require later adjustments, sometimes at inconvenient times.",
+        "Current information helps reduce this uncertainty by providing a clearer picture of what exists today rather than what existed in the past. With updated insight, decisions tend to be more deliberate, better timed, and easier to execute. Planning becomes more accurate, priorities are clearer, and unexpected obstacles are less likely to arise during implementation.",
+        "Timing also plays a significant role in property-related decisions. Many actions are sensitive to scheduling, coordination, and market conditions. Delays caused by incomplete or outdated information can affect feasibility and efficiency. Access to current information allows decisions to be made proactively rather than reactively, helping preserve flexibility and control.",
+        "As properties are held over longer periods, the importance of updated understanding increases. Long-term ownership introduces layers of change that are not always visible through documentation alone. Decisions made later in the ownership cycle often carry greater impact, making it essential that they are based on present conditions rather than historical context.",
+        "In property management, information functions as an operational tool rather than static documentation. When information is current, decision-making becomes more structured and predictable. When it is not, decisions are more likely to be reactive and uncertain.",
+        "Ultimately, effective property decisions rely on relevance. While past information provides valuable background, it cannot substitute for present insight. Decisions grounded in current information are better aligned with reality and better suited to long-term outcomes.",
+      ],
+      toc: [],
     },
   },
 ];
@@ -339,7 +426,7 @@ export default function Blogs() {
                         const then = new Date(post.date).getTime();
                         const diffMs = Math.max(0, now - then);
                         const diffDays = Math.floor(
-                          diffMs / (1000 * 60 * 60 * 24)
+                          diffMs / (1000 * 60 * 60 * 24),
                         );
 
                         if (diffDays === 0) return "Today";
