@@ -15,7 +15,7 @@ export default function MainBanner() {
           {/* Section header */}
           <div className="banner_left basis-3/7 max-lg:basis-full mx-auto max-w-3xl pl-24 pr-12 lg:pt-0 lg:pb-0 lg:my-auto pb-24 max-lg:pt-0 max-lg:pb-10 max-lg:px-6 md:pb-20">
             <h1 className="font-bold text-white font-(family-name:--font-service) text-3xl">
-              Hey NRI,
+              {/* Hey NRI, */}
               <br />{" "}
               <span className="text-2xl">
                 Manage your Property from Anywhere!

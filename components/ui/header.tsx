@@ -11,33 +11,19 @@ export default function Header() {
             <Logo />
           </div>
           {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3 max-md:gap-1 2xl:mr-auto">
-            {/* <li>
-              <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
-              >
-                Login
-              </Link>
-            </li>
-            <li>
-              <Link href="/signup" className=" text-gray-200">
-                Register
-              </Link>
-            </li> */}
+          <ul className="flex flex-1 items-center text-center justify-end gap-3 max-md:gap-1 2xl:mr-auto">
             <li>
               <a
                 href="/about"
-                className="text-sm font-medium px-3  text-gray-200 hover:text-gray-100"
+                className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100"
               >
                 About
               </a>
-              <span aria-hidden="true" className="h-6 w-px bg-gray-200"></span>
             </li>
             <li className="max-sm:hidden">
               <a
                 href="/#services"
-                className="text-sm font-medium px-3  text-gray-200 hover:text-gray-800"
+                className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100"
               >
                 Services
               </a>
@@ -45,7 +31,7 @@ export default function Header() {
             <li className="max-sm:hidden">
               <a
                 href="/careers"
-                className="text-sm font-medium px-3  text-gray-200 hover:text-gray-800"
+                className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100"
               >
                 Careers
               </a>
@@ -53,7 +39,7 @@ export default function Header() {
             <li>
               <a
                 href="/contact"
-                className="text-sm font-medium px-3 text-gray-200 hover:text-gray-800"
+                className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100"
               >
                 Contact&nbsp;Us
               </a>
@@ -61,7 +47,7 @@ export default function Header() {
             <li>
               <a
                 href="/blog"
-                className="text-sm font-medium px-3 pr-10 max-md:pr-5 text-gray-200 hover:text-gray-800"
+                className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100 mr-7 max-md:mr-3"
               >
                 Blog
               </a>
@@ -69,6 +55,29 @@ export default function Header() {
           </ul>
         </div>
       </div>
+      <style jsx>{`
+        .link-underline-center {
+          position: relative;
+          display: inline-block;
+          text-align: center;
+        }
+        .link-underline-center::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 2px;
+          background: #ffffff;
+          transform: scaleX(0);
+          transform-origin: center;
+          transition: transform 260ms ease;
+        }
+        .link-underline-center:hover::after,
+        .link-underline-center:focus::after {
+          transform: scaleX(1);
+        }
+      `}</style>
     </header>
   );
 }

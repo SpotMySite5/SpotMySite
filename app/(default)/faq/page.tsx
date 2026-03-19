@@ -1,9 +1,9 @@
+import Accordion from "@/components/accordion";
 export const metadata = {
   title: "FAQ | SpotMySite",
   description:
     "Learn how SpotMySite collects, uses, and protects your personal information while delivering property services for NRIs and absentee owners.",
 };
-import Accordion from "@/components/accordion";
 
 const faq = [
   {

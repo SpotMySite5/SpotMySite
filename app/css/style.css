@@ -718,3 +718,14 @@ transform: rotate(-135deg);
   font-weight: 600;
   margin-right: 0.5rem;
 }
+
+.icon_label > svg {
+  display: inline;
+  width: calc(var(--spacing) * 4);
+  height: calc(var(--spacing) * 4);
+}
+.droplist_label > svg {
+  display: inline;
+  width: calc(var(--spacing) * 5);
+  height: calc(var(--spacing) * 5);
+}

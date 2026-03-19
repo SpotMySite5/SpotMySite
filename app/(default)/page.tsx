@@ -142,7 +142,7 @@ export default function Home() {
       <div className="container-fluid">
         <MainBanner />
         <ServicesComponent />
-        <Steps />
+        {/* <Steps /> */}
         <ContactUs />
       </div>
       <script
