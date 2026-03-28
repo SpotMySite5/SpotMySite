@@ -171,7 +171,7 @@ export default async function BlogDetailPage(props: { params: any }) {
   return <PropertyDetail property={property} />;
 }
 
-export async function getPropertyImages(slug: string): Promise<string[]> {
+async function getPropertyImages(slug: string): Promise<string[]> {
   const dir = path.join(process.cwd(), "public", "images", "property", slug);
   try {
     const files = await fs.promises.readdir(dir);
