@@ -4,7 +4,73 @@ import MarketBanner from "@/components/market-banner";
 import PropertyListing from "@/components/property-listings";
 import ServicesComponent from "@/components/services-home";
 import Steps from "@/components/steps";
-
+{
+  /*
+  {
+    id: "p1",
+    title: "2BHK, Velimela, Hyderabad,TS",
+    price: "81,25,000",
+    subprice: "6,700/sq.ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 2,
+      bathrooms: 2,
+      type: "Apartment",
+      plotArea: "",
+      builtArea: "1,250 sq ft",
+      facing: "",
+      totalFloors: "",
+      floorNo: 14,
+      age: "",
+      approvedBy: "RERA Approved",
+      amenities: ["Gated Community"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-1/image-1.jpeg",
+    url: "/market/property-1",
+    content: [
+      {
+        title: "Explore this property",
+        paragraphs: [
+          "Situated in Velimela, this 2-bedroom residence at Aaditri Empire forms part of a gated residential community nearing completion. With possession scheduled for the end of June 2026, the home offers the clarity of near-ready ownership, a space approaching completion rather than distant delivery.",
+          "Spanning approximately 1,250 square feet, the west-facing orientation allows warm evening light to settle naturally into the living spaces. The layout is composed with balance in mind, offering defined private areas alongside an open central living environment designed for everyday comfort.",
+        ],
+      },
+      {
+        title: "Living Experience",
+        paragraphs: [
+          "The living and dining areas unfold with openness, offering a setting suited for both quiet evenings and shared gatherings. Natural light filters through the windows, enhancing the sense of space and calm within the interiors.",
+          "The kitchen is positioned for everyday efficiency, while remaining connected to the central living space, encouraging a rhythm that feels both convenient and intuitive. Every corner has been planned to support daily living with ease.",
+        ],
+      },
+      {
+        title: "Private Spaces",
+        paragraphs: [
+          "Two well-sized bedrooms provide private retreats within the home. The primary bedroom offers an en-suite bathroom, creating a personal space designed for comfort and privacy. The second bedroom adapts effortlessly, whether for family, guests, or a flexible work-from-home setting.",
+          "Both bathrooms are proportioned to support functionality while maintaining a clean, modern aesthetic.",
+        ],
+      },
+      {
+        title: "A Project Nearing Completion",
+        paragraphs: [
+          "Aaditri Empire is a RERA-approved development, providing regulatory assurance and structural transparency. As the project approaches final stages of completion, buyers benefit from the clarity of a near-ready home, reducing uncertainty often associated with early-stage properties.",
+          "With handover expected at the end of June, this residence presents the opportunity to step into ownership with confidence and minimal waiting time.",
+        ],
+      },
+      {
+        title: "The Setting: Velimela",
+        paragraphs: [
+          "Positioned within one of Hyderabad’s steadily developing residential corridors, Velimela combines a quieter neighborhood atmosphere with growing connectivity to the city’s western employment hubs. Its proximity to areas such as Tellapur, Kollur, and the Financial District places it within reach of major workplaces while retaining a more residential character.",
+          "Ongoing infrastructure development and expanding community planning continue to shape Velimela into an emerging choice for both end-users and long-term investors.",
+          "Here, life unfolds at a measured pace, connected to opportunity, yet comfortably removed from the intensity of the urban core.",
+        ],
+      },
+    ],
+    location: "Velimela, Kollur, Hyderabad, Telangana",
+  },
+  
+  */
+}
 const articles = [
   {
     id: "p1",
@@ -340,68 +406,6 @@ const articles = [
       },
     ],
     location: "Pendurthi, Visakhapatnam, Andhra Pradesh",
-  },
-  {
-    id: "p5",
-    title: "2BHK, Velimela, Hyderabad,TS",
-    price: "81,25,000",
-    subprice: "6,700/sq.ft",
-    type: "For sale",
-    propertyDetails: {
-      bedrooms: 2,
-      bathrooms: 2,
-      type: "Apartment",
-      plotArea: "",
-      builtArea: "1,250 sq ft",
-      facing: "",
-      totalFloors: "",
-      floorNo: 14,
-      age: "",
-      approvedBy: "RERA Approved",
-      amenities: ["Gated Community"],
-    },
-    images: [] as string[],
-    propertyImage: "/images/property/property-1/image-1.jpeg",
-    url: "/market/property-1",
-    content: [
-      {
-        title: "Explore this property",
-        paragraphs: [
-          "Situated in Velimela, this 2-bedroom residence at Aaditri Empire forms part of a gated residential community nearing completion. With possession scheduled for the end of June 2026, the home offers the clarity of near-ready ownership, a space approaching completion rather than distant delivery.",
-          "Spanning approximately 1,250 square feet, the west-facing orientation allows warm evening light to settle naturally into the living spaces. The layout is composed with balance in mind, offering defined private areas alongside an open central living environment designed for everyday comfort.",
-        ],
-      },
-      {
-        title: "Living Experience",
-        paragraphs: [
-          "The living and dining areas unfold with openness, offering a setting suited for both quiet evenings and shared gatherings. Natural light filters through the windows, enhancing the sense of space and calm within the interiors.",
-          "The kitchen is positioned for everyday efficiency, while remaining connected to the central living space, encouraging a rhythm that feels both convenient and intuitive. Every corner has been planned to support daily living with ease.",
-        ],
-      },
-      {
-        title: "Private Spaces",
-        paragraphs: [
-          "Two well-sized bedrooms provide private retreats within the home. The primary bedroom offers an en-suite bathroom, creating a personal space designed for comfort and privacy. The second bedroom adapts effortlessly, whether for family, guests, or a flexible work-from-home setting.",
-          "Both bathrooms are proportioned to support functionality while maintaining a clean, modern aesthetic.",
-        ],
-      },
-      {
-        title: "A Project Nearing Completion",
-        paragraphs: [
-          "Aaditri Empire is a RERA-approved development, providing regulatory assurance and structural transparency. As the project approaches final stages of completion, buyers benefit from the clarity of a near-ready home, reducing uncertainty often associated with early-stage properties.",
-          "With handover expected at the end of June, this residence presents the opportunity to step into ownership with confidence and minimal waiting time.",
-        ],
-      },
-      {
-        title: "The Setting: Velimela",
-        paragraphs: [
-          "Positioned within one of Hyderabad’s steadily developing residential corridors, Velimela combines a quieter neighborhood atmosphere with growing connectivity to the city’s western employment hubs. Its proximity to areas such as Tellapur, Kollur, and the Financial District places it within reach of major workplaces while retaining a more residential character.",
-          "Ongoing infrastructure development and expanding community planning continue to shape Velimela into an emerging choice for both end-users and long-term investors.",
-          "Here, life unfolds at a measured pace, connected to opportunity, yet comfortably removed from the intensity of the urban core.",
-        ],
-      },
-    ],
-    location: "Velimela, Kollur, Hyderabad, Telangana",
   },
 ];
 

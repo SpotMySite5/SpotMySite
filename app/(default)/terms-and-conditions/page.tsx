@@ -293,6 +293,48 @@ export default function TermsAndConditions() {
                   arbitration will be charged separately based on actual costs.
                 </p>
               </li>
+              <li>
+                <p>
+                  <b>Marketplace Services:</b>
+                </p>
+                <p>
+                  SpotMySite operates a digital property listing platform called
+                  <b> SpotMySite Marketplace</b>, where property owners may
+                  submit their properties for listing and potential buyers may
+                  explore verified property listings.
+                </p>
+                <p className="mt-2">
+                  SpotMySite may conduct a preliminary review of ownership
+                  documents before publishing a property listing. However, such
+                  verification is limited to the documents provided by the
+                  property owner and should not be considered a substitute for
+                  independent legal due diligence.
+                </p>
+                <p className="mt-2">
+                  Buyers are strongly advised to conduct their own legal
+                  verification and property inspections before entering into any
+                  transaction.
+                </p>
+                <p className="mt-2">
+                  SpotMySite may charge a{" "}
+                  <b>
+                    service facilitation fee of up to 1.5% of the final property
+                    transaction value
+                  </b>{" "}
+                  for properties successfully transacted through the SpotMySite
+                  Marketplace.
+                </p>
+                <p className="mt-2">
+                  SpotMySite operates as a{" "}
+                  <b>property discovery and verification platform</b> and does
+                  not act as a real estate broker or agent unless explicitly
+                  stated in a separate written agreement.
+                </p>
+                <p className="mt-2">
+                  SpotMySite reserves the right to approve, reject, or remove
+                  property listings at its discretion.
+                </p>
+              </li>
             </ol>
             <h2>Governing Law & Jurisdiction</h2>
             <p>

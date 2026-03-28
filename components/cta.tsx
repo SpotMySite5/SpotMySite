@@ -1,54 +1,73 @@
-import Image from "next/image";
-import Stripes from "@/public/images/stripes-dark.svg";
+"use client";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 export default function Cta() {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div
-          className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-gray-900"
-          data-aos="zoom-y-out"
-        >
-          {/* Glow */}
-          <div
-            className="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2 translate-y-1/2"
-            aria-hidden="true"
-          >
-            <div className="h-56 w-[480px] rounded-full border-[20px] border-blue-500 blur-3xl" />
-          </div>
-          {/* Stripes illustration */}
-          <div
-            className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/2 transform"
-            aria-hidden="true"
-          >
-            <Image
-              className="max-w-none"
-              src={Stripes}
-              width={768}
-              height={432}
-              alt="Stripes"
-            />
-          </div>
-          <div className="px-4 py-12 md:px-12 md:py-20">
-            <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-700/.7),transparent)1] md:mb-12 md:text-4xl">
-              Create your next project with Simple
+        <div className="py-12 md:py-12">
+          {/* Section header */}
+          <div className="mx-auto pb-10 md:pb-10">
+            <h2 className="text-3xl w-3/4 inline-flex font-(family-name:--font-service) font-bold md:text-4xl">
+              Looking to sell your property?
             </h2>
-            <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <a
-                className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                href="#0"
-              >
-                <span className="relative inline-flex items-center">
-                  Start Free Trial{" "}
-                  <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                    -&gt;
-                  </span>
-                </span>
-              </a>
+            <a
+              href="/market/sell"
+              className="cta-button group rounded-full w-1/4 cursor-pointer float-right bg-(--navbar-bg) text-white px-4 py-2 flex items-center justify-center"
+            >
+              Sell Property{" "}
+              <IoIosArrowRoundForward className="cta-icon inline-block size-8 ml-3" />
+            </a>
+            {/* <p className=" w-1/4 float-right text-sm font-(family-name:--font-content)"></p> */}
+          </div>
+          <div className="grid grid-cols-4 text-center md:gap-8">
+            <div>
+              <p className="mx-auto p-3 w-14 h-14 rounded-full bg-gray-200">
+                <span className="text-xl ">01</span>
+              </p>
+
+              <p className="mt-3 text-base font-semibold">
+                Ownership & document verification
+              </p>
+            </div>
+            <div>
+              <p className="mx-auto p-3 w-14 h-14 rounded-full bg-gray-200">
+                <span className="text-xl ">02</span>
+              </p>
+              <p className="mt-3 text-base font-semibold">
+                Premium property listing with full transparency
+              </p>
+            </div>
+            <div>
+              <p className="mx-auto p-3 w-14 h-14 rounded-full bg-gray-200">
+                <span className="text-xl ">03</span>
+              </p>
+              <p className="mt-3 text-base font-semibold">
+                Serious buyers only
+                <br /> no spam calls
+              </p>
+            </div>
+            <div>
+              <p className="mx-auto p-3 w-14 h-14 rounded-full bg-gray-200">
+                <span className="text-xl ">04</span>
+              </p>
+              <p className="mt-3 text-base font-semibold">
+                Legal guidance throughout the transaction
+              </p>
             </div>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .cta-button :global(.cta-icon) {
+          transition: transform 180ms ease;
+          transform: translateX(0);
+        }
+        .cta-button:hover :global(.cta-icon) {
+          transform: translateX(8px);
+        }
+      `}</style>
     </section>
   );
 }

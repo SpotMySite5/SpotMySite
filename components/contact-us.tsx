@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
 import Avatar01 from "@/public/images/image1.png";
@@ -17,6 +17,32 @@ export default function ContactUs() {
   const form = useRef<any>(null);
   const [isSuccess, setIsSuccess] = useState(false);
   const [phone, setPhone] = useState("");
+  const [phoneCountry, setPhoneCountry] = useState<string>("in");
+
+  useEffect(() => {
+    try {
+      const lang =
+        navigator.language || (navigator.languages && navigator.languages[0]);
+      if (lang && lang.includes("-")) {
+        const cc = lang.split("-")[1].toLowerCase();
+        setPhoneCountry(cc);
+        return;
+      }
+    } catch (e) {
+      // ignore
+    }
+
+    // Fallback: lightweight IP geolocation (no key) — replace with your own server API if preferred
+    fetch("https://ipapi.co/json/")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data?.country_code)
+          setPhoneCountry(String(data.country_code).toLowerCase());
+      })
+      .catch(() => {
+        /* keep default */
+      });
+  }, []);
   const sendEmail = (e: any) => {
     e.preventDefault();
     emailjs
@@ -24,7 +50,7 @@ export default function ContactUs() {
         "service_etuvfw6",
         "template_0fyld1j",
         form.current,
-        "XBb9BjDVKrM6DHOcf"
+        "XBb9BjDVKrM6DHOcf",
       )
       .then(
         (result) => {
@@ -36,7 +62,7 @@ export default function ContactUs() {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
   };
   return (
@@ -123,31 +149,11 @@ export default function ContactUs() {
                       required: true,
                       autoFocus: false,
                     }}
+                    country={phoneCountry}
+                    countryCodeEditable={false}
                     value={phone}
                     onChange={setPhone}
                   />
-                  {/* <div className="flex items-center border rounded">
-                    <input
-                      className="w-full px-3 py-2 border rounded"
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      placeholder=""
-                      // pattern="^\+\d{1,2}\s?\|\s?\d{4,}$"
-                      inputMode="tel"
-                      maxLength={20}
-                      onKeyDown={(e) => {
-                        const allowed =
-                          /[0-9+]|Backspace|Delete|ArrowLeft|ArrowRight|Tab|Home|End/;
-                        if (!allowed.test(e.key) && !(e.ctrlKey || e.metaKey)) {
-                          e.preventDefault();
-                        }
-                      }}
-                    />
-                  </div> */}
-                  {/* <small className="text-gray-400">
-                    Format: +CountryCode | Number (e.g. +1 | 555 123 4567)
-                  </small> */}
                 </div>
                 <div className="mb-4">
                   <label

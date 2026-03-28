@@ -111,11 +111,12 @@ export default function PrivacyPolicy() {
               At <b>SpotMySite</b>, we respect the trust you place in us. This
               Privacy Policy explains how we collect, use, and protect your
               personal information when you access or use our website,
-              <a href="www.spotmysite.com">www.spotmysite.com</a>, along with
-              any related software or mobile applications (collectively referred
-              to as the “Website”). We are committed to handling your
-              information responsibly and in line with applicable laws and
-              accepted industry practices.
+              <a href="www.spotmysite.com">www.spotmysite.com</a>, including
+              property services, inspections, verification services, and the
+              SpotMySite Marketplace, along with any related software or mobile
+              applications (collectively referred to as the “Website”). We are
+              committed to handling your information responsibly and in line
+              with applicable laws and accepted industry practices.
             </p>
             <p>
               By using the Website, you agree to the terms outlined in this
@@ -140,8 +141,9 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <b>Transaction-Related Information:</b> When you engage
-                SpotMySite services, we may collect details such as your name,
-                email address, phone number, location, and service-related
+                SpotMySite services or interact with property listings on the
+                SpotMySite Marketplace, we may collect details such as your
+                name, email address, phone number, location, and service-related
                 information.
               </li>
             </ul>
@@ -203,6 +205,16 @@ export default function PrivacyPolicy() {
               We may disclose personal information where required by law, to
               comply with legal processes, or to protect our rights, users, and
               operations.
+            </p>
+            <p>
+              In cases where property owners submit properties for listing on
+              the SpotMySite Marketplace, SpotMySite may review property-related
+              documents for verification purposes before publishing the listing.
+            </p>
+            <p>
+              Sensitive documents such as identity proof or ownership documents
+              submitted for verification are used only for internal verification
+              purposes and are not publicly displayed on the Website.
             </p>
             <h3>Third-Party Services</h3>
             <p>

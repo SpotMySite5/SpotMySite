@@ -95,6 +95,36 @@ const faq = [
     answer:
       "SpotMySite offers pre-purchase verification services where our team visits the site, checks the surroundings, captures HD video and photos, and provides a clear on-ground status report so you can make an informed decision before investing.",
   },
+  {
+    question: "What is SpotMySite Marketplace?",
+    answer:
+      "SpotMySite Marketplace is a curated property platform serving Andhra Pradesh and Telangana. We publish carefully reviewed listings designed for secure and transparent transactions.",
+  },
+  {
+    question: "How is SpotMySite different from other property portals?",
+    answer:
+      "Unlike open portals that prioritize volume, we prioritize credibility. Each property goes through a structured review process before being published, eliminating spam and misleading listings.",
+  },
+  {
+    question: "Is my contact information made public?",
+    answer:
+      "No. We follow a privacy-first approach. Seller contact details are never displayed publicly, and buyer communication is managed in a controlled manner.",
+  },
+  {
+    question: "What types of properties are listed?",
+    answer:
+      "We feature apartments, villas, open plots, agricultural land, and commercial properties across Andhra Pradesh and Telangana.",
+  },
+  {
+    question: "How long does the review process take?",
+    answer:
+      "Once the required documents are submitted, properties are typically reviewed within a few business days.",
+  },
+  {
+    question: "Is there a fee to list a property?",
+    answer:
+      "No, listing is free. We only charge for document verification to maintain platform integrity.",
+  },
 ];
 
 export default function FAQ() {
