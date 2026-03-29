@@ -93,11 +93,11 @@ export default function PropertyListing({ posts }: { posts: any[] }) {
   }, [posts, location, propertyType, type]);
   return (
     <section
-      className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto lg:min-h-auto xl:container xl:mx-auto"
+      className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto lg:min-h-auto xl:container xl:mx-auto px-6"
       id="services"
     >
-      <div className="grid grid-cols-5 gap-4 mt-5">
-        <div className="col-span-1 col-start-2 ...">
+      <div className="grid grid-cols-5 max-sm:grid-cols-3 gap-4 mt-5">
+        <div className="col-span-1 col-start-2 max-sm:col-start-1 ...">
           <DropList
             items={LocationOptions}
             value={location}
@@ -131,7 +131,7 @@ export default function PropertyListing({ posts }: { posts: any[] }) {
       <div className="mx-auto py-15">
         <section className="grid grid-cols-1 lg:grid-cols-1 gap-8">
           <div className="lg:col-span-3 space-y-6">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-16">
+            <div className="grid grid-cols-3 max-md:grid-cols-1 max-lg:grid-cols-2 gap-16">
               <style>{`
               /* add a small clock icon before the post date */
               // .property{
