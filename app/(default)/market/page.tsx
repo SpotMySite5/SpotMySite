@@ -226,7 +226,7 @@ const articles = [
       amenities: ["Corner Flat", "Courtyard View", "2 Car Parking"],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-1/image-1.jpeg",
+    propertyImage: "/images/property/property-3/image-17.jpeg",
     url: "/market/property-3",
     content: [
       {
