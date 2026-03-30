@@ -292,7 +292,7 @@ const articles = [
       amenities: ["Electricity Available", "Ready for construction"],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-1/image-1.jpeg",
+    propertyImage: "/images/property/property-4/image-3.jpeg",
     url: "/market/property-4",
     content: [
       {
