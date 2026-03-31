@@ -348,7 +348,56 @@ const articles = [
         ],
       },
     ],
-    propertyFeatures: [],
+    propertyFeatures: [
+	      {
+        title: "Wellness & Recreation",
+        details: [
+          "Aerobics Centre",
+          "Basketball Court",
+          "Jogging Track",
+		  "Lawn Tennis Court",
+		  "Amphitheatre",
+		  "Swimming Pool",
+		  "Gymnasium",
+        ],
+      },
+  {
+    title: "Community & Social Spaces",
+    details: [
+      "Clubhouse",
+      "Party Hall",
+      "Conference Room",
+      "Business Center",
+      "Reading Room",
+      "Terrace Garden",
+    ],
+  },
+  {
+    title: "Work & Productivity",
+    details: [
+      "Privacy Workstations",
+      "Audio Video Conference Facility",
+    ],
+  },
+  {
+    title: "Safety & Security",
+    details: [
+      "Security Cabin",
+      "CCTV Enabled Property",
+    ],
+  },
+  {
+    title: "Sustainability & Infrastructure",
+    details: [
+      "Recycling for Waste Reduction",
+      "Organic Waste Composting",
+      "Health Safe Low VOC Paints",
+      "LED Lighting for Common Areas",
+      "Water Efficient Fixtures",
+      "Solar Panels on Roof",
+    ],
+  },
+],
     location: "Kollur, Hyderabad, Telangana",
   },
   {
