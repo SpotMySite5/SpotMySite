@@ -489,7 +489,7 @@ const articles = [
    {
     id: "p6",
     title: "4BHK Premium Villa in Gated Community – North Hyderabad",
-    price: "₹2,75,00,000",
+    price: "2,75,00,000",
     subprice: "4,444 per Sq Ft",
     type: "For sale",
     propertyDetails: {
