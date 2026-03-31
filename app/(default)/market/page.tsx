@@ -253,6 +253,34 @@ const articles = [
         ],
       },
     ],
+     propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "256 sq yards residential land",
+          "East facing plot",
+          "North-west corner position",
+		  "PUDA approved layout",
+		  "40-foot internal roads",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for residential construction",
+          "Suitable for independent house or villa",
+          "Flexible planning options for future development",
+        ],
+      },
+      {
+        title: "Utilities",
+        details: [
+          " Electricity available",
+          "Ground water available at shallow depth",
+          "Suitable for borewell installation",
+        ],
+      },
+    ],   
     location:
       "Vaikuntapuram Village, Amaravati Mandal, Palnadu District, Andhra Pradesh",
   },
@@ -461,7 +489,7 @@ const articles = [
    {
     id: "p6",
     title: "4BHK Premium Villa in Gated Community – North Hyderabad",
-    price: "₹2,75,00,000",
+    price: "2,75,00,000",
     subprice: "4,444 per Sq Ft",
     type: "For sale",
     propertyDetails: {
@@ -482,8 +510,8 @@ const articles = [
       ],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-5/image-11.jpeg",
-    url: "/market/property-5",
+    propertyImage: "/images/property/property-6/image-20.jpeg",
+    url: "/market/property-6",
     content: [
       {
         title: "Explore this property",
