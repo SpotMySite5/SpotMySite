@@ -216,25 +216,21 @@ const articles = [
       {
         title: "Explore this property",
         paragraphs: [
-          "Located in Vaikuntapuram village within Amaravati Mandal, this 256 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment.",
-          "Positioned in a PUDA-approved layout, the property benefits from planned development standards and organized road access. The east-facing orientation, combined with its north-west corner position, allows excellent ventilation and flexible construction planning.",
+          "Located in Vaikuntapuram village within Amaravati Mandal, this 256 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment. Positioned in a PUDA-approved layout, the property benefits from planned development standards and organized road access. The east-facing orientation, combined with its north-west corner position, allows excellent ventilation and flexible construction planning.",
           "The surrounding area maintains a calm residential environment while gradually experiencing development linked to the Amaravati capital region and nearby infrastructure corridors.",
         ],
       },
       {
         title: "The Living Experience",
         paragraphs: [
-          "For families planning a future home, the plot offers a peaceful setting away from dense city congestion while still maintaining accessibility to nearby towns and developing regional infrastructure.",
-          "The east-facing orientation allows natural morning sunlight, which many homeowners prefer for both architectural planning and traditional Vaastu considerations.",
+          "For families planning a future home, the plot offers a peaceful setting away from dense city congestion while still maintaining accessibility to nearby towns and developing regional infrastructure. The east-facing orientation allows natural morning sunlight, which many homeowners prefer for both architectural planning and traditional Vaastu considerations.",
           "Wide 40-foot roads around the layout improve accessibility and provide comfortable space for residential development.",
         ],
       },
       {
         title: "Development Potential",
         paragraphs: [
-          "With 256 sq. yards of land, the property provides flexibility for different types of residential construction depending on personal preference and local regulations.",
-          "Possible construction options include:\n- Independent residential house\n- Villa-style home\n- Multi-floor residential building (subject to approvals)",
-          "The plot is level and ready for construction, making it suitable for immediate development.",
+          "With 256 sq. yards of land, the property provides flexibility for different types of residential construction depending on personal preference and local regulations. Possible construction options include:\n- Independent residential house\n- Villa-style home\n- Multi-floor residential building (subject to approvals). The plot is level and ready for construction, making it suitable for immediate development.",
         ],
       },
       {
@@ -247,9 +243,8 @@ const articles = [
       {
         title: "The Setting: Vaikuntapuram",
         paragraphs: [
-          "Vaikuntapuram is a culturally known village in the Amaravati region, recognized for its traditional surroundings and proximity to important regional developments.",
-          "The area is gradually attracting buyers seeking peaceful residential environments near the Amaravati capital corridor.",
-          "Nearby highlights include:\n- Krishna River surroundings\n- Amaravati heritage zone within driving distance\n- Access to Vijayawada–Amaravati regional roads\n- Growing residential development in surrounding villages",
+          "Vaikuntapuram is a culturally known village in the Amaravati region, recognized for its traditional surroundings and proximity to important regional developments. The area is gradually attracting buyers seeking peaceful residential environments near the Amaravati capital corridor.",
+           "Nearby highlights include:\n- Krishna River surroundings\n- Amaravati heritage zone within driving distance\n- Access to Vijayawada–Amaravati regional roads\n- Growing residential development in surrounding villages",
         ],
       },
     ],
@@ -310,41 +305,35 @@ const articles = [
       {
         title: "Explore this property",
         paragraphs: [
-          "Situated within GHR Callisto in the Kollur–Tellapur corridor, this east-facing 3-bedroom residence is positioned on the 17th floor in a prime corner configuration.",
-          "Overlooking the internal courtyard, the apartment benefits from dual-side openness, allowing natural light and cross ventilation to move freely throughout the home.",
-          "As part of a RERA-approved gated community, the residence combines elevation, security, and structured community living within one of Hyderabad's fastest-growing western zones.",
+          "Situated within GHR Callisto in the Kollur–Tellapur corridor, this east-facing 3-bedroom residence is positioned on the 17th floor in a prime corner configuration. Overlooking the internal courtyard, the apartment benefits from dual-side openness, allowing natural light and cross ventilation to move freely throughout the home. As part of a RERA-approved gated community, the residence combines elevation, security, and structured community living within one of Hyderabad's fastest-growing western zones.",
           "From its higher-floor vantage point, the apartment offers a sense of openness and distance from street-level activity, while remaining visually connected to landscaped spaces below.",
         ],
       },
       {
         title: "The Living Experience",
         paragraphs: [
-          "The living and dining areas form a central, well-balanced space designed for both everyday comfort and social interaction. The east-facing orientation introduces natural morning light into the home, setting a bright and calm tone to the day.",
-          "The corner layout enhances airflow and creates a perceptible sense of width within the apartment. Movement through the space feels deliberate and uninterrupted, with shared areas clearly defined from private zones.",
+          "The living and dining areas form a central, well-balanced space designed for both everyday comfort and social interaction. The east-facing orientation introduces natural morning light into the home, setting a bright and calm tone to the day. The corner layout enhances airflow and creates a perceptible sense of width within the apartment. Movement through the space feels deliberate and uninterrupted, with shared areas clearly defined from private zones.",
           "The kitchen is efficiently positioned alongside the dining area, designed to support practical workflow while remaining visually integrated with the home's central living space.",
         ],
       },
       {
         title: "Private Spaces",
         paragraphs: [
-          "Three proportioned bedrooms provide flexibility for families or multi-functional living arrangements. The primary bedroom includes an attached bathroom and enjoys the quieter courtyard-facing aspect, offering a more private retreat within the residence.",
-          "Each of the three bathrooms is planned with contemporary fittings and functional layouts, maintaining simplicity and ease of maintenance.",
+          "Three proportioned bedrooms provide flexibility for families or multi-functional living arrangements. The primary bedroom includes an attached bathroom and enjoys the quieter courtyard-facing aspect, offering a more private retreat within the residence. Each of the three bathrooms is planned with contemporary fittings and functional layouts, maintaining simplicity and ease of maintenance.",
           "The additional bedrooms adapt comfortably for children, guests, or dedicated workspace needs without compromising circulation or natural light.",
         ],
       },
       {
         title: "A Gated Residential Community",
         paragraphs: [
-          "GHR Callisto is developed as a gated residential community with controlled access and integrated shared amenities. The high-rise design is supported by landscaped courtyards and structured common areas, encouraging both privacy and interaction within the community.",
-          "The apartment includes two dedicated car parking spaces, providing added convenience for multi-vehicle households.",
+          "GHR Callisto is developed as a gated residential community with controlled access and integrated shared amenities. The high-rise design is supported by landscaped courtyards and structured common areas, encouraging both privacy and interaction within the community. The apartment includes two dedicated car parking spaces, providing added convenience for multi-vehicle households.",
         ],
       },
       {
         title: "The Setting: Kollur – Tellapur",
         paragraphs: [
           "Located in Hyderabad's expanding western corridor, the Kollur–Tellapur stretch has emerged as a preferred residential extension of the Financial District. The area provides access to major employment hubs while maintaining a more open and less congested environment.",
-          "Ongoing infrastructure upgrades and residential development continue to strengthen its long-term growth outlook.",
-          "Here, elevated living meets a location positioned for steady urban expansion.",
+          "Ongoing infrastructure upgrades and residential development continue to strengthen its long-term growth outlook. Here, elevated living meets a location positioned for steady urban expansion.",
         ],
       },
     ],
@@ -522,40 +511,35 @@ const articles = [
       {
         title: "Explore this property",
         paragraphs: [
-          "Located in Prasanthi Nagar, Pendurthi, Visakhapatnam, this east-facing independent residential building offers a balanced combination of privacy, accessibility, and everyday living comfort. Positioned within a developing residential neighborhood, the property stands across three floors, with the available 3BHK residence situated on the second floor.",
-          "With 1800 square feet of living space, the home is designed to accommodate modern family living while maintaining a practical layout that supports both comfort and functionality. The east-facing orientation allows natural morning light to enter the living spaces, creating a bright and welcoming atmosphere throughout the day.",
+          "Located in Prasanthi Nagar, Pendurthi, Visakhapatnam, this east-facing independent residential building offers a balanced combination of privacy, accessibility, and everyday living comfort. Positioned within a developing residential neighborhood, the property stands across three floors, with the available 3BHK residence situated on the second floor. With 1800 square feet of living space, the home is designed to accommodate modern family living while maintaining a practical layout that supports both comfort and functionality. The east-facing orientation allows natural morning light to enter the living spaces, creating a bright and welcoming atmosphere throughout the day.", 
           "Being part of a VUDA-approved residential development, the property benefits from regulatory compliance and structured urban planning within the expanding Pendurthi region of Visakhapatnam.",
         ],
       },
       {
         title: "The Living Experience",
         paragraphs: [
-          "The living and dining areas are designed as a connected central space, allowing for smooth movement throughout the home. The east-facing orientation enhances natural lighting and helps maintain a bright interior environment during the early hours of the day.",
-          "The layout supports both everyday family living and small social gatherings. The placement of the living area allows easy access to bedrooms and the kitchen while maintaining a sense of openness.",
+          "The living and dining areas are designed as a connected central space, allowing for smooth movement throughout the home. The east-facing orientation enhances natural lighting and helps maintain a bright interior environment during the early hours of the day. The layout supports both everyday family living and small social gatherings. The placement of the living area allows easy access to bedrooms and the kitchen while maintaining a sense of openness.",
           "The dedicated kitchen space is designed for practical daily use with sufficient room for storage and movement, positioned conveniently beside the dining area.",
         ],
       },
       {
         title: "Private Spaces",
         paragraphs: [
-          "The residence includes three well-sized bedrooms, offering flexibility for family living, guest accommodation, or home office use.",
-          "The primary bedroom includes an attached bathroom, providing a private and comfortable space within the home. The remaining bathrooms are thoughtfully placed to serve both family members and guests.",
+          "The residence includes three well-sized bedrooms, offering flexibility for family living, guest accommodation, or home office use. The primary bedroom includes an attached bathroom, providing a private and comfortable space within the home. The remaining bathrooms are thoughtfully placed to serve both family members and guests.",
           "Each bedroom receives adequate ventilation and natural light, contributing to a comfortable living environment throughout the year.",
         ],
       },
       {
         title: "A Private Residential Building",
         paragraphs: [
-          "Unlike large apartment complexes, this property provides the advantages of independent residential living, offering greater privacy and reduced shared density.",
-          "The building includes an elevator, making movement between floors convenient for residents of all ages.",
+          "Unlike large apartment complexes, this property provides the advantages of independent residential living, offering greater privacy and reduced shared density. The building includes an elevator, making movement between floors convenient for residents of all ages.",
           "Parking is designed to support larger households, with space for four cars and two two-wheelers, a practical advantage for families with multiple vehicles.",
         ],
       },
       {
         title: "The Setting: Pendurthi – Visakhapatnam",
         paragraphs: [
-          "Pendurthi has steadily developed into an important residential extension of Visakhapatnam city. The area offers a combination of residential neighborhoods, educational institutions, and everyday amenities.",
-          "Located in Prasanthi Nagar, the property benefits from proximity to local markets, schools, healthcare facilities, and major connecting roads that link residents to the broader Visakhapatnam city region.",
+          "Pendurthi has steadily developed into an important residential extension of Visakhapatnam city. The area offers a combination of residential neighborhoods, educational institutions, and everyday amenities. Located in Prasanthi Nagar, the property benefits from proximity to local markets, schools, healthcare facilities, and major connecting roads that link residents to the broader Visakhapatnam city region.",
           "With ongoing urban expansion and infrastructure development, Pendurthi continues to grow as a preferred residential area for families seeking spacious homes within the city's expanding boundaries.",
         ],
       },
@@ -654,8 +638,7 @@ const articles = [
       {
         title: "Private Spaces",
         paragraphs: [
-          "The villa includes four bedrooms, planned to accommodate family living across different floors. Each bedroom offers sufficient space for furniture, storage, and movement without feeling restricted.",
-          "The bathrooms are distributed to support accessibility across levels, with practical layouts focused on usability rather than excess. The configuration ensures that both family members and guests have access to private and functional spaces.",
+          "The villa includes four bedrooms, planned to accommodate family living across different floors. Each bedroom offers sufficient space for furniture, storage, and movement without feeling restricted. The bathrooms are distributed to support accessibility across levels, with practical layouts focused on usability rather than excess. The configuration ensures that both family members and guests have access to private and functional spaces.",
         ],
       },
       {
