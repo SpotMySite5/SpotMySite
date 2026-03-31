@@ -560,6 +560,54 @@ const articles = [
         ],
       },
     ],
+	  propertyFeatures: [
+  {
+    title: "Bedrooms",
+    details: [
+      "Three well-proportioned bedrooms",
+      "Primary bedroom with attached bathroom",
+      "Designed for comfortable family living",
+    ],
+  },
+  {
+    title: "Bathrooms",
+    details: [
+      "Three bathrooms with functional layouts",
+      "Convenient access from bedrooms and living areas",
+    ],
+  },
+  {
+    title: "Living Space",
+    details: [
+      "East-facing home allowing natural morning light",
+      "Well-balanced living and dining layout",
+      "Positioned on the second floor of a three-floor building",
+    ],
+  },
+  {
+    title: "Kitchen",
+    details: [
+      "Dedicated kitchen area with practical layout",
+      "Positioned close to the dining space for daily convenience",
+    ],
+  },
+  {
+    title: "Building Features",
+    details: [
+      "Independent residential building",
+      "Elevator available for easy floor access",
+      "Parking space for 4 cars and 2 two-wheelers",
+    ],
+  },
+  {
+    title: "Location & Neighborhood",
+    details: [
+      "Located in Prasanthi Nagar, Pendurthi",
+      "Growing residential locality in Visakhapatnam",
+      "Access to schools, markets, and city connectivity",
+    ],
+  },
+],
     location: "Pendurthi, Visakhapatnam, Andhra Pradesh",
   },
    {
@@ -625,6 +673,68 @@ const articles = [
         ],
       },
     ],
+	   propertyFeatures: [
+  {
+    title: "Bedrooms",
+    details: [
+      "Five bedrooms distributed across multiple levels",
+      "Designed for family living with spatial separation",
+      "Adequate room for storage and ventilation",
+    ],
+  },
+  {
+    title: "Bathrooms",
+    details: [
+      "Three bathrooms with functional layouts",
+      "Positioned for accessibility across floors",
+      "Practical design focused on everyday usability",
+    ],
+  },
+  {
+    title: "Living Space",
+    details: [
+      "Open-plan living and dining configuration",
+      "Multi-level layout providing spatial flexibility",
+      "Designed for both private use and gatherings",
+    ],
+  },
+  {
+    title: "Kitchen",
+    details: [
+      "Dedicated kitchen with efficient layout",
+      "Space for storage and daily workflow",
+      "Positioned to remain connected yet functional",
+    ],
+  },
+  {
+    title: "Building Features",
+    details: [
+      "Ground + 2 floors construction",
+      "Built-up area of 2700 sq ft",
+      "Located on 155 sq yard plot",
+      "Includes home theatre room",
+      "Situated within gated community",
+    ],
+  },
+  {
+    title: "Amenities & Security",
+    details: [
+      "Private home theatre space",
+      "Gated residential environment",
+      "24/7 security within gated community",
+    ],
+  },
+  {
+    title: "Location & Infrastructure",
+    details: [
+      "Within Jeedimetla Village, Qutbullapur Mandal",
+      "Close to industrial and residential hubs",
+      "Access to major road networks and city routes",
+      "Located within GHMC jurisdiction",
+      "Established residential infrastructure",
+    ],
+  },
+],
     location: "Kompally, North Hyderabad, Telangana",
   },
 ];
