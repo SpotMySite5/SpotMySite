@@ -463,6 +463,33 @@ const articles = [
         ],
       },
     ],
+	  propertyFeatures: [
+  {
+    title: "Land Details",
+    details: [
+      "290 sq yards residential plot",
+      "East-facing orientation",
+      "Panchayat approved property",
+      "Located within residential surroundings",
+    ],
+  },
+  {
+    title: "Building Potential",
+    details: [
+      "Suitable for independent house construction",
+      "Space for villa-style residential planning",
+      "Ready for immediate development",
+    ],
+  },
+  {
+    title: "Utilities & Access",
+    details: [
+      "Electricity available",
+      "20-foot road access",
+      "Suitable for residential infrastructure development",
+    ],
+  },
+],
     location: "Palakollu, West Godavari District, Andhra Pradesh",
   },
   {
@@ -598,7 +625,7 @@ const articles = [
         ],
       },
     ],
-    location: "Pendurthi, Kompally, North Hyderabad",
+    location: "Kompally, North Hyderabad, Telangana",
   },
 ];
 
