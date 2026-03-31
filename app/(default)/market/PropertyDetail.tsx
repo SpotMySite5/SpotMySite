@@ -14,6 +14,7 @@ import { PiSunHorizonBold } from "react-icons/pi";
 import { PiStairs } from "react-icons/pi";
 import { BsCalendarWeek } from "react-icons/bs";
 import { PiSealCheckBold } from "react-icons/pi";
+import { IoChevronUp, IoChevronDown } from "react-icons/io5";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
@@ -35,6 +36,7 @@ type Property = {
   excerpt?: string;
   // content can be either plain text or a structured object with optional title and table-of-contents
   content?: { title?: string; paragraphs?: string[] }[];
+  propertyFeatures?: { title: string; details: string[] }[];
   contentHtml?: string; // preferred: safe HTML (server sanitized)
   features?: { key: string; value?: string }[];
   location?: string;
@@ -65,6 +67,7 @@ function PropertyDetail({ property }: { property: Property }) {
   const [phoneCountry, setPhoneCountry] = useState<string>("in");
   const [isSuccess, setIsSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [expandedAll, setExpandedAll] = useState(false);
 
   useEffect(() => {
     try {
@@ -353,7 +356,7 @@ function PropertyDetail({ property }: { property: Property }) {
                       </div>
                       <div>
                         <dt className="font-bold text-xs text-gray-500">
-                          Total floors
+                          Floor No
                         </dt>
                         <dd className="mt-0 font-bold text-sm">
                           {property.propertyDetails.floorNo}
@@ -362,7 +365,7 @@ function PropertyDetail({ property }: { property: Property }) {
                     </div>
                   )}
 
-                  {property.propertyDetails.totalFloors !== undefined && (
+                  {property.propertyDetails.totalFloors && (
                     <div className="flex items-center gap-2">
                       <div className="flex-shrink-0">
                         <PiStairs className="text-2xl text-gray-500" />
@@ -439,7 +442,24 @@ function PropertyDetail({ property }: { property: Property }) {
                 />
               ) : property.content ? (
                 <>
-                  {Array.isArray(property.content) ? (
+                  {!expandedAll &&
+                    Array.isArray(property.content) &&
+                    property.content.slice(0, 1).map((section, sidx) => (
+                      <section key={sidx} className="mb-6">
+                        {section.title && (
+                          <h3 className="text-base font-semibold mb-2">
+                            {section.title}
+                          </h3>
+                        )}
+                        <p
+                          style={{ whiteSpace: "pre-line" }}
+                          className="text-sm leading-relaxed mb-3"
+                        >
+                          {section.paragraphs?.[0]}
+                        </p>
+                      </section>
+                    ))}
+                  {expandedAll && Array.isArray(property.content) ? (
                     property.content.map((section, sidx) => (
                       <section key={sidx} className="mb-6">
                         {section.title && (
@@ -487,11 +507,57 @@ function PropertyDetail({ property }: { property: Property }) {
                         )}
                     </>
                   )}
+                  {Array.isArray(property.content) &&
+                    property.content.some(
+                      (s) => (s.paragraphs?.length || 0) > 1,
+                    ) && (
+                      <button
+                        type="button"
+                        onClick={() => setExpandedAll((v) => !v)}
+                        className="mt-2 text-sm inline-flex text-indigo-600 hover:underline"
+                        aria-expanded={expandedAll}
+                      >
+                        {expandedAll ? "Show less" : "Show more"}
+                        &nbsp;
+                        {expandedAll ? (
+                          <IoChevronUp className="size-5 mt-0.5" />
+                        ) : (
+                          <IoChevronDown className="size-5 mt-0.5" />
+                        )}
+                      </button>
+                    )}
                 </>
               ) : (
                 <p>No description available.</p>
               )}
             </section>
+            <section className="prose prose-lg max-w-none">
+              {property.propertyFeatures &&
+                property.propertyFeatures.length > 0 && (
+                  <ul>
+                    {property.propertyFeatures.map((feature, idx) => (
+                      <div className="grid grid-cols-3 gap-4 mb-3" key={idx}>
+                        <div className="...">
+                          <p className="text-sm font-medium">{feature.title}</p>
+                        </div>
+                        <div className="col-span-2 ...">
+                          <ul>
+                            {feature.details.map((detail, idx) => (
+                              <li
+                                key={idx}
+                                className="text-sm mb-1.5 list-disc"
+                              >
+                                <p>{detail}</p>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    ))}
+                  </ul>
+                )}
+            </section>
+
             <section>
               <div
                 className="flex items-start justify-between gap-6 p-2 bg-white rounded-md shadow-sm border"

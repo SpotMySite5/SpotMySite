@@ -132,6 +132,57 @@ const articles = [
         ],
       },
     ],
+    propertyFeatures: [
+      {
+        title: "Bedrooms",
+        details: [
+          "Two well-proportioned bedrooms designed for comfort and privacy",
+          "Primary bedroom with attached en-suite bathroom",
+          "Functional layouts allowing wardrobe space and natural ventilation",
+        ],
+      },
+      {
+        title: "Bathrooms",
+        details: [
+          "Two bathrooms with modern sanitary fittings",
+          "Attached bath in the master bedroom",
+          "Clean, practical layouts designed for everyday use",
+        ],
+      },
+      {
+        title: "Living space",
+        details: [
+          "Defined living and dining area with balanced proportions",
+          "West-facing orientation allowing warm evening light",
+          "Efficient layout supporting both daily living and small gatherings",
+        ],
+      },
+      {
+        title: "Kitchen",
+        details: [
+          "Dedicated kitchen space positioned for functionality",
+          "Practical layout designed for everyday convenience",
+          "Adequate storage and workflow planning",
+        ],
+      },
+      {
+        title: "Project highlights",
+        details: [
+          "RERA-approved residential development",
+          "Near-ready status with possession expected end of June",
+          "Located within a growing residential corridor of Velimela",
+          "Suitable for self-occupancy or long-term investment",
+        ],
+      },
+      {
+        title: "Neighborhood",
+        details: [
+          "Emerging residential zone with improving infrastructure",
+          "Proximity to Tellapur, Kollur, and western employment hubs",
+          "Expanding community and connectivity access",
+        ],
+      },
+    ],
     location: "Velimela, Kollur, Hyderabad, Telangana",
   },
   {
@@ -270,6 +321,7 @@ const articles = [
         ],
       },
     ],
+    propertyFeatures: [],
     location: "Kollur, Hyderabad, Telangana",
   },
   {
