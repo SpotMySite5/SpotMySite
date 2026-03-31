@@ -406,6 +406,71 @@ const articles = [
     ],
     location: "Pendurthi, Visakhapatnam, Andhra Pradesh",
   },
+   {
+    id: "p6",
+    title: "4BHK Premium Villa in Gated Community – North Hyderabad",
+    price: "₹2,75,00,000",
+    subprice: "4,444 per Sq Ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 5,
+      bathrooms: 3,
+      type: "House",
+      plotArea: "155 Sq Yards",
+      builtArea: "2700 Sq Ft",
+      facing: "East Facing",
+      totalFloors: 3,
+      floorNo: "",
+      age: "",
+      approvedBy: "GHMC ",
+      amenities: [
+        " Luxury Villa",
+        "3 + 2 Car Parking",
+        "Elevator Available",
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-5/image-11.jpeg",
+    url: "/market/property-5",
+    content: [
+      {
+        title: "Explore this property",
+        paragraphs: [
+          "Located in a well-developed residential zone in North Hyderabad, this 5BHK independent villa is part of a gated community designed for secure and structured living.",
+          "Built across Ground + 2 floors, the home offers approximately 2700 sq ft of living space on a 155 sq yard plot, making it suitable for families looking for both space and long-term value.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          " The villa is designed with a vertically distributed layout, allowing separation between shared and private spaces. The main living area follows an open-plan approach, connecting the living and dining zones in a way that supports both daily routines and social gatherings. Natural light flows through multiple levels, supported by ventilation across floors, creating a sense of openness despite the structured layout. The inclusion of a dedicated home theatre room adds a layer of lifestyle convenience rarely found in standard residential units.",
+          "The kitchen is positioned to support daily functionality, with enough space for movement, storage, and workflow without disrupting the main living zones.",
+        ],
+      },
+      {
+        title: "Private Spaces",
+        paragraphs: [
+          "The villa includes four bedrooms, planned to accommodate family living across different floors. Each bedroom offers sufficient space for furniture, storage, and movement without feeling restricted.",
+          "The bathrooms are distributed to support accessibility across levels, with practical layouts focused on usability rather than excess. The configuration ensures that both family members and guests have access to private and functional spaces.",
+        ],
+      },
+      {
+        title: "A Private Residential Building",
+        paragraphs: [
+          "As an independent triplex villa within a gated community, this property offers a balance between private ownership and structured residential planning. The G+2 layout allows clear zoning, shared living areas, private bedrooms, and additional lifestyle spaces like the theatre room. Unlike apartments, this format removes shared walls on key living levels while still benefiting from community-level security and infrastructure.",
+          "The defined plot ownership (155 sq yards) adds long-term value, especially in a location where land appreciation plays a significant role in overall property growth.",
+        ],
+      },
+      {
+        title: "The Setting: Kompally",
+        paragraphs: [
+          "Kompally has evolved into one of North Hyderabad’s stable residential zones, known for its connectivity to industrial, commercial, and central city areas. Its proximity to Jeedimetla industrial area, NH-44 corridor, and access routes toward Secunderabad and central Hyderabad make it practical for working professionals. At the same time, the area retains a residential character with established communities, schools, and daily infrastructure.",
+          "Compared to rapidly speculative zones, Kompally offers more predictable growth, making it relevant for both end-use buyers and those evaluating long-term stability over hype-driven appreciation.",
+        ],
+      },
+    ],
+    location: "Pendurthi, Kompally, North Hyderabad",
+  },
 ];
 
 export const posts = articles.slice(0);
