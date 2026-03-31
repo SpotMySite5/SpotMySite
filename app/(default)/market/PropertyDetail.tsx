@@ -211,7 +211,7 @@ function PropertyDetail({ property }: { property: Property }) {
                       <img
                         src={src}
                         alt={`thumb-${i}`}
-                        className="w-full h-full object-cover"
+                        className="w-auto h-full object-cover"
                       />
                     </button>
                   ))}
