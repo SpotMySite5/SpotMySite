@@ -349,7 +349,7 @@ function PropertyDetail({ property }: { property: Property }) {
                     </div>
                   )}
 
-                  {property.propertyDetails.floorNo !== undefined && (
+                  {property.propertyDetails.floorNo && (
                     <div className="flex items-center gap-2">
                       <div className="flex-shrink-0">
                         <PiStairs className="text-2xl text-gray-500" />
