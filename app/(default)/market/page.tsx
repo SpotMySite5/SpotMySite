@@ -112,22 +112,21 @@ const articles = [
       {
         title: "Private Spaces",
         paragraphs: [
-          "Two well-sized bedrooms provide private retreats within the home. The primary bedroom offers an en-suite bathroom, creating a personal space designed for comfort and privacy. The second bedroom adapts effortlessly, whether for family, guests, or a flexible work-from-home setting.",
-          "Both bathrooms are proportioned to support functionality while maintaining a clean, modern aesthetic.",
+          "Two well-sized bedrooms provide private retreats within the home. The primary bedroom offers an en-suite bathroom, creating a personal space designed for comfort and privacy. The second bedroom adapts effortlessly, whether for family, guests, or a flexible work-from-home setting. Both bathrooms are proportioned to support functionality while maintaining a clean, modern aesthetic.",
+        
         ],
       },
       {
         title: "A Project Nearing Completion",
         paragraphs: [
-          "Aaditri Empire is a RERA-approved development, providing regulatory assurance and structural transparency. As the project approaches final stages of completion, buyers benefit from the clarity of a near-ready home, reducing uncertainty often associated with early-stage properties.",
-          "With handover expected at the end of June, this residence presents the opportunity to step into ownership with confidence and minimal waiting time.",
+          "Aaditri Empire is a RERA-approved development, providing regulatory assurance and structural transparency. As the project approaches final stages of completion, buyers benefit from the clarity of a near-ready home, reducing uncertainty often associated with early-stage properties. With handover expected at the end of June, this residence presents the opportunity to step into ownership with confidence and minimal waiting time.",
+      
         ],
       },
       {
         title: "The Setting: Velimela",
         paragraphs: [
-          "Positioned within one of Hyderabad’s steadily developing residential corridors, Velimela combines a quieter neighborhood atmosphere with growing connectivity to the city’s western employment hubs. Its proximity to areas such as Tellapur, Kollur, and the Financial District places it within reach of major workplaces while retaining a more residential character.",
-          "Ongoing infrastructure development and expanding community planning continue to shape Velimela into an emerging choice for both end-users and long-term investors.",
+          "Positioned within one of Hyderabad’s steadily developing residential corridors, Velimela combines a quieter neighborhood atmosphere with growing connectivity to the city’s western employment hubs. Its proximity to areas such as Tellapur, Kollur, and the Financial District places it within reach of major workplaces while retaining a more residential character. Ongoing infrastructure development and expanding community planning continue to shape Velimela into an emerging choice for both end-users and long-term investors.",
           "Here, life unfolds at a measured pace, connected to opportunity, yet comfortably removed from the intensity of the urban core.",
         ],
       },
