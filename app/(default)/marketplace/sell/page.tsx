@@ -249,7 +249,7 @@ export default function SellPage() {
                         <label className="flex items-center">
                           <input
                             type="radio"
-                            name="location"
+                            name="property_location"
                             value="Andhra"
                             className="mr-2"
                             required
@@ -259,7 +259,7 @@ export default function SellPage() {
                         <label className="flex items-center">
                           <input
                             type="radio"
-                            name="location"
+                            name="property_location"
                             value="Telangana"
                             className="mr-2"
                           />
@@ -276,8 +276,8 @@ export default function SellPage() {
                       </label>
                       <select
                         className="w-full px-3 py-2 border rounded"
-                        id="service"
-                        name="service"
+                        id="property_type"
+                        name="property_type"
                         required
                       >
                         <option value="">Select property type</option>
