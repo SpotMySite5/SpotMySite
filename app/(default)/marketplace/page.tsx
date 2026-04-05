@@ -27,7 +27,7 @@ import Steps from "@/components/steps";
     },
     images: [] as string[],
     propertyImage: "/images/property/property-1/image-1.jpeg",
-    url: "/market/property-1",
+    url: "/marketplace/property-1",
     content: [
       {
         title: "Explore this property",
@@ -93,7 +93,7 @@ const articles = [
     },
     images: [] as string[],
     propertyImage: "/images/property/property-1/image-1.jpeg",
-    url: "/market/property-1",
+    url: "/marketplace/property-1",
     content: [
       {
         title: "Explore this property",
@@ -113,14 +113,12 @@ const articles = [
         title: "Private Spaces",
         paragraphs: [
           "Two well-sized bedrooms provide private retreats within the home. The primary bedroom offers an en-suite bathroom, creating a personal space designed for comfort and privacy. The second bedroom adapts effortlessly, whether for family, guests, or a flexible work-from-home setting. Both bathrooms are proportioned to support functionality while maintaining a clean, modern aesthetic.",
-        
         ],
       },
       {
         title: "A Project Nearing Completion",
         paragraphs: [
           "Aaditri Empire is a RERA-approved development, providing regulatory assurance and structural transparency. As the project approaches final stages of completion, buyers benefit from the clarity of a near-ready home, reducing uncertainty often associated with early-stage properties. With handover expected at the end of June, this residence presents the opportunity to step into ownership with confidence and minimal waiting time.",
-      
         ],
       },
       {
@@ -211,7 +209,7 @@ const articles = [
     },
     images: [] as string[],
     propertyImage: "/images/property/property-2/image_1.jpeg",
-    url: "/market/property-2",
+    url: "/marketplace/property-2",
     content: [
       {
         title: "Explore this property",
@@ -244,19 +242,19 @@ const articles = [
         title: "The Setting: Vaikuntapuram",
         paragraphs: [
           "Vaikuntapuram is a culturally known village in the Amaravati region, recognized for its traditional surroundings and proximity to important regional developments. The area is gradually attracting buyers seeking peaceful residential environments near the Amaravati capital corridor.",
-           "Nearby highlights include:\n- Krishna River surroundings\n- Amaravati heritage zone within driving distance\n- Access to Vijayawada–Amaravati regional roads\n- Growing residential development in surrounding villages",
+          "Nearby highlights include:\n- Krishna River surroundings\n- Amaravati heritage zone within driving distance\n- Access to Vijayawada–Amaravati regional roads\n- Growing residential development in surrounding villages",
         ],
       },
     ],
-     propertyFeatures: [
+    propertyFeatures: [
       {
         title: "Land Details",
         details: [
           "256 sq yards residential land",
           "East facing plot",
           "North-west corner position",
-		  "PUDA approved layout",
-		  "40-foot internal roads",
+          "PUDA approved layout",
+          "40-foot internal roads",
         ],
       },
       {
@@ -275,7 +273,7 @@ const articles = [
           "Suitable for borewell installation",
         ],
       },
-    ],   
+    ],
     location:
       "Vaikuntapuram Village, Amaravati Mandal, Palnadu District, Andhra Pradesh",
   },
@@ -300,7 +298,7 @@ const articles = [
     },
     images: [] as string[],
     propertyImage: "/images/property/property-3/image-17.jpeg",
-    url: "/market/property-3",
+    url: "/marketplace/property-3",
     content: [
       {
         title: "Explore this property",
@@ -338,55 +336,49 @@ const articles = [
       },
     ],
     propertyFeatures: [
-	      {
+      {
         title: "Wellness & Recreation",
         details: [
           "Aerobics Centre",
           "Basketball Court",
           "Jogging Track",
-		  "Lawn Tennis Court",
-		  "Amphitheatre",
-		  "Swimming Pool",
-		  "Gymnasium",
+          "Lawn Tennis Court",
+          "Amphitheatre",
+          "Swimming Pool",
+          "Gymnasium",
         ],
       },
-  {
-    title: "Community & Social Spaces",
-    details: [
-      "Clubhouse",
-      "Party Hall",
-      "Conference Room",
-      "Business Center",
-      "Reading Room",
-      "Terrace Garden",
+      {
+        title: "Community & Social Spaces",
+        details: [
+          "Clubhouse",
+          "Party Hall",
+          "Conference Room",
+          "Business Center",
+          "Reading Room",
+          "Terrace Garden",
+        ],
+      },
+      {
+        title: "Work & Productivity",
+        details: ["Privacy Workstations", "Audio Video Conference Facility"],
+      },
+      {
+        title: "Safety & Security",
+        details: ["Security Cabin", "CCTV Enabled Property"],
+      },
+      {
+        title: "Sustainability & Infrastructure",
+        details: [
+          "Recycling for Waste Reduction",
+          "Organic Waste Composting",
+          "Health Safe Low VOC Paints",
+          "LED Lighting for Common Areas",
+          "Water Efficient Fixtures",
+          "Solar Panels on Roof",
+        ],
+      },
     ],
-  },
-  {
-    title: "Work & Productivity",
-    details: [
-      "Privacy Workstations",
-      "Audio Video Conference Facility",
-    ],
-  },
-  {
-    title: "Safety & Security",
-    details: [
-      "Security Cabin",
-      "CCTV Enabled Property",
-    ],
-  },
-  {
-    title: "Sustainability & Infrastructure",
-    details: [
-      "Recycling for Waste Reduction",
-      "Organic Waste Composting",
-      "Health Safe Low VOC Paints",
-      "LED Lighting for Common Areas",
-      "Water Efficient Fixtures",
-      "Solar Panels on Roof",
-    ],
-  },
-],
     location: "Kollur, Hyderabad, Telangana",
   },
   {
@@ -410,7 +402,7 @@ const articles = [
     },
     images: [] as string[],
     propertyImage: "/images/property/property-4/image-3.jpeg",
-    url: "/market/property-4",
+    url: "/marketplace/property-4",
     content: [
       {
         title: "Explore this property",
@@ -452,33 +444,33 @@ const articles = [
         ],
       },
     ],
-	  propertyFeatures: [
-  {
-    title: "Land Details",
-    details: [
-      "290 sq yards residential plot",
-      "East-facing orientation",
-      "Panchayat approved property",
-      "Located within residential surroundings",
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "290 sq yards residential plot",
+          "East-facing orientation",
+          "Panchayat approved property",
+          "Located within residential surroundings",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Suitable for independent house construction",
+          "Space for villa-style residential planning",
+          "Ready for immediate development",
+        ],
+      },
+      {
+        title: "Utilities & Access",
+        details: [
+          "Electricity available",
+          "20-foot road access",
+          "Suitable for residential infrastructure development",
+        ],
+      },
     ],
-  },
-  {
-    title: "Building Potential",
-    details: [
-      "Suitable for independent house construction",
-      "Space for villa-style residential planning",
-      "Ready for immediate development",
-    ],
-  },
-  {
-    title: "Utilities & Access",
-    details: [
-      "Electricity available",
-      "20-foot road access",
-      "Suitable for residential infrastructure development",
-    ],
-  },
-],
     location: "Palakollu, West Godavari District, Andhra Pradesh",
   },
   {
@@ -506,12 +498,12 @@ const articles = [
     },
     images: [] as string[],
     propertyImage: "/images/property/property-5/image-11.jpeg",
-    url: "/market/property-5",
+    url: "/marketplace/property-5",
     content: [
       {
         title: "Explore this property",
         paragraphs: [
-          "Located in Prasanthi Nagar, Pendurthi, Visakhapatnam, this east-facing independent residential building offers a balanced combination of privacy, accessibility, and everyday living comfort. Positioned within a developing residential neighborhood, the property stands across three floors, with the available 3BHK residence situated on the second floor. With 1800 square feet of living space, the home is designed to accommodate modern family living while maintaining a practical layout that supports both comfort and functionality. The east-facing orientation allows natural morning light to enter the living spaces, creating a bright and welcoming atmosphere throughout the day.", 
+          "Located in Prasanthi Nagar, Pendurthi, Visakhapatnam, this east-facing independent residential building offers a balanced combination of privacy, accessibility, and everyday living comfort. Positioned within a developing residential neighborhood, the property stands across three floors, with the available 3BHK residence situated on the second floor. With 1800 square feet of living space, the home is designed to accommodate modern family living while maintaining a practical layout that supports both comfort and functionality. The east-facing orientation allows natural morning light to enter the living spaces, creating a bright and welcoming atmosphere throughout the day.",
           "Being part of a VUDA-approved residential development, the property benefits from regulatory compliance and structured urban planning within the expanding Pendurthi region of Visakhapatnam.",
         ],
       },
@@ -544,57 +536,57 @@ const articles = [
         ],
       },
     ],
-	  propertyFeatures: [
-  {
-    title: "Bedrooms",
-    details: [
-      "Three well-proportioned bedrooms",
-      "Primary bedroom with attached bathroom",
-      "Designed for comfortable family living",
+    propertyFeatures: [
+      {
+        title: "Bedrooms",
+        details: [
+          "Three well-proportioned bedrooms",
+          "Primary bedroom with attached bathroom",
+          "Designed for comfortable family living",
+        ],
+      },
+      {
+        title: "Bathrooms",
+        details: [
+          "Three bathrooms with functional layouts",
+          "Convenient access from bedrooms and living areas",
+        ],
+      },
+      {
+        title: "Living Space",
+        details: [
+          "East-facing home allowing natural morning light",
+          "Well-balanced living and dining layout",
+          "Positioned on the second floor of a three-floor building",
+        ],
+      },
+      {
+        title: "Kitchen",
+        details: [
+          "Dedicated kitchen area with practical layout",
+          "Positioned close to the dining space for daily convenience",
+        ],
+      },
+      {
+        title: "Building Features",
+        details: [
+          "Independent residential building",
+          "Elevator available for easy floor access",
+          "Parking space for 4 cars and 2 two-wheelers",
+        ],
+      },
+      {
+        title: "Location & Neighborhood",
+        details: [
+          "Located in Prasanthi Nagar, Pendurthi",
+          "Growing residential locality in Visakhapatnam",
+          "Access to schools, markets, and city connectivity",
+        ],
+      },
     ],
-  },
-  {
-    title: "Bathrooms",
-    details: [
-      "Three bathrooms with functional layouts",
-      "Convenient access from bedrooms and living areas",
-    ],
-  },
-  {
-    title: "Living Space",
-    details: [
-      "East-facing home allowing natural morning light",
-      "Well-balanced living and dining layout",
-      "Positioned on the second floor of a three-floor building",
-    ],
-  },
-  {
-    title: "Kitchen",
-    details: [
-      "Dedicated kitchen area with practical layout",
-      "Positioned close to the dining space for daily convenience",
-    ],
-  },
-  {
-    title: "Building Features",
-    details: [
-      "Independent residential building",
-      "Elevator available for easy floor access",
-      "Parking space for 4 cars and 2 two-wheelers",
-    ],
-  },
-  {
-    title: "Location & Neighborhood",
-    details: [
-      "Located in Prasanthi Nagar, Pendurthi",
-      "Growing residential locality in Visakhapatnam",
-      "Access to schools, markets, and city connectivity",
-    ],
-  },
-],
     location: "Pendurthi, Visakhapatnam, Andhra Pradesh",
   },
-   {
+  {
     id: "p6",
     title: "4BHK Premium Villa in Gated Community – North Hyderabad",
     price: "2,75,00,000",
@@ -611,15 +603,11 @@ const articles = [
       floorNo: "",
       age: "",
       approvedBy: "GHMC ",
-      amenities: [
-        " Luxury Villa",
-        "3 + 2 Car Parking",
-        "Elevator Available",
-      ],
+      amenities: [" Luxury Villa", "3 + 2 Car Parking", "Elevator Available"],
     },
     images: [] as string[],
     propertyImage: "/images/property/property-6/image-20.jpeg",
-    url: "/market/property-6",
+    url: "/marketplace/property-6",
     content: [
       {
         title: "Explore this property",
@@ -656,74 +644,74 @@ const articles = [
         ],
       },
     ],
-	   propertyFeatures: [
-  {
-    title: "Bedrooms",
-    details: [
-      "Five bedrooms distributed across multiple levels",
-      "Designed for family living with spatial separation",
-      "Adequate room for storage and ventilation",
+    propertyFeatures: [
+      {
+        title: "Bedrooms",
+        details: [
+          "Five bedrooms distributed across multiple levels",
+          "Designed for family living with spatial separation",
+          "Adequate room for storage and ventilation",
+        ],
+      },
+      {
+        title: "Bathrooms",
+        details: [
+          "Three bathrooms with functional layouts",
+          "Positioned for accessibility across floors",
+          "Practical design focused on everyday usability",
+        ],
+      },
+      {
+        title: "Living Space",
+        details: [
+          "Open-plan living and dining configuration",
+          "Multi-level layout providing spatial flexibility",
+          "Designed for both private use and gatherings",
+        ],
+      },
+      {
+        title: "Kitchen",
+        details: [
+          "Dedicated kitchen with efficient layout",
+          "Space for storage and daily workflow",
+          "Positioned to remain connected yet functional",
+        ],
+      },
+      {
+        title: "Building Features",
+        details: [
+          "Ground + 2 floors construction",
+          "Built-up area of 2700 sq ft",
+          "Located on 155 sq yard plot",
+          "Includes home theatre room",
+          "Situated within gated community",
+        ],
+      },
+      {
+        title: "Amenities & Security",
+        details: [
+          "Private home theatre space",
+          "Gated residential environment",
+          "24/7 security within gated community",
+        ],
+      },
+      {
+        title: "Location & Infrastructure",
+        details: [
+          "Within Jeedimetla Village, Qutbullapur Mandal",
+          "Close to industrial and residential hubs",
+          "Access to major road networks and city routes",
+          "Located within GHMC jurisdiction",
+          "Established residential infrastructure",
+        ],
+      },
     ],
-  },
-  {
-    title: "Bathrooms",
-    details: [
-      "Three bathrooms with functional layouts",
-      "Positioned for accessibility across floors",
-      "Practical design focused on everyday usability",
-    ],
-  },
-  {
-    title: "Living Space",
-    details: [
-      "Open-plan living and dining configuration",
-      "Multi-level layout providing spatial flexibility",
-      "Designed for both private use and gatherings",
-    ],
-  },
-  {
-    title: "Kitchen",
-    details: [
-      "Dedicated kitchen with efficient layout",
-      "Space for storage and daily workflow",
-      "Positioned to remain connected yet functional",
-    ],
-  },
-  {
-    title: "Building Features",
-    details: [
-      "Ground + 2 floors construction",
-      "Built-up area of 2700 sq ft",
-      "Located on 155 sq yard plot",
-      "Includes home theatre room",
-      "Situated within gated community",
-    ],
-  },
-  {
-    title: "Amenities & Security",
-    details: [
-      "Private home theatre space",
-      "Gated residential environment",
-      "24/7 security within gated community",
-    ],
-  },
-  {
-    title: "Location & Infrastructure",
-    details: [
-      "Within Jeedimetla Village, Qutbullapur Mandal",
-      "Close to industrial and residential hubs",
-      "Access to major road networks and city routes",
-      "Located within GHMC jurisdiction",
-      "Established residential infrastructure",
-    ],
-  },
-],
     location: "Kompally, North Hyderabad, Telangana",
   },
 ];
 
 export const posts = articles.slice(0);
-export default function Market() {
+export default function Marketplace() {
   return (
     <>
       <div className="container-fluid">

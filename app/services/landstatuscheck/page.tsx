@@ -12,8 +12,8 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://spotmysite.com/land-status-check#webpage",
-      url: "https://spotmysite.com/land-status-check",
+      "@id": "https://spotmysite.com/landstatuscheck#webpage",
+      url: "https://spotmysite.com/landstatuscheck",
       name: "Land Status Check for NRIs | SpotMySite",
       description:
         "Verified land inspection with GPS-tagged photos, timestamped HD video, and a structured report within 48 hours. Designed for NRIs and absentee owners across Andhra Pradesh and Telangana.",
@@ -27,7 +27,7 @@ const schema = {
     },
     {
       "@type": "Service",
-      "@id": "https://spotmysite.com/land-status-check#service",
+      "@id": "https://spotmysite.com/landstatuscheck#service",
       name: "Land Status Check for NRIs | SpotMySite",
       serviceType: "Property Inspection / Land Verification",
       alternateName: "NRI Land Verification & GPS Inspection",
@@ -52,14 +52,14 @@ const schema = {
       category: "Real Estate Property Verification",
       offers: {
         "@type": "Offer",
-        url: "https://spotmysite.com/land-status-check",
+        url: "https://spotmysite.com/landstatuscheck",
         priceCurrency: "INR",
         availability: "https://schema.org/InStock",
       },
       availableChannel: [
         {
           "@type": "ServiceChannel",
-          serviceUrl: "https://spotmysite.com/land-status-check",
+          serviceUrl: "https://spotmysite.com/landstatuscheck",
           name: "Remote Delivery",
         },
       ],
@@ -85,9 +85,9 @@ const schema = {
         "https://spotmysite.com/assets/land-status-check1.jpg",
         "https://spotmysite.com/assets/land-status-check2.jpg",
       ],
-      url: "https://spotmysite.com/land-status-check",
+      url: "https://spotmysite.com/landstatuscheck",
       mainEntityOfPage: {
-        "@id": "https://spotmysite.com/land-status-check#webpage",
+        "@id": "https://spotmysite.com/landstatuscheck#webpage",
       },
       inLanguage: "en",
     },
@@ -267,15 +267,15 @@ export default function LandStatusCheck() {
 
       <h3>Explore Related Services</h3>
       <p className="flex flex-wrap gap-4">
-        <a href="/services/fence-boundary-installation" className="badge_new">
+        <a href="/services/fenceboundaryinstallation" className="badge_new">
           Fence &amp; Boundary Installation
         </a>
         <br />
-        <a href="/services/land-cleanup" className="badge_new">
+        <a href="/services/landcleanup" className="badge_new">
           Land Cleanup &amp; Vegetation Removal
         </a>
         <br />
-        <a href="/services/property-buy-legal-assistance" className="badge_new">
+        <a href="/services/propertybuylegalassistance" className="badge_new">
           Property Buy and Sell Legal Assistance
         </a>
       </p>

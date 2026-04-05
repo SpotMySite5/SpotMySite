@@ -12,8 +12,8 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://spotmysite.com/services/nri-loan-assistance#webpage",
-      url: "https://spotmysite.com/services/nri-loan-assistance",
+      "@id": "https://spotmysite.com/services/loanassistance#webpage",
+      url: "https://spotmysite.com/services/loanassistance",
       name: "NRI Loan Assistance | SpotMySite",
       description:
         "SpotMySite provides end-to-end NRI loan assistance for home, land, construction, and commercial property loans across Andhra Pradesh and Telangana. Our team coordinates documentation, bank liaison, and legal opinion to ensure smooth approval.",
@@ -27,7 +27,7 @@ const schema = {
     },
     {
       "@type": "Service",
-      "@id": "https://spotmysite.com/services/nri-loan-assistance#service",
+      "@id": "https://spotmysite.com/services/loanassistance#service",
       serviceType: "NRI Loan Assistance",
       name: "NRI Loan Assistance | SpotMySite",
       alternateName: "Home, Land & Construction Loan Support for NRIs",
@@ -47,7 +47,7 @@ const schema = {
       ],
       offers: {
         "@type": "Offer",
-        url: "https://spotmysite.com/services/nri-loan-assistance",
+        url: "https://spotmysite.com/services/loanassistance",
         priceCurrency: "INR",
         availability: "https://schema.org/InStock",
       },
@@ -74,9 +74,9 @@ const schema = {
         "https://spotmysite.com/assets/loan-assistance1.jpg",
         "https://spotmysite.com/assets/loan-assistance2.jpg",
       ],
-      url: "https://spotmysite.com/services/nri-loan-assistance",
+      url: "https://spotmysite.com/services/loanassistance",
       mainEntityOfPage: {
-        "@id": "https://spotmysite.com/services/nri-loan-assistance#webpage",
+        "@id": "https://spotmysite.com/services/loanassistance#webpage",
       },
       inLanguage: "en",
     },
@@ -257,15 +257,15 @@ export default function LoanAssistance() {
 
       <h3>Related Services</h3>
       <p className="flex flex-wrap gap-4">
-        <a href="/services/remote-buyer-walkthrough" className="badge_new">
+        <a href="/services/remotebuyerwalkthrough" className="badge_new">
           Remote Buyer Walkthrough
         </a>
         <br />
-        <a href="/services/property-video-inspection" className="badge_new">
+        <a href="/services/propertyvideoinspection" className="badge_new">
           Property Video Inspection
         </a>
         <br />
-        <a href="/services/property-buy-legal-assistance" className="badge_new">
+        <a href="/services/propertybuylegalassistance" className="badge_new">
           Property Buy &amp; Sell Legal Assistance
         </a>
       </p>

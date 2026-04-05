@@ -151,7 +151,7 @@ const schema = {
 export async function generateStaticParams() {
   // This must return ALL possible slugs
   const slugs = posts.map((post) =>
-    post.url.replace(/^\/+/, "").replace(/^market\//, ""),
+    post.url.replace(/^\/+/, "").replace(/^marketplace\//, ""),
   );
   // dedupe and return as required shape: { slug: string }
   return Array.from(new Set(slugs)).map((slug) => ({ slug }));
@@ -159,7 +159,7 @@ export async function generateStaticParams() {
 export default async function BlogDetailPage(props: { params: any }) {
   const { params } = props;
   const slug = String(params?.slug || "");
-  const property = posts.find((b) => b.url === `/market/${slug}`);
+  const property = posts.find((b) => b.url === `/marketplace/${slug}`);
 
   if (!property) {
     return <h1>No Property Details found</h1>;

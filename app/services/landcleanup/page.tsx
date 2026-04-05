@@ -12,8 +12,8 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://spotmysite.com/services/land-cleanup#webpage",
-      url: "https://spotmysite.com/services/land-cleanup",
+      "@id": "https://spotmysite.com/services/landcleanup#webpage",
+      url: "https://spotmysite.com/services/landcleanup",
       name: "Land Cleanup & Vegetation Removal for NRIs | SpotMySite",
       description:
         "SpotMySite provides land cleanup and vegetation removal services for NRIs and absentee owners in Andhra Pradesh and Telangana. Includes debris removal, ground leveling, and full GPS-documented proof.",
@@ -27,7 +27,7 @@ const schema = {
     },
     {
       "@type": "Service",
-      "@id": "https://spotmysite.com/services/land-cleanup#service",
+      "@id": "https://spotmysite.com/services/landcleanup#service",
       serviceType: "Land Cleanup and Vegetation Removal",
       name: "Land Cleanup & Vegetation Removal for NRIs | SpotMySite",
       alternateName: "NRI Land Maintenance and Cleaning Service",
@@ -47,7 +47,7 @@ const schema = {
       ],
       offers: {
         "@type": "Offer",
-        url: "https://spotmysite.com/services/land-cleanup",
+        url: "https://spotmysite.com/services/landcleanup",
         priceCurrency: "INR",
         availability: "https://schema.org/InStock",
       },
@@ -74,9 +74,9 @@ const schema = {
         "https://spotmysite.com/assets/cleanup1.jpg",
         "https://spotmysite.com/assets/cleanup2.jpg",
       ],
-      url: "https://spotmysite.com/services/land-cleanup",
+      url: "https://spotmysite.com/services/landcleanup",
       mainEntityOfPage: {
-        "@id": "https://spotmysite.com/services/land-cleanup#webpage",
+        "@id": "https://spotmysite.com/services/landcleanup#webpage",
       },
       inLanguage: "en",
     },
@@ -231,15 +231,15 @@ export default function LandCleanup() {
 
       <h3>Related Services</h3>
       <p className="flex flex-wrap gap-4">
-        <a href="/services/land-status-check" className="badge_new">
+        <a href="/services/landstatuscheck" className="badge_new">
           Land Status Check
         </a>
 
-        <a href="/services/fence-boundary-installation" className="badge_new">
+        <a href="/services/fenceboundaryinstallation" className="badge_new">
           Fence and Boundary Installation
         </a>
 
-        <a href="/services/property-buy-legal-assistance" className="badge_new">
+        <a href="/services/propertybuylegalassistance" className="badge_new">
           Property Buy & Sell Legal Assistance
         </a>
       </p>

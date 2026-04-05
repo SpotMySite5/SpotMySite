@@ -12,9 +12,8 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id":
-        "https://spotmysite.com/services/property-video-inspection#webpage",
-      url: "https://spotmysite.com/services/property-video-inspection",
+      "@id": "https://spotmysite.com/services/propertyvideoinspection#webpage",
+      url: "https://spotmysite.com/services/propertyvideoinspection",
       name: "Property Video Inspection for NRIs | SpotMySite",
       description:
         "SpotMySite provides HD property video inspections for NRIs and remote landlords across Andhra Pradesh and Telangana. Get GPS-tagged images, timestamped videos, and secure reports within 48 hours.",
@@ -28,8 +27,7 @@ const schema = {
     },
     {
       "@type": "Service",
-      "@id":
-        "https://spotmysite.com/services/property-video-inspection#service",
+      "@id": "https://spotmysite.com/services/propertyvideoinspection#service",
       serviceType: "Property Video Inspection",
       name: "Property Video Inspection for NRIs | SpotMySite",
       alternateName: "NRI Property Video Check Service",
@@ -45,7 +43,7 @@ const schema = {
       ],
       offers: {
         "@type": "Offer",
-        url: "https://spotmysite.com/services/property-video-inspection",
+        url: "https://spotmysite.com/services/propertyvideoinspection",
         priceCurrency: "INR",
         availability: "https://schema.org/InStock",
       },
@@ -72,10 +70,10 @@ const schema = {
         "https://spotmysite.com/assets/property-inspection1.jpg",
         "https://spotmysite.com/assets/property-inspection2.jpg",
       ],
-      url: "https://spotmysite.com/services/property-video-inspection",
+      url: "https://spotmysite.com/services/propertyvideoinspection",
       mainEntityOfPage: {
         "@id":
-          "https://spotmysite.com/services/property-video-inspection#webpage",
+          "https://spotmysite.com/services/propertyvideoinspection#webpage",
       },
       inLanguage: "en",
     },
@@ -206,15 +204,15 @@ export default function PropertyVideoInspection() {
 
       <h3>Related Services</h3>
       <p className="flex flex-wrap gap-4">
-        <a href="/services/property-buy-legal-assistance" className="badge_new">
+        <a href="/services/propertybuylegalassistance" className="badge_new">
           Property Buy and Sell Legal Assistance
         </a>
         <br />
-        <a href="/services/remote-buyer-walkthrough" className="badge_new">
+        <a href="/services/remotebuyerwalkthrough" className="badge_new">
           Remote Buyer Walk Through
         </a>
         <br />
-        <a href="/services/loan-assistance" className="badge_new">
+        <a href="/services/loanassistance" className="badge_new">
           Loan Assistance Service
         </a>
       </p>

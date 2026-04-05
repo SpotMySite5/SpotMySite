@@ -12,8 +12,8 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://spotmysite.com/services/remote-buyer-walkthrough#webpage",
-      url: "https://spotmysite.com/services/remote-buyer-walkthrough",
+      "@id": "https://spotmysite.com/services/remotebuyerwalkthrough#webpage",
+      url: "https://spotmysite.com/services/remotebuyerwalkthrough",
       name: "Remote Buyer Walkthrough for NRIs | SpotMySite",
       description:
         "SpotMySite provides Remote Buyer Walkthroughs for NRIs purchasing property in Andhra Pradesh and Telangana. Includes HD video tours, neighborhood analysis, and property investment recommendations. Contact us for a custom quote.",
@@ -27,7 +27,7 @@ const schema = {
     },
     {
       "@type": "Service",
-      "@id": "https://spotmysite.com/services/remote-buyer-walkthrough#service",
+      "@id": "https://spotmysite.com/services/remotebuyerwalkthrough#service",
       serviceType: "Remote Buyer Walkthrough",
       name: "Remote Buyer Walkthrough for NRIs | SpotMySite",
       alternateName: "NRI Property Virtual Tour & Verification",
@@ -43,7 +43,7 @@ const schema = {
       ],
       offers: {
         "@type": "Offer",
-        url: "https://spotmysite.com/services/remote-buyer-walkthrough",
+        url: "https://spotmysite.com/services/remotebuyerwalkthrough",
         priceCurrency: "INR",
         availability: "https://schema.org/InStock",
       },
@@ -69,10 +69,9 @@ const schema = {
         "https://spotmysite.com/assets/remote-walkthrough1.jpg",
         "https://spotmysite.com/assets/remote-walkthrough2.jpg",
       ],
-      url: "https://spotmysite.com/services/remote-buyer-walkthrough",
+      url: "https://spotmysite.com/services/remotebuyerwalkthrough",
       mainEntityOfPage: {
-        "@id":
-          "https://spotmysite.com/services/remote-buyer-walkthrough#webpage",
+        "@id": "https://spotmysite.com/services/remotebuyerwalkthrough#webpage",
       },
       inLanguage: "en",
     },
@@ -258,13 +257,13 @@ export default function RemoteBuyerWalkthrough() {
       <h2>Related Services</h2>
 
       <p className="flex flex-wrap gap-4">
-        <a href="/services/property-video-inspection" className="badge_new">
+        <a href="/services/propertyvideoinspection" className="badge_new">
           Property Video Inspection
         </a>
-        <a href="/services/land-status-check" className="badge_new">
+        <a href="/services/landstatuscheck" className="badge_new">
           Land Status Check
         </a>
-        <a href="/services/loan-assistance" className="badge_new">
+        <a href="/services/loanassistance" className="badge_new">
           NRI Loan Assistance
         </a>
       </p>

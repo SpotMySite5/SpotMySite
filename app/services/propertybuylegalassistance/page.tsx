@@ -267,15 +267,15 @@ export default function PropertyBuyLegalAssistance() {
 
       <h2>Related Services</h2>
       <p className="flex flex-wrap gap-4">
-        <a href="/services/land-status-check" className="badge_new">
+        <a href="/services/landstatuscheck" className="badge_new">
           Land Status Check
         </a>
 
-        <a href="/services/loan-assistance" className="badge_new">
+        <a href="/services/loanassistance" className="badge_new">
           NRI Loan Assistance
         </a>
 
-        <a href="/services/property-video-inspection" className="badge_new">
+        <a href="/services/propertyvideoinspection" className="badge_new">
           Property Video Inspection
         </a>
       </p>

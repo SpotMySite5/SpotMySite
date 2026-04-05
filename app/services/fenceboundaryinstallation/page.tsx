@@ -12,8 +12,8 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://spotmysite.com/services/fence-boundary-installation#webpage",
-      url: "https://spotmysite.com/services/fence-boundary-installation",
+        "https://spotmysite.com/services/fenceboundaryinstallation#webpage",
+      url: "https://spotmysite.com/services/fenceboundaryinstallation",
       name: "Fence & Boundary Installation for NRIs | SpotMySite",
       description:
         "Professional fence and boundary installation services for NRI landowners across Andhra Pradesh and Telangana. SpotMySite delivers secure fencing with GPS-proof documentation and legal-ready reports.",
@@ -28,7 +28,7 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://spotmysite.com/services/fence-boundary-installation#service",
+        "https://spotmysite.com/services/fenceboundaryinstallation#service",
       serviceType: "Fence and Boundary Installation",
       alternateName: "Land Fence Installation and Boundary Marking Service",
       description:
@@ -47,7 +47,7 @@ const schema = {
       ],
       offers: {
         "@type": "Offer",
-        url: "https://spotmysite.com/services/fence-boundary-installation",
+        url: "https://spotmysite.com/services/fenceboundaryinstallation",
         priceCurrency: "INR",
         availability: "https://schema.org/InStock",
       },
@@ -74,10 +74,10 @@ const schema = {
         "https://spotmysite.com/assets/fencing1.jpg",
         "https://spotmysite.com/assets/fencing2.jpg",
       ],
-      url: "https://spotmysite.com/services/fence-boundary-installation",
+      url: "https://spotmysite.com/services/fenceboundaryinstallation",
       mainEntityOfPage: {
         "@id":
-          "https://spotmysite.com/services/fence-boundary-installation#webpage",
+          "https://spotmysite.com/services/fenceboundaryinstallation#webpage",
       },
       inLanguage: "en",
     },
@@ -250,15 +250,15 @@ export default function FenceAndBoundaryInstallation() {
 
       <h3>Related Services</h3>
       <p className="flex flex-wrap gap-4">
-        <a href="/services/land-status-check" className="badge_new">
+        <a href="/services/landstatuscheck" className="badge_new">
           Land Status Check
         </a>
 
-        <a href="/services/property-video-inspection" className="badge_new">
+        <a href="/services/propertyvideoinspection" className="badge_new">
           Property Video Inspection
         </a>
 
-        <a href="/services/property-buy-legal-assistance" className="badge_new">
+        <a href="/services/propertybuylegalassistance" className="badge_new">
           NRI Legal Support
         </a>
       </p>

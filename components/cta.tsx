@@ -12,7 +12,7 @@ export default function Cta() {
               Looking to sell your property?
             </h2>
             <a
-              href="/market/sell"
+              href="/marketplace/sell"
               className="cta-button group rounded-full w-1/4 max-md:w-1/3 max-sm:w-1/2 max-sm:float-none max-sm:mx-auto max-sm:mt-5 max-sm:flex cursor-pointer float-right bg-(--navbar-bg) text-white px-4 py-2 flex items-center justify-center"
             >
               Sell Property{" "}

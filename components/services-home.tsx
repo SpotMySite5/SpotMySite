@@ -45,7 +45,7 @@ export default function ServicesComponent() {
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
                 data-bs-toggle="modal"
-                href="/services/property-video-inspection"
+                href="/services/propertyvideoinspection"
                 onMouseEnter={() => slideTo(1)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -80,7 +80,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/services/land-status-check"
+                href="/services/landstatuscheck"
                 onMouseEnter={() => slideTo(2)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -115,7 +115,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/services/land-cleanup"
+                href="/services/landcleanup"
                 onMouseEnter={() => slideTo(3)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -150,7 +150,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/services/fence-boundary-installation"
+                href="/services/fenceboundaryinstallation"
                 onMouseEnter={() => slideTo(4)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -185,7 +185,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/services/remote-buyer-walkthrough"
+                href="/services/remotebuyerwalkthrough"
                 onMouseEnter={() => slideTo(5)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -220,7 +220,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/services/property-buy-legal-assistance"
+                href="/services/propertybuylegalassistance"
                 onMouseEnter={() => slideTo(6)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -255,7 +255,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/services/loan-assistance"
+                href="/services/loanassistance"
                 onMouseEnter={() => slideTo(7)}
               >
                 <span className="mb-1 text-base max-md:text-sm">
@@ -290,7 +290,7 @@ export default function ServicesComponent() {
               </a>
               <a
                 className="LinkListHover flex items-end border-b py-5 font-light text-gray-500 hover:text-gray-800 transition-all transition-discrete duration-700 ease-in-out"
-                href="/market"
+                href="/marketplace"
                 onMouseEnter={() => slideTo(8)}
               >
                 <span className="mb-1 text-base max-md:text-sm">

@@ -57,7 +57,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "Property Video Inspection",
-              url: "https://spotmysite.com/services/property-video-inspection",
+              url: "https://spotmysite.com/services/propertyvideoinspection",
             },
           },
           {
@@ -65,7 +65,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "Land Status Check",
-              url: "https://spotmysite.com/land-status-check",
+              url: "https://spotmysite.com/landstatuscheck",
             },
           },
           {
@@ -73,7 +73,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "Land Cleanup & Vegetation Removal",
-              url: "https://spotmysite.com/services/land-cleanup",
+              url: "https://spotmysite.com/services/landcleanup",
             },
           },
           {
@@ -81,7 +81,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "Fence & Boundary Installation",
-              url: "https://spotmysite.com/services/fence-boundary-installation",
+              url: "https://spotmysite.com/services/fenceboundaryinstallation",
             },
           },
           {
@@ -89,7 +89,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "Property Buy & Sell Legal Assistance",
-              url: "https://spotmysite.com/services/property-legal-assistance",
+              url: "https://spotmysite.com/services/propertybuylegalassistance",
             },
           },
           {
@@ -97,7 +97,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "NRI Loan Assistance",
-              url: "https://spotmysite.com/services/nri-loan-assistance",
+              url: "https://spotmysite.com/services/loanassistance",
             },
           },
           {
@@ -105,7 +105,7 @@ const schema = {
             itemOffered: {
               "@type": "Service",
               name: "Remote Buyer Walkthrough",
-              url: "https://spotmysite.com/services/remote-buyer-walkthrough",
+              url: "https://spotmysite.com/services/remotebuyerwalkthrough",
             },
           },
         ],

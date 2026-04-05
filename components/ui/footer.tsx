@@ -34,7 +34,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/property-video-inspection"
+                  href="/services/propertyvideoinspection"
                 >
                   Property Video Inspections
                 </Link>
@@ -42,7 +42,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/land-status-check"
+                  href="/services/landstatuscheck"
                 >
                   Land Status Check
                 </Link>
@@ -50,7 +50,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/land-cleanup"
+                  href="/services/landcleanup"
                 >
                   Land Cleanup & Vegetation Removal
                 </Link>
@@ -58,7 +58,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/fence-boundary-installation"
+                  href="/services/fenceboundaryinstallation"
                 >
                   Fence & Boundary Installation
                 </Link>
@@ -66,7 +66,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/remote-buyer-walkthrough"
+                  href="/services/remotebuyerwalkthrough"
                 >
                   Remote Buyer Walkthrough
                 </Link>
@@ -74,7 +74,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/property-buy-legal-assistance"
+                  href="/services/propertybuylegalassistance"
                 >
                   Property Buy & Sell Legal Assistance
                 </Link>
@@ -82,7 +82,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/services/loan-assistance"
+                  href="/services/loanassistance"
                 >
                   Loan Assistance Services
                 </Link>
@@ -138,7 +138,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/terms-and-conditions"
+                  href="/termsandconditions"
                 >
                   Terms & Conditions
                 </Link>
@@ -146,7 +146,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="/privacy-policy"
+                  href="/privacypolicy"
                 >
                   Privacy Policy
                 </Link>
