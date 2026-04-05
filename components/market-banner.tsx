@@ -25,7 +25,7 @@ export default function MarketBanner() {
               Find your dream property with verified listings in trusted
               platform.{" "}
               <small>
-                <a className="link whitespace-nowrap" href="/market/about">
+                <a className="link whitespace-nowrap" href="/marketplace/about">
                   Explore More
                 </a>
               </small>
