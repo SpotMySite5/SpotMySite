@@ -18,19 +18,22 @@ export default function ContactUs() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [phone, setPhone] = useState("");
   const [phoneCountry, setPhoneCountry] = useState<string>("in");
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
+  const [country, setCountry] = useState("");
 
   useEffect(() => {
-    try {
-      const lang =
-        navigator.language || (navigator.languages && navigator.languages[0]);
-      if (lang && lang.includes("-")) {
-        const cc = lang.split("-")[1].toLowerCase();
-        setPhoneCountry(cc);
-        return;
-      }
-    } catch (e) {
-      // ignore
-    }
+    // try {
+    //   const lang =
+    //     navigator.language || (navigator.languages && navigator.languages[0]);
+    //   if (lang && lang.includes("-")) {
+    //     const cc = lang.split("-")[1].toLowerCase();
+    //     setPhoneCountry(cc);
+    //     return;
+    //   }
+    // } catch (e) {
+    //   // ignore
+    // }
 
     // Fallback: lightweight IP geolocation (no key) — replace with your own server API if preferred
     fetch("https://ipapi.co/json/")
@@ -38,8 +41,12 @@ export default function ContactUs() {
       .then((data) => {
         if (data?.country_code)
           setPhoneCountry(String(data.country_code).toLowerCase());
+        if (data?.city) setCity(data.city);
+        if (data?.region) setState(data.region);
+        if (data?.country_name) setCountry(data.country_name);
       })
-      .catch(() => {
+      .catch((error) => {
+        console.log("Location fetch failed:", error);
         /* keep default */
       });
   }, []);
@@ -88,6 +95,9 @@ export default function ContactUs() {
               </div>
               <hr className="mb-6 border-gray-200" />
               <form ref={form} onSubmit={sendEmail}>
+                <input type="hidden" name="city" value={city} />
+                <input type="hidden" name="state" value={state} />
+                <input type="hidden" name="country" value={country} />
                 <div className="mb-4 flex gap-4">
                   <div className="w-full">
                     <label

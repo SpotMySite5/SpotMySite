@@ -68,19 +68,22 @@ function PropertyDetail({ property }: { property: Property }) {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [expandedAll, setExpandedAll] = useState(false);
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
+  const [country, setCountry] = useState("");
 
   useEffect(() => {
-    try {
-      const lang =
-        navigator.language || (navigator.languages && navigator.languages[0]);
-      if (lang && lang.includes("-")) {
-        const cc = lang.split("-")[1].toLowerCase();
-        setPhoneCountry(cc);
-        return;
-      }
-    } catch (e) {
-      // ignore
-    }
+    // try {
+    //   const lang =
+    //     navigator.language || (navigator.languages && navigator.languages[0]);
+    //   if (lang && lang.includes("-")) {
+    //     const cc = lang.split("-")[1].toLowerCase();
+    //     setPhoneCountry(cc);
+    //     return;
+    //   }
+    // } catch (e) {
+    //   // ignore
+    // }
 
     // Fallback: lightweight IP geolocation (no key) — replace with your own server API if preferred
     fetch("https://ipapi.co/json/")
@@ -88,8 +91,12 @@ function PropertyDetail({ property }: { property: Property }) {
       .then((data) => {
         if (data?.country_code)
           setPhoneCountry(String(data.country_code).toLowerCase());
+        if (data?.city) setCity(data.city);
+        if (data?.region) setState(data.region);
+        if (data?.country_name) setCountry(data.country_name);
       })
-      .catch(() => {
+      .catch((error) => {
+        console.log("Location fetch failed:", error);
         /* keep default */
       });
   }, []);
@@ -587,6 +594,9 @@ function PropertyDetail({ property }: { property: Property }) {
               <form className="space-y-3" ref={form} onSubmit={sendEmail}>
                 <input type="hidden" name="id" value={property.id} />
                 <input type="hidden" name="property" value={property.title} />
+                <input type="hidden" name="city" value={city} />
+                <input type="hidden" name="state" value={state} />
+                <input type="hidden" name="country" value={country} />
                 <div>
                   <label className="block text-sm text-gray-700">Name</label>
                   <input

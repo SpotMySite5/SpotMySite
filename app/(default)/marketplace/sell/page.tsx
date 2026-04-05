@@ -12,19 +12,23 @@ export default function SellPage() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [phone, setPhone] = useState("");
   const [phoneCountry, setPhoneCountry] = useState<string>("in");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
+  const [country, setCountry] = useState("");
 
   useEffect(() => {
-    try {
-      const lang =
-        navigator.language || (navigator.languages && navigator.languages[0]);
-      if (lang && lang.includes("-")) {
-        const cc = lang.split("-")[1].toLowerCase();
-        setPhoneCountry(cc);
-        return;
-      }
-    } catch (e) {
-      // ignore
-    }
+    // try {
+    //   const lang =
+    //     navigator.language || (navigator.languages && navigator.languages[0]);
+    //   if (lang && lang.includes("-")) {
+    //     const cc = lang.split("-")[1].toLowerCase();
+    //     setPhoneCountry(cc);
+    //     return;
+    //   }
+    // } catch (e) {
+    //   // ignore
+    // }
 
     // Fallback: lightweight IP geolocation (no key) — replace with your own server API if preferred
     fetch("https://ipapi.co/json/")
@@ -32,30 +36,38 @@ export default function SellPage() {
       .then((data) => {
         if (data?.country_code)
           setPhoneCountry(String(data.country_code).toLowerCase());
+        if (data?.city) setCity(data.city);
+        if (data?.region) setState(data.region);
+        if (data?.country_name) setCountry(data.country_name);
       })
-      .catch(() => {
+      .catch((error) => {
+        console.log("Location fetch failed:", error);
         /* keep default */
       });
   }, []);
   const sendEmail = (e: any) => {
+    if (isSubmitting || isSuccess) return;
+    setIsSubmitting(true);
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_etuvfw6",
-        "template_0fyld1j",
+        "service_eyggq9s",
+        "template_by6w9sp",
         form.current,
-        "XBb9BjDVKrM6DHOcf",
+        "cwjwFqL7CjZlE5QXK",
       )
       .then(
         (result) => {
           console.log(result.text);
           setIsSuccess(true);
+          setIsSubmitting(false);
           form.current.reset();
           form.current.phone.value = "";
           setPhone("");
         },
         (error) => {
           console.log(error.text);
+          setIsSubmitting(false);
         },
       );
   };
@@ -76,14 +88,14 @@ export default function SellPage() {
                 <h2 className="text-3xl font-bold md:text-4xl font-(family-name:--font-heading)">
                   How We Work's
                 </h2>
-                <p className=" max-md:hidden text-lg font-light text-gray-700 mt-4 font-(family-name:--font-content)">
+                <p className=" text-lg font-light text-gray-700 mt-4 font-(family-name:--font-content)">
                   Selling property should be clear, reliable, and
                   well-structured. At <b>SpotMySite</b>, we focus on verified
                   information and transparent communication so sellers can
                   connect with the right buyers without unnecessary
                   complications.
                 </p>
-                <div className="max-md:hidden mt-4 font-(family-name:--font-content)">
+                <div className=" mt-4 font-(family-name:--font-content)">
                   <ul className=" text-gray-700 text-lg">
                     <li className="py-2 flex items-center">
                       <span className="inline-block mr-4">
@@ -96,7 +108,7 @@ export default function SellPage() {
                         listing.
                       </span>
                     </li>
-                    <li className="py-2 flex items-center max-lg:hidden">
+                    <li className="py-2 flex items-center ">
                       <span className="inline-block mr-4">
                         <p className="mx-auto py-2 px-3 w-10 h-10 rounded-full bg-gray-200">
                           <span className="text-lg font-semibold">02</span>
@@ -117,7 +129,7 @@ export default function SellPage() {
                         searching.
                       </span>
                     </li>
-                    <li className="py-2 flex items-center max-lg:hidden">
+                    <li className="py-2 flex items-center ">
                       <span className="inline-block mr-4">
                         <p className="mx-auto py-2 px-3 w-10 h-10 rounded-full bg-gray-200">
                           <span className="text-lg font-semibold">04</span>
@@ -147,6 +159,9 @@ export default function SellPage() {
                   </div>
                   <hr className="mb-6 border-gray-200" />
                   <form ref={form} onSubmit={sendEmail}>
+                    <input type="hidden" name="city" value={city} />
+                    <input type="hidden" name="state" value={state} />
+                    <input type="hidden" name="country" value={country} />
                     <div className="mb-4 flex gap-4">
                       <div className="w-full">
                         <label
@@ -294,61 +309,51 @@ export default function SellPage() {
                     </div>
                     <button
                       type="submit"
-                      style={{ cursor: "pointer" }}
-                      className="form_button form_button_disabled text-white px-4 py-2 my-3 rounded-full w-full"
+                      style={{
+                        cursor:
+                          isSubmitting || isSuccess ? "default" : "pointer",
+                      }}
+                      className={`form_button text-white px-4 py-2 my-3 rounded-full w-full ${
+                        isSubmitting || isSuccess
+                          ? "opacity-60 pointer-events-none"
+                          : ""
+                      }`}
+                      disabled={isSubmitting || isSuccess}
+                      aria-busy={isSubmitting}
                     >
-                      {!isSuccess ? "Submit Request" : "Request Submitted"}
-                    </button>
-                  </form>
-                  {isSuccess && (
-                    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                      <div
-                        id="toast-success"
-                        className="animate-jump flex flex-col items-center w-auto p-10 mb-4 text-gray-500 bg-white/75 rounded-lg shadow dark:text-gray-400 dark:bg-gray-800/90"
-                        role="alert"
-                      >
-                        <div className="block hover:animate-jump items-center justify-center flex-shrink-0 w-28 h-28 text-green-500 bg-green-100/80 rounded-lg dark:bg-green-800/80 dark:text-green-200">
+                      {/* {!isSuccess ? "Submit" : "Registered Successfully"} */}
+                      {isSubmitting ? (
+                        <span className="flex items-center justify-center">
                           <svg
-                            className="m-4 w-20 h-20"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                          </svg>
-                          <span className="sr-only">Check icon</span>
-                        </div>
-                        <div className="mt-3 block text-sm font-bold">
-                          Email sent successfully.
-                        </div>
-                        <button
-                          type="button"
-                          className="ml-auto absolute right-4 top-4 -mx-1.5 -my-1.5  text-gray-400 hover:text-gray-900 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 inline-flex items-center justify-center h-8 w-8 dark:text-gray-500 dark:hover:text-white "
-                          data-dismiss-target="#toast-success"
-                          aria-label="Close"
-                          onClick={() => setIsSuccess(false)}
-                        >
-                          <span className="sr-only">Close</span>
-                          <svg
-                            className="w-3 h-3"
-                            aria-hidden="true"
+                            className="animate-spin -ml-1 mr-2 h-5 w-5 text-white"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
-                            viewBox="0 0 14 14"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
                           >
-                            <path
+                            <circle
+                              className="opacity-25"
+                              cx="12"
+                              cy="12"
+                              r="10"
                               stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-                            />
+                              strokeWidth="4"
+                            ></circle>
+                            <path
+                              className="opacity-75"
+                              fill="currentColor"
+                              d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+                            ></path>
                           </svg>
-                        </button>
-                      </div>
-                    </div>
-                  )}
+                          Submitting...
+                        </span>
+                      ) : isSuccess ? (
+                        "Request Submitted"
+                      ) : (
+                        "Submit Request"
+                      )}
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
