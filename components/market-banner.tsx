@@ -9,7 +9,7 @@ import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
 export default function MarketBanner() {
   return (
-    <section className="relative bg-gray-100 max-lg:rounded-bl-lg 2xl:container 2xl:mx-auto 2xl:overflow-hidden">
+    <section className="relative max-lg:rounded-bl-lg 2xl:container 2xl:mx-auto 2xl:overflow-hidden">
       <div className="container-fluid mx-auto">
         <div className=" flex flex-row max-lg:flex-col-reverse gap-8 md:gap-12">
           {/* Section header */}
@@ -23,9 +23,12 @@ export default function MarketBanner() {
             {/* <h2 className="text-lg font-medium font-(family-name:--font-service) text-white "></h2> */}
             <p className="mt-4 text-md font-(family-name:--font-service)">
               Find your dream property with verified listings in trusted
-              platform.{" "}
+              platform...{" "}
               <small>
-                <a className="link whitespace-nowrap" href="/marketplace/about">
+                <a
+                  className="link whitespace-nowrap text-xs text-blue-600 font-semibold"
+                  href="/marketplace/about"
+                >
                   Explore More
                 </a>
               </small>

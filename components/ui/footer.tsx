@@ -87,6 +87,14 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Loan Assistance Services
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="text-gray-600 transition hover:text-gray-900"
+                  href="/marketplace"
+                >
+                  Marketplace
+                </Link>
+              </li>
             </ul>
           </div>
 

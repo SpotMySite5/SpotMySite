@@ -28,9 +28,12 @@ export default function MainBanner() {
               ease. From inspections to maintenance and legal support, we
               deliver transparent, trustworthy, and hassle-free remote property
               management, keeping your investment safe, cared for, and
-              worry-free...
+              worry-free...{" "}
               <small>
-                <a className="link whitespace-nowrap" href="/about">
+                <a
+                  className="link whitespace-nowrap font-semibold"
+                  href="/about"
+                >
                   Explore More
                 </a>
               </small>

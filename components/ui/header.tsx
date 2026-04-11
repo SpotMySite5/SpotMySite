@@ -44,12 +44,20 @@ export default function Header() {
                 Contact&nbsp;Us
               </a>
             </li>
-            <li>
+            <li className="max-sm:hidden">
               <a
                 href="/blog"
                 className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100 mr-7 max-md:mr-3"
               >
                 Blog
+              </a>
+            </li>
+            <li className="md:hidden">
+              <a
+                href="/marketplace"
+                className="link-underline-center pb-1.5 relative text-sm font-medium px-3 text-gray-200 hover:text-gray-100 mr-7 max-md:mr-3"
+              >
+                Marketplace
               </a>
             </li>
           </ul>

@@ -468,7 +468,7 @@ export default function ContactUs() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="max-md:hidden">
               <h3 className="mt-6 text-xl flex font-bold">
                 <span
                   className="text-3xl border-4 border-black font-black rounded-(--my-radius) mr-2"

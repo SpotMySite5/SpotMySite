@@ -1,24 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /404
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: GoogleOther
-Allow: /
-
-User-agent: Googlebot
-Allow: /
 
 Sitemap: https://spotmysite.com/sitemap.xml
-
-
-
-robots.txt
