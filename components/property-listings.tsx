@@ -96,7 +96,7 @@ export default function PropertyListing({ posts }: { posts: any[] }) {
       className="relative sec_services min-h-screen max-lg:h-auto max-lg:min-h-auto lg:min-h-auto xl:container xl:mx-auto px-6"
       id="services"
     >
-      <div className="grid grid-cols-5 max-sm:grid-cols-3 gap-4 mt-5">
+      <div className="grid grid-cols-5 max-sm:grid-cols-1 max-sm:gap-0 gap-4 mt-5">
         <div className="col-span-1 col-start-2 max-sm:col-start-1 ...">
           <DropList
             items={LocationOptions}
