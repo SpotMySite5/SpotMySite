@@ -708,6 +708,111 @@ const articles = [
     ],
     location: "Kompally, North Hyderabad, Telangana",
   },
+   {
+    id: "p7",
+    title: "Residential Plot,Maheshwaram, Hyderabad",
+    price: "49,99,800",
+    subprice: "24,999 per Sq Yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Land",
+      plotArea: "200 Sq. Yards",
+      builtArea: "200 Sq. Yards",
+      facing: "East Facing",
+      totalFloors: "",
+      floorNo: "",
+      age: "",
+      approvedBy: "HMDA and RERA approved",
+      amenities: [""Grand entrance arch",  "Gated community", "24×7 security", "CCTV surveillance", "CC roads", "Street lighting", "Underground electricity", "Underground drainage", "Landscaped parks", "Children’s play area", "Rainwater harvesting", "5 years free maintenance"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-7/image-1.jpeg",
+    url: "/marketplace/property-7",
+    content: [
+      {
+        title: "Explore this property",
+        paragraphs: [
+          "Located in Maheshwaram, Hyderabad, this 200 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment. The property benefits from planned development standards and organized road access.",
+          "The east-facing orientation allows for good natural light and is preferred for both architectural planning and traditional Vaastu considerations. The surrounding area is steadily developing due to its proximity to key infrastructure and employment zones, making it an attractive choice for both homebuyers and investors.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "For families planning a future home, the plot provides a peaceful residential setting away from heavy city congestion while still maintaining access to nearby developing areas.",
+          "The east-facing orientation ensures natural morning sunlight, contributing to a comfortable living environment. The 33-foot roads within the layout improve accessibility and allow sufficient space for smooth residential development.",
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "With 200 sq. yards of land, the property offers flexibility for different types of residential construction depending on individual preferences and local regulations.",
+          ""Possible construction options include:\n• Independent residential house\n• Villa-style home\n• Duplex residential construction",",
+          "The plot is level and ready for construction, making it suitable for immediate development without additional preparation.",
+        ],
+      },
+      {
+        title: "Amenities",
+        paragraphs: [
+          "The property features a comprehensive range of amenities designed for a high-quality residential experience.",
+          "• **Project Standards & Security:** Grand entrance arch with a dedicated security cabin, gated community with a secure compound wall, and 24×7 security with CCTV surveillance.",
+          "• **Infrastructure & Connectivity:** Wide CC roads (30’, 40’ & 100’), street lighting throughout the layout, and a modern underground electricity and drainage system. Internal roads and footpaths are also integrated into the design.",
+          "• **Greenery & Recreation:** Landscaped parks, lawns, a dedicated children’s play area, and open green spaces with avenue plantation for a refreshing environment.",
+          "• **Water & Sustainability:** Water tank with individual plot connections and a rainwater harvesting system for sustainable living.",
+          "• **Value-Added Features:** 5 years of free maintenance, Vaastu-compliant plots, and a guaranteed clear title property.",
+        ],
+      },
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+         "The property is supported by essential infrastructure required for residential living.",
+          "• Electricity connection available in the area\n• Water availability confirmed\n• 33-feet wide internal layout roads \n• Planned residential development.",
+        ],
+      },
+      {
+       title: "The Setting: Maheshwaram",
+        paragraphs: [
+          "Maheshwaram, Hyderabad is an emerging residential and investment destination, gaining attention due to its proximity to industrial and economic hubs.",
+          "Nearby highlights include the Maheshwaram Bus Depot and the EMC SEZ (Electronics Manufacturing Cluster).",
+          "The area is gradually attracting buyers looking for peaceful residential environments with strong future growth potential and improving connectivity.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "200 sq yards residential land",
+          "East facing plot",
+          "HMDA & RERA approved layout",
+          "Located in Residential R1 Zone",
+          "33-foot internal roads",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for residential construction",
+          "Suitable for independent house or villa",
+          "Flexible planning options for future development",
+        ],
+      },
+      {
+        title: "Utilities & Access",
+        details: [
+        "Electricity and Water available",
+          "33-foot road access",
+          "Vaastu-compliant plots",
+          "Clear title property",
+        ],
+      },
+    ],
+    location: "Maheshwaram, Hyderabad, Telangana",
+  },
 ];
 
 export const posts = articles.slice(0);
