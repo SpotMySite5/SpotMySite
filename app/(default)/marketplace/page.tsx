@@ -749,7 +749,7 @@ const articles = [
         title: "Development Potential",
         paragraphs: [
           "With 200 sq. yards of land, the property offers flexibility for different types of residential construction depending on individual preferences and local regulations.",
-          ""Possible construction options include:\n• Independent residential house\n• Villa-style home\n• Duplex residential construction",",
+          "Possible construction options include:\n• Independent residential house\n• Villa-style home\n• Duplex residential construction",
           "The plot is level and ready for construction, making it suitable for immediate development without additional preparation.",
         ],
       },
