@@ -725,7 +725,7 @@ const articles = [
       floorNo: "",
       age: "",
       approvedBy: "HMDA and RERA approved",
-      amenities: [""Grand entrance arch",  "Gated community", "24×7 security", "CCTV surveillance", "CC roads", "Street lighting", "Underground electricity", "Underground drainage", "Landscaped parks", "Children’s play area", "Rainwater harvesting", "5 years free maintenance"],
+      amenities: ["Grand entrance arch",  "Gated community", "24×7 security", "CCTV surveillance", "CC roads", "Street lighting", "Underground electricity", "Underground drainage", "Landscaped parks", "Children’s play area", "Rainwater harvesting", "5 years free maintenance"],
     },
     images: [] as string[],
     propertyImage: "/images/property/property-7/image-1.jpeg",
