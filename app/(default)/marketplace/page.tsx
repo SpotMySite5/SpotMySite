@@ -764,8 +764,6 @@ const articles = [
           "• **Value-Added Features:** 5 years of free maintenance, Vaastu-compliant plots, and a guaranteed clear title property.",
         ],
       },
-        ],
-      },
       {
         title: "Infrastructure & Utilities",
         paragraphs: [
