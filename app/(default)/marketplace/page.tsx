@@ -757,11 +757,11 @@ const articles = [
         title: "Amenities",
         paragraphs: [
           "The property features a comprehensive range of amenities designed for a high-quality residential experience.",
-          "• **Project Standards & Security:** Grand entrance arch with a dedicated security cabin, gated community with a secure compound wall, and 24×7 security with CCTV surveillance.",
-          "• **Infrastructure & Connectivity:** Wide CC roads (30’, 40’ & 100’), street lighting throughout the layout, and a modern underground electricity and drainage system. Internal roads and footpaths are also integrated into the design.",
-          "• **Greenery & Recreation:** Landscaped parks, lawns, a dedicated children’s play area, and open green spaces with avenue plantation for a refreshing environment.",
-          "• **Water & Sustainability:** Water tank with individual plot connections and a rainwater harvesting system for sustainable living.",
-          "• **Value-Added Features:** 5 years of free maintenance, Vaastu-compliant plots, and a guaranteed clear title property.",
+          "• Project Standards & Security: Grand entrance arch with a dedicated security cabin, gated community with a secure compound wall, and 24×7 security with CCTV surveillance.",
+          "• Infrastructure & Connectivity: Wide CC roads (30’, 40’ & 100’), street lighting throughout the layout, and a modern underground electricity and drainage system. Internal roads and footpaths are also integrated into the design.",
+          "• Greenery & Recreation:Landscaped parks, lawns, a dedicated children’s play area, and open green spaces with avenue plantation for a refreshing environment.",
+          "• Water & Sustainability: Water tank with individual plot connections and a rainwater harvesting system for sustainable living.",
+          "• Value-Added Features: 5 years of free maintenance, Vaastu-compliant plots, and a guaranteed clear title property.",
         ],
       },
       {
