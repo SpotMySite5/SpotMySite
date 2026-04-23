@@ -809,7 +809,7 @@ const articles = [
         ],
       },
     ],
-    location: "Maheshwaram, Hyderabad, Telangana",
+    location: "Maheshwaram, Telangana",
   },
 ];
 
