@@ -988,6 +988,93 @@ const articles = [
     ],
     location: "Bhimavaram, Andhra Pradesh",
   },
+  {
+    id: "p10", 
+    title: "3BHK, Bhimavaram, Andhra Pradesh",
+    price: "79,50,000",
+    subprice: "5,000 per Sq Ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 3,
+      bathrooms: 3,
+      type: "Apartment",
+      builtArea: "1,590 sq ft",
+      facing: "East Facing",
+      totalFloors: "Stilt + 5 Floors",
+      floorNo: "Not Specified",
+      age: "Under Construction",
+      approvedBy: "RERA Approved",
+      amenities: ["Gated Community", "Stilt Parking", "1 Balcony"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-10/image-1.jpeg",
+    url: "/marketplace/property-10",
+    content: [
+      {
+        title: "Explore this property",
+        paragraphs: [
+          "Situated in Bhimavaram, this 3BHK apartment is part of a gated residential community designed for structured and comfortable living[cite: 3].",
+          "With a built-up area of 1590 sq ft, the apartment is planned to accommodate modern family requirements, offering a balance between space efficiency and everyday usability[cite: 3]. Developed within a Stilt + 5 floor structure, the project ensures organized living with dedicated parking and a planned residential layout[cite: 3].",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "The apartment is designed to deliver a practical and functional living environment, with clearly defined spaces for daily activities[cite: 3]. The living and dining areas form the core of the home, allowing seamless interaction while maintaining enough room for movement[cite: 3].",
+          "The east-facing orientation allows natural morning light to enter the home, creating a bright and comfortable atmosphere during the day[cite: 3]. The layout focuses on usable space rather than decorative excess[cite: 3].",
+        ],
+      },
+      {
+        title: "Private Spaces",
+        paragraphs: [
+          "This 3BHK unit includes three well-defined bedrooms, designed to support family living with privacy and comfort[cite: 3]. Each bedroom provides adequate space for furniture, storage, and flexible usage such as a guest room or workspace[cite: 3].",
+          "The three bathrooms are positioned for accessibility and practical use, ensuring convenience for both residents and visitors[cite: 3].",
+        ],
+      },
+      {
+        title: "A Gated Residential Community",
+        paragraphs: [
+          "This apartment is part of a gated residential environment, offering structured community living with basic security and organization[cite: 3]. The project includes controlled access, stilt-level parking, and a planned layout that supports efficient residential use[cite: 3].",
+        ],
+      },
+      {
+        title: "The Setting: Bhimavaram",
+        paragraphs: [
+          "Bhimavaram is a well-established residential and commercial hub with consistent demand and stable infrastructure[cite: 3]. The area offers access to schools, hospitals, and daily essentials, along with good internal connectivity[cite: 3].",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Living & Private Spaces",
+        details: [
+          "Three bedrooms designed for family living[cite: 3]",
+          "Dedicated living and dining areas[cite: 3]",
+          "One balcony for ventilation and outdoor access[cite: 3]",
+          "Practical kitchen workflow design[cite: 3]",
+        ],
+      },
+      {
+        title: "Building & Community",
+        details: [
+          "Stilt + 5 floor construction[cite: 3]",
+          "1590 sq ft built-up area[cite: 3]",
+          "Stilt parking provision[cite: 3]",
+          "Completion within 18 months[cite: 3]",
+        ],
+      },
+      {
+        title: "Safety & Infrastructure",
+        details: [
+          "Controlled access[cite: 3]",
+          "RERA Approved (P05360033484)[cite: 3]",
+          "Established town infrastructure[cite: 3]",
+          "Well-connected road network[cite: 3]",
+        ],
+      },
+    ],
+    location: "Bhimavaram, Andhra Pradesh",
+  },
 ];
 
 export const posts = articles.slice(0);
