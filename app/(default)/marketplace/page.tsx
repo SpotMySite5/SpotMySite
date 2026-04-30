@@ -811,6 +811,93 @@ const articles = [
     ],
     location: "Maheshwaram, Telangana",
   },
+{
+    id: "p8", // Assigned sequential ID
+    title: "3BHK,  Akividu, Andhra Pradesh",
+    price: "70,51,500",
+    subprice: "4,500 per Sq Ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 3,
+      bathrooms: 3,
+      type: "Apartment",
+      plotArea: "",
+      builtArea: "1,567 sq ft",
+      facing: "East Facing",
+      totalFloors: "Stilt + 5 Floors",
+      floorNo: "",
+      age: "Under Construction",
+      approvedBy: "RERA Approved",
+      amenities: ["Gated Community", "Stilt Parking", "2 Balconies"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-4/default.jpeg",
+    url: "/marketplace/property-8",
+    content: [
+      {
+        title: "Explore this property",
+        paragraphs: [
+          "Located in Akividu, this 3BHK apartment is part of a gated residential development designed for structured and comfortable living.",
+          "With a built-up area of 1567 sq ft, the apartment offers a balanced layout suitable for modern family requirements. Developed within a Stilt + 5 floor structure, the project ensures organized living with dedicated parking and planned residential design.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "The apartment is designed with a focus on functionality and usability, ensuring efficient use of space. The living and dining areas form a central zone that supports both daily living and social interaction.",
+          "The east-facing orientation allows natural morning light, creating a bright and comfortable indoor environment.",
+        ],
+      },
+      {
+        title: "Private Spaces",
+        paragraphs: [
+          "This 3BHK unit includes three well-planned bedrooms designed for privacy and comfort. Each bedroom provides sufficient space for furniture and storage, while maintaining ventilation and flexibility of use.",
+          "The three bathrooms are positioned for accessibility and convenience across the home, while two balconies provide additional ventilation and outdoor access.",
+        ],
+      },
+      {
+        title: "A Gated Residential Community",
+        paragraphs: [
+          "This apartment is part of a gated community offering structured and secure living. The project includes controlled access, stilt parking, and organized layout planning to ensure efficient residential use. The project is currently under construction with completion expected within 18 months.",
+        ],
+      },
+      {
+        title: "The Setting: Akividu",
+        paragraphs: [
+          "Akividu is a developing residential town with stable demand and growing infrastructure. The area provides access to essential services such as schools, healthcare, and local markets, along with good internal connectivity.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Living & Private Spaces",
+        details: [
+          "Three bedrooms designed for family living",
+          "Dedicated living and dining areas",
+          "Two balconies for ventilation",
+          "Practical kitchen workflow design",
+        ],
+      },
+      {
+        title: "Building & Community",
+        details: [
+          "Stilt + 5 floor construction",
+          "Gated residential environment",
+          "Stilt parking provision",
+        ],
+      },
+      {
+        title: "Safety & Infrastructure",
+        details: [
+          "Controlled access",
+          "RERA Approved",
+          "Access to essential utilities",
+          "Well-connected road network",
+        ],
+      },
+    ],
+    location: "Akividu, Andhra Pradesh",
+  }
 ];
 
 export const posts = articles.slice(0);
