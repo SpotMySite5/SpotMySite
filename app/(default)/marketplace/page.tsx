@@ -897,7 +897,97 @@ const articles = [
       },
     ],
     location: "Akividu, Andhra Pradesh",
-  }
+  },
+  {
+    id: "p9", 
+    title: "3BHK Apartment, Bhimavaram, Andhra Pradesh",
+    price: "60,00,000",
+    subprice: "5,000 per Sq Ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 3,
+      bathrooms: 3,
+      type: "Apartment",
+      plotArea: "",
+      builtArea: "1,200 sq ft",
+      facing: "East Facing",
+      totalFloors: "S+5 Floors",
+      floorNo: "",
+      age: "Under Construction",
+      approvedBy: "RERA Approved",
+      amenities: ["Gated Community", "1 Balcony"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-9/image-1.jpeg",
+    url: "/marketplace/property-9",
+    content: [
+      {
+        title: "Explore this Property",
+        paragraphs: [
+          "Located in Bhimavaram, this gated residential apartment project is designed for practical and structured family living.[cite: 2]",
+          "This east-facing 3BHK apartment offers a balanced combination of space, ventilation, and natural light, making it suitable for both end-use buyers and investors.[cite: 2] Being RERA-approved, the project ensures transparency, compliance, and reliability for property buyers.[cite: 2]",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "The living and dining areas are designed as a connected central space, allowing smooth movement and comfortable daily living.[cite: 2]",
+          "The east-facing orientation allows natural morning light to enter the home, creating a bright and positive atmosphere.[cite: 2] The layout focuses on efficient space utilization without unnecessary complexity.[cite: 2]",
+        ],
+      },
+      {
+        title: "Private Spaces",
+        paragraphs: [
+          "The apartment includes three bedrooms designed for functional family living.[cite: 2] The master bedroom includes an attached bathroom for privacy and convenience.[cite: 2]",
+          "The additional bedrooms can be used for children, guests, or workspace, with sufficient space for furniture and storage.[cite: 2] All three bathrooms are planned with practical layouts for everyday use.[cite: 2]",
+        ],
+      },
+      {
+        title: "A Gated Residential Community",
+        paragraphs: [
+          "The project is developed as a gated community, offering controlled access and a secure environment.[cite: 2]",
+          "The structured layout supports organized residential living with shared infrastructure and defined spaces.[cite: 2] This setup provides better long-term value compared to standalone apartment buildings.[cite: 2]",
+        ],
+      },
+      {
+        title: "The Setting: Bhimavaram",
+        paragraphs: [
+          "Bhimavaram is a well-established town with consistent residential demand and growing infrastructure.[cite: 2]",
+          "It offers access to schools, markets, and essential services, making it suitable for family living.[cite: 2] The location supports stable property value and long-term usability.[cite: 2]",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Bedrooms & Bathrooms",
+        details: [
+          "Three well-planned bedrooms[cite: 2]",
+          "Master bedroom with attached bathroom[cite: 2]",
+          "Three bathrooms with practical layouts[cite: 2]",
+          "Easy accessibility across the apartment[cite: 2]",
+        ],
+      },
+      {
+        title: "Living Space & Kitchen",
+        details: [
+          "East-facing layout with natural light[cite: 2]",
+          "Connected living and dining area[cite: 2]",
+          "Dedicated kitchen area designed for daily workflow[cite: 2]",
+          "Functional layout with storage space[cite: 2]",
+        ],
+      },
+      {
+        title: "Community & Security",
+        details: [
+          "Gated residential environment[cite: 2]",
+          "RERA approved project[cite: 2]",
+          "Controlled access[cite: 2]",
+          "Structured apartment planning[cite: 2]",
+        ],
+      },
+    ],
+    location: "Bhimavaram, Andhra Pradesh",
+  },
 ];
 
 export const posts = articles.slice(0);
