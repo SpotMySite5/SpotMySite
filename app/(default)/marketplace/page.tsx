@@ -811,8 +811,8 @@ const articles = [
     ],
     location: "Maheshwaram, Telangana",
   },
-{
-    id: "p8", // Assigned sequential ID
+  {
+    id: "p8", 
     title: "3BHK,  Akividu, Andhra Pradesh",
     price: "70,51,500",
     subprice: "4,500 per Sq Ft",
@@ -831,7 +831,7 @@ const articles = [
       amenities: ["Gated Community", "Stilt Parking", "2 Balconies"],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-4/image-1.jpeg",
+    propertyImage: "/images/property/property-8/image-1.jpeg",
     url: "/marketplace/property-8",
     content: [
       {
