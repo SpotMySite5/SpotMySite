@@ -1007,7 +1007,7 @@ const articles = [
       amenities: ["Gated Community", "Stilt Parking", "1 Balcony"],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-10/image-1.jpeg",
+    propertyImage: "/images/property/property-10/image-3.jpeg",
     url: "/marketplace/property-10",
     content: [
       {
