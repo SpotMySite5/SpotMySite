@@ -1259,6 +1259,99 @@ const articles = [
     ],
     location: "Wadakpally, Hyderabad, Telangana",
   },
+  {
+    id: "p13",
+    title: "Residential Plot, Dallars Layout",
+    price: "32,00,000",
+    subprice: "16,000/sq yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Residential Plot",
+      plotArea: "200 Sq. Yards",
+      builtArea: "200 Sq. Yards",
+      facing: "East Facing",
+      totalFloors: "",
+      floorNo: "",
+      age: "",
+      approvedBy: "VMRDA Approved",
+      amenities: [
+        "40 Feet Road access",
+        "Electricity Available",
+        "Bore water available",
+        "Ready for Immediate Construction",
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-13/image-9.jpeg",
+    url: "/marketplace/property-13",
+    content: [
+      {
+        title: "Explore this Property",
+        paragraphs: [
+          "Located in Dallars Layout, this 200 sq. yard residential plot presents a practical opportunity for both residential construction and long-term land investment.",
+          "The property benefits from planned layout development and wide road access, making it suitable for immediate construction without additional preparation. The east-facing orientation allows for natural light and is commonly preferred for residential planning.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "For individuals planning to build a home, this plot offers a peaceful residential setting while remaining connected to nearby developing infrastructure.",
+          "The east-facing direction ensures natural morning sunlight, contributing to a comfortable living environment. The 40-feet road access improves accessibility and supports smooth residential development.",
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "With 200 sq. yards of land, the plot offers flexibility for various types of residential construction. Possible construction options include independent residential houses, duplex homes, or villa-style constructions.",
+          "The plot is ready for immediate construction, making it suitable for buyers looking to start building without delay.",
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+          "The property is supported by essential infrastructure required for residential living, including available electricity connections and bore water availability.",
+          "Access is provided via 40-feet wide road access, and the layout is organized and ready for immediate construction.",
+        ],
+      },
+      {
+        title: "The Setting",
+        paragraphs: [
+          "Dallars Layout is a developing residential area with growing importance due to nearby infrastructure projects. Its proximity to key locations enhances both residential convenience and investment potential.",
+          "Nearby highlights include the Bhogapuram Airport and the Nathavalasa Toll Gate.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "200 sq yards residential land",
+          "East-facing plot",
+          "VMRDA approved layout",
+          "40-feet road access",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for construction",
+          "Suitable for independent house or villa",
+          "Flexible planning options",
+        ],
+      },
+      {
+        title: "Utilities",
+        details: [
+          "Electricity available",
+          "Bore water available",
+          "No additional land preparation required",
+        ],
+      },
+    ],
+    location: "Dallars Layout",
+  },
 ];
 
 export const posts = articles.slice(0);
