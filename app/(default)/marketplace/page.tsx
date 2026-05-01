@@ -924,36 +924,36 @@ const articles = [
       {
         title: "Explore this Property",
         paragraphs: [
-          "Located in Bhimavaram, this gated residential apartment project is designed for practical and structured family living.[cite: 2]",
-          "This east-facing 3BHK apartment offers a balanced combination of space, ventilation, and natural light, making it suitable for both end-use buyers and investors.[cite: 2] Being RERA-approved, the project ensures transparency, compliance, and reliability for property buyers.[cite: 2]",
+          "Located in Bhimavaram, this gated residential apartment project is designed for practical and structured family living.",
+          "This east-facing 3BHK apartment offers a balanced combination of space, ventilation, and natural light, making it suitable for both end-use buyers and investors. Being RERA-approved, the project ensures transparency, compliance, and reliability for property buyers.",
         ],
       },
       {
         title: "The Living Experience",
         paragraphs: [
-          "The living and dining areas are designed as a connected central space, allowing smooth movement and comfortable daily living.[cite: 2]",
-          "The east-facing orientation allows natural morning light to enter the home, creating a bright and positive atmosphere.[cite: 2] The layout focuses on efficient space utilization without unnecessary complexity.[cite: 2]",
+          "The living and dining areas are designed as a connected central space, allowing smooth movement and comfortable daily living.",
+          "The east-facing orientation allows natural morning light to enter the home, creating a bright and positive atmosphere. The layout focuses on efficient space utilization without unnecessary complexity.",
         ],
       },
       {
         title: "Private Spaces",
         paragraphs: [
-          "The apartment includes three bedrooms designed for functional family living.[cite: 2] The master bedroom includes an attached bathroom for privacy and convenience.[cite: 2]",
-          "The additional bedrooms can be used for children, guests, or workspace, with sufficient space for furniture and storage.[cite: 2] All three bathrooms are planned with practical layouts for everyday use.[cite: 2]",
+          "The apartment includes three bedrooms designed for functional family living. The master bedroom includes an attached bathroom for privacy and convenience.",
+          "The additional bedrooms can be used for children, guests, or workspace, with sufficient space for furniture and storage. All three bathrooms are planned with practical layouts for everyday use.",
         ],
       },
       {
         title: "A Gated Residential Community",
         paragraphs: [
-          "The project is developed as a gated community, offering controlled access and a secure environment.[cite: 2]",
-          "The structured layout supports organized residential living with shared infrastructure and defined spaces.[cite: 2] This setup provides better long-term value compared to standalone apartment buildings.[cite: 2]",
+          "The project is developed as a gated community, offering controlled access and a secure environment.",
+          "The structured layout supports organized residential living with shared infrastructure and defined spaces. This setup provides better long-term value compared to standalone apartment buildings.",
         ],
       },
       {
         title: "The Setting: Bhimavaram",
         paragraphs: [
-          "Bhimavaram is a well-established town with consistent residential demand and growing infrastructure.[cite: 2]",
-          "It offers access to schools, markets, and essential services, making it suitable for family living.[cite: 2] The location supports stable property value and long-term usability.[cite: 2]",
+          "Bhimavaram is a well-established town with consistent residential demand and growing infrastructure.",
+          "It offers access to schools, markets, and essential services, making it suitable for family living. The location supports stable property value and long-term usability.",
         ],
       },
     ],
@@ -961,28 +961,28 @@ const articles = [
       {
         title: "Bedrooms & Bathrooms",
         details: [
-          "Three well-planned bedrooms[cite: 2]",
-          "Master bedroom with attached bathroom[cite: 2]",
-          "Three bathrooms with practical layouts[cite: 2]",
-          "Easy accessibility across the apartment[cite: 2]",
+          "Three well-planned bedrooms",
+          "Master bedroom with attached bathroom",
+          "Three bathrooms with practical layouts",
+          "Easy accessibility across the apartment",
         ],
       },
       {
         title: "Living Space & Kitchen",
         details: [
-          "East-facing layout with natural light[cite: 2]",
-          "Connected living and dining area[cite: 2]",
-          "Dedicated kitchen area designed for daily workflow[cite: 2]",
-          "Functional layout with storage space[cite: 2]",
+          "East-facing layout with natural light",
+          "Connected living and dining area",
+          "Dedicated kitchen area designed for daily workflow",
+          "Functional layout with storage space",
         ],
       },
       {
         title: "Community & Security",
         details: [
-          "Gated residential environment[cite: 2]",
-          "RERA approved project[cite: 2]",
-          "Controlled access[cite: 2]",
-          "Structured apartment planning[cite: 2]",
+          "Gated residential environment",
+          "RERA approved project",
+          "Controlled access",
+          "Structured apartment planning",
         ],
       },
     ],
@@ -1013,34 +1013,34 @@ const articles = [
       {
         title: "Explore this property",
         paragraphs: [
-          "Situated in Bhimavaram, this 3BHK apartment is part of a gated residential community designed for structured and comfortable living[cite: 3].",
-          "With a built-up area of 1590 sq ft, the apartment is planned to accommodate modern family requirements, offering a balance between space efficiency and everyday usability[cite: 3]. Developed within a Stilt + 5 floor structure, the project ensures organized living with dedicated parking and a planned residential layout[cite: 3].",
+          "Situated in Bhimavaram, this 3BHK apartment is part of a gated residential community designed for structured and comfortable living.",
+          "With a built-up area of 1590 sq ft, the apartment is planned to accommodate modern family requirements, offering a balance between space efficiency and everyday usability. Developed within a Stilt + 5 floor structure, the project ensures organized living with dedicated parking and a planned residential layout.",
         ],
       },
       {
         title: "The Living Experience",
         paragraphs: [
-          "The apartment is designed to deliver a practical and functional living environment, with clearly defined spaces for daily activities[cite: 3]. The living and dining areas form the core of the home, allowing seamless interaction while maintaining enough room for movement[cite: 3].",
-          "The east-facing orientation allows natural morning light to enter the home, creating a bright and comfortable atmosphere during the day[cite: 3]. The layout focuses on usable space rather than decorative excess[cite: 3].",
+          "The apartment is designed to deliver a practical and functional living environment, with clearly defined spaces for daily activities. The living and dining areas form the core of the home, allowing seamless interaction while maintaining enough room for movement.",
+          "The east-facing orientation allows natural morning light to enter the home, creating a bright and comfortable atmosphere during the day. The layout focuses on usable space rather than decorative excess.",
         ],
       },
       {
         title: "Private Spaces",
         paragraphs: [
-          "This 3BHK unit includes three well-defined bedrooms, designed to support family living with privacy and comfort[cite: 3]. Each bedroom provides adequate space for furniture, storage, and flexible usage such as a guest room or workspace[cite: 3].",
-          "The three bathrooms are positioned for accessibility and practical use, ensuring convenience for both residents and visitors[cite: 3].",
+          "This 3BHK unit includes three well-defined bedrooms, designed to support family living with privacy and comfort. Each bedroom provides adequate space for furniture, storage, and flexible usage such as a guest room or workspace.",
+          "The three bathrooms are positioned for accessibility and practical use, ensuring convenience for both residents and visitors.",
         ],
       },
       {
         title: "A Gated Residential Community",
         paragraphs: [
-          "This apartment is part of a gated residential environment, offering structured community living with basic security and organization[cite: 3]. The project includes controlled access, stilt-level parking, and a planned layout that supports efficient residential use[cite: 3].",
+          "This apartment is part of a gated residential environment, offering structured community living with basic security and organization. The project includes controlled access, stilt-level parking, and a planned layout that supports efficient residential use.",
         ],
       },
       {
         title: "The Setting: Bhimavaram",
         paragraphs: [
-          "Bhimavaram is a well-established residential and commercial hub with consistent demand and stable infrastructure[cite: 3]. The area offers access to schools, hospitals, and daily essentials, along with good internal connectivity[cite: 3].",
+          "Bhimavaram is a well-established residential and commercial hub with consistent demand and stable infrastructure. The area offers access to schools, hospitals, and daily essentials, along with good internal connectivity.",
         ],
       },
     ],
@@ -1048,28 +1048,28 @@ const articles = [
       {
         title: "Living & Private Spaces",
         details: [
-          "Three bedrooms designed for family living[cite: 3]",
-          "Dedicated living and dining areas[cite: 3]",
-          "One balcony for ventilation and outdoor access[cite: 3]",
-          "Practical kitchen workflow design[cite: 3]",
+          "Three bedrooms designed for family living",
+          "Dedicated living and dining areas",
+          "One balcony for ventilation and outdoor access",
+          "Practical kitchen workflow design",
         ],
       },
       {
         title: "Building & Community",
         details: [
-          "Stilt + 5 floor construction[cite: 3]",
-          "1590 sq ft built-up area[cite: 3]",
-          "Stilt parking provision[cite: 3]",
-          "Completion within 18 months[cite: 3]",
+          "Stilt + 5 floor construction",
+          "1590 sq ft built-up area",
+          "Stilt parking provision",
+          "Completion within 18 months",
         ],
       },
       {
         title: "Safety & Infrastructure",
         details: [
-          "Controlled access[cite: 3]",
-          "RERA Approved (P05360033484)[cite: 3]",
-          "Established town infrastructure[cite: 3]",
-          "Well-connected road network[cite: 3]",
+          "Controlled access",
+          "RERA Approved",
+          "Established town infrastructure",
+          "Well-connected road network",
         ],
       },
     ],
