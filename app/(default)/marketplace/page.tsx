@@ -1169,7 +1169,96 @@ const articles = [
       },
     ],
     location: "Akividu, Andhra Pradesh",
-  }
+  },
+  {
+    id: "p12",
+    title: "3BHK Luxury Villa in Gated Community - Hyderabad",
+    price: "On Request",
+    subprice: "₹8,500 per Sq Ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 3,
+      bathrooms: 3,
+      type: "Luxury Villa",
+      plotArea: "166 Sq Yards",
+      builtArea: "2380 Sq Ft",
+      facing: "East Facing",
+      totalFloors: "Ground + 2 Floors (Triplex)",
+      floorNo: "",
+      age: "Under Construction",
+      approvedBy: "RERA Approved",
+      amenities: ["Gated Villa Community", "1 Car Parking", "Private Balconies (2)"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-12/image-7.jpeg",
+    url: "/marketplace/property-12",
+    content: [
+      {
+        title: "Explore this property",
+        paragraphs: [
+          "Located in a developing residential zone of Hyderabad, this 3BHK independent villa is part of a gated community designed for secure and structured living.",
+          "Built across Ground + 2 floors, the home offers approximately 2380 sq ft of living space on a 166 sq yard plot, making it suitable for families looking for both space and long-term value.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "The villa is designed with a vertically distributed layout, allowing separation between shared and private spaces. The main living area follows an open-plan approach, connecting the living and dining zones in a way that supports both daily routines and social gatherings.",
+          "Natural light flows through multiple levels, supported by ventilation across floors, creating a sense of openness despite the structured layout. The kitchen is positioned to support daily functionality with enough space for movement and storage.",
+        ],
+      },
+      {
+        title: "Private Spaces",
+        paragraphs: [
+          "The villa includes three bedrooms, planned to accommodate family living across different floors. Each bedroom offers sufficient space for furniture, storage, and movement without feeling restricted.",
+          "The bathrooms are distributed to support accessibility across levels, with practical layouts focused on usability rather than excess.",
+        ],
+      },
+      {
+        title: "Independent Luxury Living",
+        paragraphs: [
+          "As an independent triplex villa within a gated community, this property offers a balance between private ownership and structured residential planning. The G+2 layout allows clear zoning for shared living areas, private bedrooms, and additional flexible spaces.",
+          "The defined plot ownership (166 sq yards) adds long-term value, especially in a location where land appreciation plays a significant role in overall property growth.",
+        ],
+      },
+      {
+        title: "The Setting: Wadakpally",
+        paragraphs: [
+          "Wadakpally is emerging as a residential zone with growing relevance due to its connectivity and expansion of surrounding areas. Its access to key road networks and developing infrastructure makes it practical for working professionals and families.",
+          "Compared to highly saturated zones, Wadakpally offers more scope for structured growth, making it suitable for both end-use buyers and those evaluating long-term appreciation.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Living & Private Spaces",
+        details: [
+          "Three bedrooms distributed across multiple levels",
+          "Designed for family living with spatial separation",
+          "Three bathrooms with functional layouts across floors",
+          "Open-plan living and dining configuration",
+        ],
+      },
+      {
+        title: "Kitchen & Balconies",
+        details: [
+          "Dedicated kitchen with efficient layout",
+          "Space for storage and daily workflow",
+          "Two private balconies for ventilation and outdoor access",
+        ],
+      },
+      {
+        title: "Building & Community Highlights",
+        details: [
+          "Triplex construction (Ground + 2 floors)",
+          "Located on 166 sq yard plot",
+          "RERA Approved gated community",
+          "Completion expected by May 2026",
+        ],
+      },
+    ],
+    location: "Wadakpally, Hyderabad, Telangana",
+  },
 ];
 
 export const posts = articles.slice(0);
