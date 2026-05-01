@@ -1100,7 +1100,7 @@ const articles = [
       ],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-11/image-5.jpeg",
+    propertyImage: "/images/property/property-11/image-6.jpeg",
     url: "/marketplace/property-11",
     content: [
       {
