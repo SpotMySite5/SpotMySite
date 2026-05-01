@@ -1352,6 +1352,98 @@ const articles = [
     ],
     location: "Dallars Layout",
   },
+  {
+    id: "p14",
+    title: "Residential Plot, Thagarapuvalasa Coastal Corridor",
+    price: "40,00,000",
+    subprice: "20,000/sq yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Residential Plot",
+      plotArea: "200 Sq. Yards",
+      builtArea: "200 Sq. Yards",
+      facing: "East Facing",
+      totalFloors: "",
+      floorNo: "",
+      age: "",
+      approvedBy: "VMRDA Approved",
+      amenities: [
+        "40 Feet Road access",
+        "Electricity Available",
+        "Bore water available",
+        "Ready for Immediate Construction",
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-14/image-1.jpeg",
+    url: "/marketplace/property-14",
+    content: [
+      {
+        title: "Explore this Property",
+        paragraphs: [
+          "Located in the Thagarapuvalasa Coastal Corridor, this 200 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment.",
+          "The property benefits from organized layout planning and wide road access, making it suitable for immediate development. The east-facing orientation allows natural light and aligns with preferred residential planning standards.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "For families planning to build a home, this plot provides a balanced residential environment with access to developing infrastructure.",
+          "The east-facing direction ensures natural morning sunlight, creating a comfortable living atmosphere. The 40-feet road access improves connectivity and supports smooth residential development.",
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "With 200 sq. yards of land, the plot offers flexibility for different types of residential construction. Possible construction options include independent residential houses, villa-style homes, or duplex residential constructions.",
+          "The plot is ready for construction, making it suitable for immediate development without additional preparation.",
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+          "The property is supported by essential infrastructure required for residential living, including available electricity connections and bore water availability.",
+          "Access is provided via 40-feet wide road access, and the layout is organized and ready for immediate construction.",
+        ],
+      },
+      {
+        title: "The Setting: Thagarapuvalasa Coastal Corridor",
+        paragraphs: [
+          "Thagarapuvalasa Coastal Corridor is an emerging residential and investment location, gaining importance due to its connectivity and infrastructure development. The area is attracting buyers looking for residential plots with future growth potential, with key highlights including the Thagarapuvalasa Coastal Corridor Road.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "200 sq yards residential land",
+          "East-facing plot[cite: 7]",
+          "VMRDA approved layout",
+          "40-feet road access",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for residential construction",
+          "Suitable for independent house or villa",
+          "Flexible planning options",
+        ],
+      },
+      {
+        title: "Utilities",
+        details: [
+          "Electricity available",
+          "Bore water available",
+          "Suitable for immediate construction",
+        ],
+      },
+    ],
+    location: "Thagarapuvalasa Coastal Corridor",
+  },
 ];
 
 export const posts = articles.slice(0);
