@@ -1075,6 +1075,101 @@ const articles = [
     ],
     location: "Bhimavaram, Andhra Pradesh",
   },
+  {
+    id: "p11",
+    title: "Commercial Property, Akividu, Andhra Pradesh",
+    price: "Price upon request",
+    subprice: "10,000 per Sq Ft",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Commercial Space",
+      plotArea: "",
+      builtArea: "",
+      facing: "South Facing",
+      totalFloors: "C + G + 5 Floors",
+      floorNo: "",
+      age: "Under Construction",
+      approvedBy: "Commercial Approved",
+      amenities: [
+        "Mixed-use Functionality",
+        "Retail Spaces",
+        "Office Spaces",
+        "Residential Integration",
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-11/image-5.jpeg",
+    url: "/marketplace/property-11",
+    content: [
+      {
+        title: "Explore this Property",
+        paragraphs: [
+          "Located in a developing commercial zone of Akividu, this project is designed to support modern business requirements with structured planning and mixed-use functionality.",
+          "The project combines commercial and residential spaces within a single complex, making it suitable for businesses looking for accessibility, visibility, and long-term operational convenience. With commercial units positioned across the lower floors, the property ensures high footfall potential for retail outlets and offices.",
+        ],
+      },
+      {
+        title: "The Business Experience",
+        paragraphs: [
+          "The commercial layout is designed to support both independent businesses and growing enterprises. Spacious floor planning allows flexibility in setting up retail stores or office spaces, ensuring ease of movement and visibility.",
+          "Ceiling heights ranging from 10 to 15 feet provide an open and functional environment, suitable for various uses including showrooms and branded outlets.",
+        ],
+      },
+      {
+        title: "Commercial Spaces",
+        paragraphs: [
+          "The project includes dedicated commercial floors: the Ground Floor features high visibility retail spaces, the First Floor is suited for offices and service businesses, and the Second Floor offers flexible commercial usage[cite: 4]. Each unit is designed to accommodate business operations efficiently.",
+        ],
+      },
+      {
+        title: "Residential Integration",
+        paragraphs: [
+          "Upper floors (Third & Fourth) are allocated for residential units, creating a mixed-use environment. This supports business owners living close to their workplace and ensures continuous activity within the complex, adding value through combined usage.",
+        ],
+      },
+      {
+        title: "Independent Business Advantage",
+        paragraphs: [
+          "Unlike standalone shops, this complex offers a structured commercial environment, mixed-use development benefits, and strategic positioning for growth. The inclusion of residential floors enhances overall occupancy and consistent engagement within the property.",
+        ],
+      },
+      {
+        title: "The Setting: Akividu",
+        paragraphs: [
+          "Akividu is an emerging town with growing commercial activity and steady infrastructure development. The location supports local businesses and retail expansion, making it a practical choice for entrepreneurs and investors.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Commercial Spaces",
+        details: [
+          "Dedicated floors for business use",
+          "Suitable for office, retail, and start-ups",
+          "Designed for accessibility and visibility",
+        ],
+      },
+      {
+        title: "Ceiling & Structure",
+        details: [
+          "Ceiling height: 10 - 15 ft",
+          "Spacious layout for flexible usage",
+          "C + G + 5 Floor structure",
+        ],
+      },
+      {
+        title: "Building Highlights",
+        details: [
+          "Mixed-use development (Commercial + Residential)",
+          "Commercial approved project",
+          "Developing commercial surroundings",
+        ],
+      },
+    ],
+    location: "Akividu, Andhra Pradesh",
+  }
 ];
 
 export const posts = articles.slice(0);
