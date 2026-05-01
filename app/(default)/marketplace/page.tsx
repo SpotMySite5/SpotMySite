@@ -1444,6 +1444,99 @@ const articles = [
     ],
     location: "Thagarapuvalasa Coastal Corridor",
   },
+  {
+    id: "p15",
+    title: "Residential Plot, Harbour City Phase-3",
+    price: "56,00,000",
+    subprice: "28,000/sq yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Residential Plot",
+      plotArea: "200 Sq. Yards",
+      builtArea: "200 Sq. Yards",
+      facing: "East Facing",
+      totalFloors: "",
+      floorNo: "",
+      age: "",
+      approvedBy: "VMRDA Approved",
+      amenities: [
+        "40 Feet Road access",
+        "Electricity Available",
+        "Bore water available",
+        "Ready for Immediate Construction",
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-15/image-11.jpeg",
+    url: "/marketplace/property-15",
+    content: [
+      {
+        title: "Explore this Property",
+        paragraphs: [
+          "Located in Harbour City Phase-3, this 200 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment[cite: 8].",
+          "The property benefits from structured layout planning and wide road access, making it suitable for immediate construction without additional preparation[cite: 8]. The east-facing orientation allows natural light and is commonly preferred for residential planning and Vaastu considerations[cite: 8].",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "For families planning to build a home, this plot provides a balanced residential environment with access to nearby infrastructure[cite: 8].",
+          "The east-facing direction ensures natural morning sunlight, contributing to a comfortable and well-lit living space[cite: 8]. The 40-feet road access enhances connectivity and supports smooth construction[cite: 8].",
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "With 200 sq. yards of land, the plot offers flexibility for different types of residential construction. Possible construction options include an independent residential house, villa-style home, or duplex residential construction[cite: 8].",
+          "The plot is ready for construction, making it suitable for immediate development without delays?.",
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+          "The property is supported by essential infrastructure required for residential living, including electricity connection and bore water availability.",
+          "It features 40-feet wide road access and is ready for immediate construction.",
+        ],
+      },
+      {
+        title: "The Setting: Harbour City Phase-3",
+        paragraphs: [
+          "Harbour City Phase-3 is a developing residential area gaining attention due to its proximity to coastal infrastructure and connectivity routes.",
+          "The area is attracting buyers looking for residential plots with future appreciation potential, with nearby highlights including Bhimm Beach Road at Nidigattu.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "200 sq yards residential land",
+          "East-facing plot",
+          "VMRDA approved layout",
+          "40-feet road access",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for residential construction",
+          "Suitable for independent house or villa",
+          "Flexible planning options",
+        ],
+      },
+      {
+        title: "Utilities",
+        details: [
+          "Electricity available",
+          "Bore water available",
+          "Suitable for immediate construction",
+        ],
+      },
+    ],
+    location: "Harbour City Phase-3",
+  },
 ];
 
 export const posts = articles.slice(0);
