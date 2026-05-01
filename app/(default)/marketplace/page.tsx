@@ -1259,9 +1259,9 @@ const articles = [
     ],
     location: "Wadakpally, Hyderabad, Telangana",
   },
-  {
+{
     id: "p13",
-    title: "Residential Plot, Dallars Layout",
+    title: "Residential Plot, Visakhapatnam",
     price: "32,00,000",
     subprice: "16,000/sq yard",
     type: "For sale",
@@ -1290,7 +1290,7 @@ const articles = [
       {
         title: "Explore this Property",
         paragraphs: [
-          "Located in Dallars Layout, this 200 sq. yard residential plot presents a practical opportunity for both residential construction and long-term land investment.",
+          "Located in Visakhapatnam, this 200 sq. yard residential plot presents a practical opportunity for both residential construction and long-term land investment.",
           "The property benefits from planned layout development and wide road access, making it suitable for immediate construction without additional preparation. The east-facing orientation allows for natural light and is commonly preferred for residential planning.",
         ],
       },
@@ -1318,8 +1318,7 @@ const articles = [
       {
         title: "The Setting",
         paragraphs: [
-          "Dallars Layout is a developing residential area with growing importance due to nearby infrastructure projects. Its proximity to key locations enhances both residential convenience and investment potential.",
-          "Nearby highlights include the Bhogapuram Airport and the Nathavalasa Toll Gate.",
+          "Visakhapatnam is a developing residential area with growing importance due to nearby infrastructure projects. Its proximity to key locations enhances both residential convenience and investment potential. Nearby highlights include the Bhogapuram Airport and the Nathavalasa Toll Gate.",
         ],
       },
     ],
@@ -1350,11 +1349,11 @@ const articles = [
         ],
       },
     ],
-    location: "Dallars Layout",
+    location: "Visakhapatnam",
   },
   {
     id: "p14",
-    title: "Residential Plot, Thagarapuvalasa Coastal Corridor",
+    title: "Residential Plot, Thagarapuvalasa",
     price: "40,00,000",
     subprice: "20,000/sq yard",
     type: "For sale",
@@ -1420,7 +1419,7 @@ const articles = [
         title: "Land Details",
         details: [
           "200 sq yards residential land",
-          "East-facing plot[cite: 7]",
+          "East-facing plot",
           "VMRDA approved layout",
           "40-feet road access",
         ],
@@ -1444,9 +1443,9 @@ const articles = [
     ],
     location: "Thagarapuvalasa Coastal Corridor",
   },
-  {
+ {
     id: "p15",
-    title: "Residential Plot, Harbour City Phase-3",
+    title: "Residential Plot, Visakhapatnam",
     price: "56,00,000",
     subprice: "28,000/sq yard",
     type: "For sale",
@@ -1475,22 +1474,22 @@ const articles = [
       {
         title: "Explore this Property",
         paragraphs: [
-          "Located in Harbour City Phase-3, this 200 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment[cite: 8].",
-          "The property benefits from structured layout planning and wide road access, making it suitable for immediate construction without additional preparation[cite: 8]. The east-facing orientation allows natural light and is commonly preferred for residential planning and Vaastu considerations[cite: 8].",
+          "Located in Visakhapatnam, this 200 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment.",
+          "The property benefits from structured layout planning and wide road access, making it suitable for immediate construction without additional preparation. The east-facing orientation allows natural light and is commonly preferred for residential planning and Vaastu considerations.",
         ],
       },
       {
         title: "The Living Experience",
         paragraphs: [
-          "For families planning to build a home, this plot provides a balanced residential environment with access to nearby infrastructure[cite: 8].",
-          "The east-facing direction ensures natural morning sunlight, contributing to a comfortable and well-lit living space[cite: 8]. The 40-feet road access enhances connectivity and supports smooth construction[cite: 8].",
+          "For families planning to build a home, this plot provides a balanced residential environment with access to nearby infrastructure.",
+          "The east-facing direction ensures natural morning sunlight, contributing to a comfortable and well-lit living space. The 40-feet road access enhances connectivity and supports smooth construction.",
         ],
       },
       {
         title: "Development Potential",
         paragraphs: [
-          "With 200 sq. yards of land, the plot offers flexibility for different types of residential construction. Possible construction options include an independent residential house, villa-style home, or duplex residential construction[cite: 8].",
-          "The plot is ready for construction, making it suitable for immediate development without delays?.",
+          "With 200 sq. yards of land, the plot offers flexibility for different types of residential construction. Possible construction options include an independent residential house, villa-style home, or duplex residential construction.",
+          "The plot is ready for construction, making it suitable for immediate development without delays.",
         ],
       },
       {
@@ -1501,10 +1500,9 @@ const articles = [
         ],
       },
       {
-        title: "The Setting: Harbour City Phase-3",
+        title: "The Setting: Visakhapatnam",
         paragraphs: [
-          "Harbour City Phase-3 is a developing residential area gaining attention due to its proximity to coastal infrastructure and connectivity routes.",
-          "The area is attracting buyers looking for residential plots with future appreciation potential, with nearby highlights including Bhimm Beach Road at Nidigattu.",
+          "Visakhapatnam is a developing residential area gaining attention due to its proximity to coastal infrastructure and connectivity routes. The area is attracting buyers looking for residential plots with future appreciation potential, with nearby highlights including Bhimm Beach Road.",
         ],
       },
     ],
@@ -1535,8 +1533,100 @@ const articles = [
         ],
       },
     ],
-    location: "Harbour City Phase-3",
+    location: "Visakhapatnam",
   },
+  {
+    id: "p16",
+    title: "Residential Plot, Maheshwaram, Hyderabad",
+    price: "49,99,800",
+    subprice: "24,999/sq yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Residential Plot",
+      plotArea: "200 Sq. Yards",
+      builtArea: "200 Sq. Yards",
+      facing: "East Facing",
+      totalFloors: "",
+      floorNo: "",
+      age: "",
+      approvedBy: "HMDA and RERA approved",
+      amenities: [
+        "33 Feet Road access",
+        "Electricity Available",
+        "Water Available",
+        "Ready for Construction",
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-16/image-1.jpeg",
+    url: "/marketplace/property-16",
+    content: [
+      {
+        title: "Explore this Property",
+        paragraphs: [
+          "Located in Maheshwaram, Hyderabad, this 200 sq. yard residential plot offers a strong opportunity for both residential construction and long-term land investment.",
+          "The property benefits from planned development standards and organized road access[cite: 9]. The east-facing orientation allows for good natural light and is preferred for both architectural planning and traditional Vaastu considerations.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "For families planning a future home, the plot provides a peaceful residential setting away from heavy city congestion while still maintaining access to nearby developing areas.",
+          "The east-facing orientation ensures natural morning sunlight, contributing to a comfortable living environment. The 33-foot roads within the layout improve accessibility and allow sufficient space for smooth residential development.",
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "With 200 sq. yards of land, the property offers flexibility for different types of residential construction depending on individual preferences and local regulations.",
+          "Possible construction options include an independent residential house, villa-style home, or duplex residential construction. The plot is level and ready for construction, making it suitable for immediate development without additional preparation.",
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+          "The property is supported by essential infrastructure required for residential living, including electricity connections available in the area and confirmed water availability.",
+          "It features 33-feet wide internal layout roads and is ready for immediate construction.",
+        ],
+      },
+      {
+        title: "The Setting: Maheshwaram",
+        paragraphs: [
+          "Maheshwaram, Hyderabad is an emerging residential and investment destination, gaining attention due to its proximity to industrial and economic hubs.The area is gradually attracting buyers looking for peaceful residential environments with strong future growth potential and improving connectivity.",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "200 sq yards residential land",
+          "East facing plot[cite: 9]",
+          "Located in Residential R1 Zone",
+          "33-foot internal roads",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for residential construction",
+          "Suitable for independent house or villa",
+          "Flexible planning options for future development",
+        ],
+      },
+      {
+        title: "Utilities",
+        details: [
+          "Electricity available",
+          "Water available",
+          "Suitable for immediate construction",
+        ],
+      },
+    ],
+    location: "Maheshwaram, Hyderabad",
+  }
 ];
 
 export const posts = articles.slice(0);
