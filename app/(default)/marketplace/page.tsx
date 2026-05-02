@@ -1173,7 +1173,7 @@ const articles = [
   {
     id: "p12",
     title: "3BHK Luxury Villa in Gated Community - Hyderabad",
-    price: "On Request",
+    price: "2,02,30,000",
     subprice: "₹8,500 per Sq Ft",
     type: "For sale",
     propertyDetails: {
@@ -1190,7 +1190,7 @@ const articles = [
       amenities: ["Gated Villa Community", "1 Car Parking", "Private Balconies (2)"],
     },
     images: [] as string[],
-    propertyImage: "/images/property/property-12/image-7.jpeg",
+    propertyImage: "/images/property/property-12/image-12.jpeg",
     url: "/marketplace/property-12",
     content: [
       {
