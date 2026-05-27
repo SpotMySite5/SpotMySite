@@ -1351,6 +1351,105 @@ const articles = [
     ],
     location: "Visakhapatnam",
   },
+  {
+  id: "p14",
+  title: "Residential Plot, Shadnagar Town, Hyderabad",
+  price: "41,25,000",
+  subprice: "25,000/sq yard",
+  type: "For sale",
+  propertyDetails: {
+    bedrooms: 0,
+    bathrooms: 0,
+    type: "Residential Plot",
+    plotArea: "165 Sq. Yards",
+    builtArea: "165 Sq. Yards",
+    facing: "East Facing",
+    cornerPlot: "Yes",
+    totalFloors: "",
+    floorNo: "",
+    age: "",
+    approvedBy: "DTCP & RERA Approved",
+    zoneType: "R1 Zone",
+    amenities: [
+      "40 Feet Road access",
+      "Electricity Available",
+      "Borewell Available",
+      "Ready for Immediate Construction",
+    ],
+  },
+  images: [] as string[],
+  propertyImage: "/images/property/property-14/image-1.jpeg",
+  url: "/marketplace/property-14",
+  content: [
+    {
+      title: "Explore this Property",
+      paragraphs: [
+        "Located in the fast-developing Shadnagar Town near Hyderabad, this 165 sq. yard residential plot presents an excellent opportunity for both residential construction and long-term property investment.",
+        "Positioned in a DTCP and RERA-approved layout, the property ensures legal clarity and planned infrastructure development. The east-facing orientation, along with its corner plot advantage, offers better ventilation, enhanced accessibility, and greater flexibility in construction planning.",
+        "Situated within a rapidly growing residential corridor, the property benefits from strong connectivity to Hyderabad and upcoming infrastructure developments around Shadnagar."
+      ],
+    },
+    {
+      title: "The Living Experience",
+      paragraphs: [
+        "For families planning to build their dream home, this plot offers a balanced lifestyle with peaceful surroundings while remaining well connected to Hyderabad city.",
+        "The east-facing direction allows natural morning sunlight, making it highly preferred for both architectural planning and traditional Vaastu considerations.",
+        "The 40-foot road access ensures easy vehicle movement and comfortable residential development."
+      ],
+    },
+    {
+      title: "Development Potential",
+      paragraphs: [
+        "With 165 sq. yards of land, the property offers flexible options for modern residential construction depending on buyer preferences and local regulations.",
+        "Possible construction options include: Independent residential house, Duplex home, Villa-style residence, or Multi-floor residential building (subject to approvals).",
+        "The plot is fully ready for construction, allowing immediate development without delays."
+      ],
+    },
+    {
+      title: "Infrastructure & Utilities",
+      paragraphs: [
+        "The property is equipped with essential infrastructure required for comfortable residential living.",
+        "Key utility provisions include an available electricity connection, borewell water facility, ready access to utility services, and wide 40-foot internal road access in a developed residential surrounding."
+      ],
+    },
+    {
+      title: "The Setting: Shadnagar",
+      paragraphs: [
+        "Shadnagar is one of Hyderabad’s rapidly growing suburban investment destinations, known for its strategic connectivity and expanding infrastructure. Its proximity to major transport corridors and the airport makes it highly attractive for both homeowners and investors. Nearby highlights include the Shadnagar Municipality, Hyderabad International Airport (just 20 minutes away), and easy access to the Hyderabad–Bangalore Highway."
+      ],
+    },
+  ],
+  propertyFeatures: [
+    {
+      title: "Land Details",
+      details: [
+        "165 sq. yards residential land",
+        "East-facing plot",
+        "Corner plot",
+        "DTCP & RERA approved layout",
+        "R1 Zone",
+        "40-foot road access",
+      ],
+    },
+    {
+      title: "Building Potential",
+      details: [
+        "Ready for immediate construction",
+        "Suitable for independent house or duplex",
+        "Flexible future development options",
+      ],
+    },
+    {
+      title: "Utilities",
+      details: [
+        "Electricity available",
+        "Borewell water available",
+        "Suitable for immediate residential setup",
+      ],
+    },
+  ],
+  location: "Shadnagar Town, Hyderabad, Telangana",
+},
  {
     id: "p15",
     title: "Residential Plot, Visakhapatnam",
