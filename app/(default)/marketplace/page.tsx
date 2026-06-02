@@ -1542,6 +1542,103 @@ const articles = [
     ],
     location: "Visakhapatnam",
   },
+  {
+  id: "p16",
+  title: "Residential Plot, Gandimaisamma, Medchal–Malkajgiri District",
+  price: "1,06,75,000",
+  subprice: "35,000/sq yard",
+  type: "For sale",
+  propertyDetails: {
+    bedrooms: 0,
+    bathrooms: 0,
+    type: "Land",
+    plotArea: "305 Sq. Yards",
+    builtArea: "305 Sq. Yards",
+    facing: "East Facing",
+    totalFloors: "",
+    floorNo: "",
+    age: "",
+    approvedBy: "LRS Amount Paid",
+    amenities: [
+      "South-East Corner Plot",
+      "30 Feet Road access (East)",
+      "25 Feet Road access (South)",
+      "Electricity Available Nearby",
+      "Borewell Nearby",
+      "Ready for Construction",
+    ],
+  },
+  images: [] as string[],
+  propertyImage: "/images/property/property-16/image_1.jpeg",
+  url: "/marketplace/property-2",
+  content: [
+    {
+      title: "Explore this Property",
+      paragraphs: [
+        "Located in Gandimaisamma, Medchal–Malkajgiri District, this 305 sq. yard residential corner plot presents an excellent opportunity for both residential construction and long-term investment. Positioned within a well-established residential area, the property enjoys dual road access and is ready for immediate development. The east-facing orientation and South-East corner position are highly preferred by many homebuyers and investors for residential planning and Vaastu considerations.",
+      ],
+    },
+    {
+      title: "The Living Experience",
+      paragraphs: [
+        "For families planning to build their dream home, this plot offers a peaceful residential environment with convenient access to schools, commercial establishments, healthcare facilities, and transportation networks.",
+        "The east-facing direction allows ample natural morning sunlight, creating a bright and comfortable living space. The corner plot advantage provides better ventilation, enhanced accessibility, and greater architectural flexibility. The dual road access from the east and south sides ensures smooth entry and improved convenience for future construction and daily living.",
+      ],
+    },
+    {
+      title: "Development Potential",
+      paragraphs: [
+        "With 305 sq. yards of land, the property offers excellent flexibility for various residential development options. Possible Construction Options:\n- Independent Residential House\n- Luxury Villa\n- Duplex House\n- Rental Income Property\n- Multi-floor Residential Building (subject to local regulations). As the plot is ready for immediate construction, buyers can begin development without significant site preparation.",
+      ],
+    },
+    {
+      title: "Infrastructure & Utilities",
+      paragraphs: [
+        "The property is supported by essential infrastructure required for residential development:",
+        "- Electricity available nearby\n- Borewell facility nearby\n- 30-feet and 25-feet road access\n- Ready for immediate construction\n- Well-developed residential surroundings",
+      ],
+    },
+    {
+      title: "The Setting: Gandimaisamma",
+      paragraphs: [
+        "Gandimaisamma has emerged as one of the fast-growing residential locations in the Medchal–Malkajgiri region due to its connectivity, infrastructure growth, and proximity to major employment hubs of Hyderabad. The area continues to attract homebuyers and investors seeking residential plots with strong long-term appreciation potential and easy access to city conveniences.",
+        "Nearby Highlights:\n- Sai Baba Temple\n- MRO Office\n- ORR (Outer Ring Road) Connectivity\n- Kompally\n- Bachupally\n- Jeedimetla Industrial Area\n- Medchal Highway Corridor",
+      ],
+    },
+  ],
+  propertyFeatures: [
+    {
+      title: "Land Details",
+      details: [
+        "305 sq. yards residential land",
+        "East-facing plot",
+        "South-East corner plot",
+        "LRS amount paid",
+        "R1 residential zoning",
+        "Dual road access",
+      ],
+    },
+    {
+      title: "Building Potential",
+      details: [
+        "Ready for residential construction",
+        "Suitable for independent house or villa",
+        "Flexible architectural planning options",
+        "Strong investment opportunity",
+      ],
+    },
+    {
+      title: "Utilities",
+      details: [
+        "Electricity available nearby",
+        "Borewell facility nearby",
+        "Dual road connectivity",
+        "Suitable for immediate construction and occupancy planning",
+      ],
+    },
+  ],
+  location: "Gandimaisamma, Medchal–Malkajgiri District, Telangana",
+},
 ];
 
 export const posts = articles.slice(0);
