@@ -1570,7 +1570,7 @@ const articles = [
   },
   images: [] as string[],
   propertyImage: "/images/property/property-16/image_1.jpeg",
-  url: "/marketplace/property-2",
+  url: "/marketplace/property-16",
   content: [
     {
       title: "Explore this Property",
