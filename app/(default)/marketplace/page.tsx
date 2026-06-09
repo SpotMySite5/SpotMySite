@@ -1639,6 +1639,103 @@ const articles = [
   ],
   location: "Gandimaisamma, Medchal–Malkajgiri District, Telangana",
 },
+  {
+    id: "p17",
+    title: "Residential Plot, Gandi Maisamma, Hyderabad",
+    price: "1,00,10,000",
+    subprice: "35,000 per Sq Yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 0,
+      bathrooms: 0,
+      type: "Land",
+      plotArea: "286 Sq. Yards",
+      builtArea: "286 Sq. Yards",
+      facing: "East Facing",
+      totalFloors: "",
+      floorNo: "",
+      age: "",
+      approvedBy: "GHMC Approved (LRS Paid)",
+      amenities: ["Electricity Available Nearby", "Borewell Available Nearby", "Ready for construction", "Corner Plot"],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-17/image-3.jpeg",
+    url: "/marketplace/property-17",
+    content: [
+      {
+        title: "Explore This Property",
+        paragraphs: [
+          "Located in the developing residential locality of Gandi Maisamma, Hyderabad, this 286 sq. yard residential plot presents an attractive opportunity for home construction as well as long-term real estate investment.",
+          "Positioned within the Greater Hyderabad Municipal Corporation (GHMC) limits, the property benefits from urban infrastructure, civic amenities, and strong connectivity to key areas of Hyderabad. The east-facing orientation and premium north-east corner position provide excellent access, ventilation, and flexibility for residential planning.",
+          "The plot is situated in an R1 Residential Zone with LRS charges already paid, offering added confidence for buyers seeking a legally compliant residential property in a growing suburban location.",
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "For families planning to build a future home, this plot offers the advantage of a peaceful residential neighborhood while remaining connected to major employment, educational, and commercial hubs of Hyderabad.",
+          "The east-facing orientation allows abundant morning sunlight, making it desirable for both architectural design and traditional Vaastu preferences. The north-east corner positioning further enhances openness and accessibility from two road sides.",
+          "The surrounding residential environment provides convenience, accessibility, and a comfortable setting for long-term living.",
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "With 286 sq. yards of land area, the property provides excellent flexibility for residential development and future value appreciation.",
+          "Possible construction options include:\n• Independent residential house\n• Premium villa-style residence\n• Duplex home\n• Multi-floor residential building (subject to local approvals)",
+          "The plot is ready for immediate construction, allowing buyers to begin development without significant site preparation.",
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+          "The property is supported by essential infrastructure required for comfortable residential development.",
+          "• Electricity available nearby\n• Borewell water available in surrounding plots\n• East-side 30-foot road access\n• North-side 25-foot road access\n• Well-connected residential surroundings\n• Ready for immediate construction",
+        ],
+      },
+      {
+        title: "The Setting: Gandi Maisamma",
+        paragraphs: [
+          "Gandi Maisamma has emerged as one of the rapidly developing residential corridors in the north-western region of Hyderabad. Its proximity to industrial zones, educational institutions, and expanding infrastructure projects continues to attract both homeowners and investors.",
+          "Being within GHMC limits adds long-term value and access to planned civic development, making the area increasingly attractive for residential growth.",
+          "Nearby highlights include:\n• MRO Office nearby\n• Easy connectivity to Outer Ring Road (ORR) corridors\n• Access to schools, hospitals, and shopping facilities\n• Growing residential communities and infrastructure development",
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land Details",
+        details: [
+          "286 sq. yards residential land",
+          "East-facing plot",
+          "Premium north-east corner position",
+          "LRS amount paid",
+          "R1 Residential Zone",
+          "Located within GHMC limits",
+          "30-foot and 25-foot road access",
+        ],
+      },
+      {
+        title: "Building Potential",
+        details: [
+          "Ready for immediate construction",
+          "Suitable for independent house or villa",
+          "Ideal for self-use or investment",
+          "Flexible residential planning options",
+        ],
+      },
+      {
+        title: "Utilities",
+        details: [
+          "Electricity available nearby",
+          "Borewell water available in surrounding area",
+          "Excellent road connectivity",
+          "Developed residential neighborhood suitable for immediate development",
+        ],
+      },
+    ],
+    location: "Gandi Maisamma, Medchal–Malkajgiri District, Hyderabad, Telangana",
+  }
 ];
 
 export const posts = articles.slice(0);
