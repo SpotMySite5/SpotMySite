@@ -1735,6 +1735,119 @@ const articles = [
       },
     ],
     location: "Gandi Maisamma, Medchal–Malkajgiri District, Hyderabad, Telangana",
+  },
+  {
+    id: "p18",
+    title: "Luxury Prefab Farmhouse, Near TCS Adibatla, Hyderabad",
+    price: "2,00,00,000",
+    subprice: "50,000 per Sq Yard",
+    type: "For sale",
+    propertyDetails: {
+      bedrooms: 3,
+      bathrooms: 3,
+      type: "Farmhouse",
+      plotArea: "300 Sq. Yards",
+      builtArea: "",
+      facing: "",
+      totalFloors: "1",
+      floorNo: "",
+      age: "Ready to Move",
+      approvedBy: "",
+      amenities: [
+        "Private 12 × 24 Ft Swimming Pool",
+        "Fully Furnished",
+        "Landscaped Garden & Lawn",
+        "Barbecue Area",
+        "Outdoor Entertainment Setup with Projector",
+        "5 KVA Commercial Electricity Connection"
+      ],
+    },
+    images: [] as string[],
+    propertyImage: "/images/property/property-18/image-1.jpeg",
+    url: "/marketplace/property-18",
+    content: [
+      {
+        title: "Explore This Property",
+        paragraphs: [
+          "Located near TCS Adibatla, this premium luxury prefab farmhouse on 300 Sq. Yards offers an excellent combination of luxury living and investment potential. The property comes with a beautifully designed 3 BHK fully furnished home, attached bathrooms, a private swimming pool, landscaped lawn, barbecue area, and an outdoor entertainment setup with a projector.",
+          "Already operating as a successful farmhouse rental with an average of more than 13 bookings every month, this property provides immediate rental income while offering strong appreciation potential due to the rapid development of the surrounding area. Whether you're looking for a weekend retreat, an Airbnb investment, or a premium farmhouse near Hyderabad, this property is ready to deliver value from day one."
+        ],
+      },
+      {
+        title: "The Living Experience",
+        paragraphs: [
+          "Wake up to peaceful surroundings and enjoy a premium lifestyle designed for relaxation, comfort, and entertainment. The spacious interiors, private swimming pool, landscaped garden, and barbecue area create the perfect setting for family gatherings, celebrations, and weekend getaways.",
+          "The farmhouse is ideal for hosting corporate outings, birthday parties, private events, and holiday stays. With fully furnished interiors and modern amenities already in place, buyers can immediately enjoy the property without any additional setup or renovation."
+        ],
+      },
+      {
+        title: "Development Potential",
+        paragraphs: [
+          "This luxury farmhouse is not only a ready-to-use property but also an excellent investment opportunity in one of Hyderabad's fastest-growing locations.",
+          "Investment opportunities include:\n Airbnb and vacation rental business\n Weekend farmhouse rental\n Corporate retreat destination\n Private family holiday home\n Long-term real estate investment",
+          "The surrounding area is witnessing rapid residential and commercial growth, making this property well-positioned for future appreciation while continuing to generate regular rental income."
+        ],
+      },
+      {
+        title: "Infrastructure & Utilities",
+        paragraphs: [
+          "The property is fully equipped with essential infrastructure and modern facilities required for comfortable living and commercial rental operations.",
+          " 5 KVA Commercial Electricity Connection\n Fully Furnished Interiors\n Private Swimming Pool\n Landscaped Lawn\n Barbecue Area\n Entertainment Projector Setup\n Ready-to-Move Condition\n Immediate Rental Income Opportunity"
+        ],
+      },
+      {
+        title: "The Setting: Near TCS Adibatla",
+        paragraphs: [
+          "Located near TCS Adibatla, this luxury farmhouse enjoys excellent connectivity to Hyderabad while offering a peaceful environment away from city traffic. The locality is rapidly transforming with several residential communities, villas, and commercial developments, making it one of Hyderabad's promising investment destinations.",
+          "Its close proximity to the Outer Ring Road ensures smooth connectivity to the airport, IT hubs, educational institutions, hospitals, and other major parts of the city. With increasing demand for private farmhouses and weekend destinations, the area continues to attract both end-users and investors."
+        ],
+      },
+    ],
+    propertyFeatures: [
+      {
+        title: "Land & Property Details",
+        details: [
+          "300 Sq. Yards Premium Farmhouse",
+          "Luxury Prefab Construction",
+          "Ready-to-Move Property",
+          "Fully Furnished 3 BHK",
+          "Private Swimming Pool",
+        ],
+      },
+      {
+        title: "Lifestyle Features",
+        details: [
+          "Spacious Living Room",
+          "Attached Bathrooms",
+          "Landscaped Garden",
+          "Barbecue Area",
+          "Outdoor Entertainment Space",
+          "Premium Interiors",
+        ],
+      },
+      {
+        title: "Investment Features",
+        details: [
+          "Running Farmhouse Rental Business",
+          "Average 13+ Monthly Bookings",
+          "Immediate Rental Income",
+          "Ideal for Airbnb & Weekend Rentals",
+          "High Appreciation Potential",
+        ],
+      },
+      {
+        title: "Utilities & Infrastructure",
+        details: [
+          "5 KVA Commercial Electricity",
+          "Fully Functional Property",
+          "Immediate Occupancy",
+          "Ready for Personal or Commercial Use",
+          "Just 1 Km from TCS Adibatla Main Gate",
+          "Around 2 Km from Hyderabad Outer Ring Road (ORR)",
+        ],
+      },
+    ],
+    location: "Near TCS Adibatla, Hyderabad, Telangana",
   }
 ];
 
