@@ -1848,7 +1848,95 @@ const articles = [
       },
     ],
     location: "Near TCS Adibatla, Hyderabad, Telangana",
-  }
+  },
+  {
+  id: "p19",
+  title: "Residential Plot, Maisigandi, Telangana",
+  price: "12,00,000",
+  subprice: "6,000 per Sq Yard",
+  type: "For sale",
+  propertyDetails: {
+    bedrooms: 0,
+    bathrooms: 0,
+    type: "Land",
+    plotArea: "200 Sq. Yards",
+    builtArea: "200 Sq. Yards",
+    facing: "",
+    totalFloors: "",
+    floorNo: "",
+    age: "",
+    approvedBy: "",
+    amenities: [],
+  },
+  images: [] as string[],
+  propertyImage: "/images/property/property-19/image-1.jpeg",
+  url: "/marketplace/property-19",
+  content: [
+    {
+      title: "Explore This Property",
+      paragraphs: [
+        "Located in Maisigandi, Telangana, this 200 sq. yard plot offers an opportunity for residential development and long-term land investment.",
+        "The property has a total area of 200 sq. yards, with the asking price calculated at ₹6,000 per sq. yard.",
+      ],
+    },
+    {
+      title: "The Living Experience",
+      paragraphs: [
+        "The 200 sq. yard plot provides a suitable land area for planning a residential property, subject to applicable local development regulations and permissions.",
+        "The location identified in the provided property photograph is Maisigandi, Telangana.",
+      ],
+    },
+    {
+      title: "Development Potential",
+      paragraphs: [
+        "With 200 sq. yards of land, the property provides flexibility for residential planning depending on the buyer's requirements and applicable local regulations.",
+        "Possible development options may include:\n• Independent residential house\n• Residential villa-style construction\n• Other permitted residential development, subject to approvals",
+      ],
+    },
+    {
+      title: "Infrastructure & Utilities",
+      paragraphs: [
+        "The provided property image confirms the presence of an open land parcel in the Maisigandi area.",
+        "Specific details regarding utilities and infrastructure were not provided in the image:\n• Electricity availability: Not specified\n• Water availability: Not specified\n• Road access: Not specified\n• Construction status: Not specified",
+      ],
+    },
+    {
+      title: "The Setting: Maisigandi",
+      paragraphs: [
+        "The property is located in Maisigandi, Telangana.",
+        "The provided image shows an open land parcel with surrounding vegetation and utility poles visible in the wider area.",
+        "Nearby highlights:\n• No specific nearby landmarks or distances are provided in the supplied property information.",
+      ],
+    },
+  ],
+  propertyFeatures: [
+    {
+      title: "Land Details",
+      details: [
+        "200 sq yards residential plot",
+        "Located in Maisigandi, Telangana",
+        "Open land parcel shown in the property photograph",
+      ],
+    },
+    {
+      title: "Building Potential",
+      details: [
+        "Suitable for residential planning",
+        "Development subject to applicable local regulations and approvals",
+        "Construction details are not specified in the provided information",
+      ],
+    },
+    {
+      title: "Utilities",
+      details: [
+        "Electricity details: Not specified",
+        "Water availability: Not specified",
+        "Other utility details: Not specified",
+      ],
+    },
+  ],
+  location: "Maisigandi, Telangana",
+}
 ];
 
 export const posts = articles.slice(0);
