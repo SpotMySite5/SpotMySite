@@ -448,6 +448,87 @@ const articles = [
     ]
   }
 },
+  {
+  "id": "7",
+  "title": "What Should You Check Before Buying Land in Andhra Pradesh or Telangana?",
+  "date": "2026-09-01",
+  "image": "/images/blog/blog7.png",
+  "url": "/blog/what-should-you-check-before-buying-land-in-andhra-pradesh-or-telangana",
+  "content": {
+    "title": "What Should You Check Before Buying Land in Andhra Pradesh or Telangana?",
+    "paragraphs": [
+      "Buying land in Andhra Pradesh or Telangana can be a good long-term investment, but it is also a decision that needs careful verification. A property may look perfect on paper and still have legal, ownership, or approval-related problems that can create serious issues later. Before paying an advance or signing an agreement, buyers should verify the land from multiple angles, including ownership, documents, government records, access, boundaries, and development permissions. Here are the 10 important things you should check before buying land in Andhra Pradesh or Telangana."
+    ],
+    "toc": [
+      {
+        "title": "1. Verify the Seller’s Ownership",
+        "paragraphs": [
+          "The first thing you should confirm is whether the person selling the property is actually the legal owner. Do not rely only on the seller's words or a basic sale document. Check the current title deed and compare the owner's name, survey number, extent, location, and other property details. If there are multiple owners, all necessary owners should be involved in the transaction. Inherited properties, jointly owned land, and properties represented through power of attorney require additional verification because a mistake at this stage can create ownership disputes later."
+        ]
+      },
+      {
+        "title": "2. Check the Previous Ownership History",
+        "paragraphs": [
+          "A property’s current owner is only one part of the story. You should also understand how the land moved from previous owners to the current seller. This is generally done by checking the chain of title through earlier sale deeds, gift deeds, partition documents, inheritance records, or other relevant documents. The ownership history should be clear and consistent without unexplained gaps. If the seller cannot properly explain how they acquired the property, that should be treated as a warning sign rather than something to ignore."
+        ]
+      },
+      {
+        "title": "3. Verify Encumbrance and Existing Liabilities",
+        "paragraphs": [
+          "Before purchasing land, check whether there are any registered loans, mortgages, court-related claims, or other encumbrances connected to the property. An Encumbrance Certificate can help identify registered transactions affecting the property, but buyers should not assume that an EC alone proves that the land is completely free from every possible dispute. If the property was previously mortgaged, confirm that the loan has actually been closed and the necessary release documents are available. For higher-value transactions, getting the documents reviewed by a property lawyer is money well spent."
+        ]
+      },
+      {
+        "title": "4. Confirm the Survey Number and Land Records",
+        "paragraphs": [
+          "The survey number is one of the most important identifiers of a piece of land. Compare the survey number, subdivision number, extent, location, and owner's details across the title documents and applicable government land records. A mismatch between documents can indicate an error, subdivision issue, boundary problem, or even an attempt to sell a different piece of land. In Andhra Pradesh and Telangana, buyers should use the relevant state land-record and registration systems to cross-check available information instead of depending entirely on documents provided by the seller."
+        ]
+      },
+      {
+        "title": "5. Check the Land Classification and Permitted Use",
+        "paragraphs": [
+          "Not every piece of land can automatically be used for whatever purpose the buyer wants. You should find out how the land is classified and whether its present or intended use is legally permitted. Agricultural land, residential plots, layouts, and land falling under specific development restrictions can have different requirements. If someone is selling agricultural land as a residential plot, do not assume that putting up a house will automatically be permitted. Check the applicable land-use rules, conversion requirements, layout approvals, and local development regulations before committing your money."
+        ]
+      },
+      {
+        "title": "6. Verify Layout and Development Approvals",
+        "paragraphs": [
+          "If you are buying a plot in a developed or developing layout, check whether the layout has the required approval from the competent authority. Do not consider a brochure, marketing advertisement, or the words “DTCP approved” or “HMDA approved” by themselves as sufficient proof. Ask for the actual approval details and verify whether the particular plot is covered by that approval. Also check roads, open spaces, parks, common areas, and other layout provisions because a plot that looks attractive in a sales brochure may not match the legally approved layout."
+        ]
+      },
+      {
+        "title": "7. Physically Check the Land and Boundaries",
+        "paragraphs": [
+          "Never purchase land based only on documents or Google Maps. Visit the property yourself and verify its actual location, boundaries, approach road, surrounding properties, and physical condition. The measurements mentioned in the documents should broadly correspond with what exists on the ground. If necessary, arrange for a qualified surveyor to conduct a proper measurement and identify the boundaries. This is particularly important when buying large parcels, agricultural land, or properties where neighbouring owners have been using part of the land for access or other purposes."
+        ]
+      },
+      {
+        "title": "8. Make Sure There Is Legal Road Access",
+        "paragraphs": [
+          "A plot may be cheap because reaching it is difficult. Before buying, verify whether the property has proper legal access from a public road or through a legally established right of way. A road shown in a sales brochure or an informal pathway used by local residents does not automatically mean you have a permanent legal right to use it. Check the approved layout and relevant property documents to understand the access arrangement. Without proper access, even a legally owned piece of land can become difficult to develop, sell, or use."
+        ]
+      },
+      {
+        "title": "9. Check for Disputes, Government Restrictions, and Prohibited Land",
+        "paragraphs": [
+          "Before finalising the purchase, investigate whether the property is involved in any court dispute or affected by government restrictions. Buyers should be particularly careful with land that may involve assigned land, government land, prohibited properties, acquisition proposals, endowment or other restricted categories, depending on the location and circumstances. Do not assume that because a property has a sale deed it is automatically safe to purchase. A proper legal verification should examine the relevant records and identify restrictions or disputes before you pay a substantial amount."
+        ]
+      },
+      {
+        "title": "10. Get a Property Lawyer to Verify Everything Before Registration",
+        "paragraphs": [
+          "The final and most important step is to have an independent property lawyer review the complete set of documents before you make the purchase final. The lawyer should examine the title chain, sale documents, encumbrances, land records, approvals, property boundaries, and any other records relevant to the particular property. You should also ensure that the agreement clearly mentions the property details, consideration, payment terms, representations made by the seller, and responsibilities of both parties. Spending money on legal verification before buying is far cheaper than spending years and much more money trying to resolve a property dispute afterward."
+        ]
+      },
+      {
+        "title": "Final Thoughts",
+        "paragraphs": [
+          "Buying land in Andhra Pradesh or Telangana should never be based only on location, price, or the promise of future development. A property that appears to be a great deal can become expensive if its ownership, approvals, boundaries, access, or legal status are not properly verified. The safest approach is to independently verify government records, physically inspect the property, confirm the documents, and obtain professional legal advice before making a major payment. Do your verification before you buy—not after a problem appears."
+        ]
+      }
+    ]
+  }
+}
 ];
 
 const featured = articles[0];
