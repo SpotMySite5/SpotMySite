@@ -327,7 +327,7 @@ export default function PropertyListing({ posts }: { posts: any[] }) {
                               color: "#fff",
                             }}
                           >
-                            Verified
+                            {post.status === "sold" ? "Sold" : "Verified"}
                           </p>
                         </div>
                       </div>
