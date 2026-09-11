@@ -475,6 +475,7 @@ const articles = [
   },
   {
     id: "p5",
+    status: "sold",
     title: "3BHK Independent Building, Pendurthi, Visakhapatnam, AP",
     price: "80,00,000",
     subprice: "4,444 per Sq Ft",
